@@ -1,0 +1,16 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="50" fill="#141414"/>
+<circle cx="50.0391" cy="49.2559" r="29" fill="#71A407" stroke="#060606" stroke-width="1.5"/>
+<mask id="mask0_3774_36872" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="20" y="19" width="60" height="61">
+<circle cx="50.0391" cy="49.2559" r="29" fill="white" stroke="#060606" stroke-width="1.5"/>
+</mask>
+<g mask="url(#mask0_3774_36872)">
+<circle cx="45.5596" cy="48.5557" r="24.5986" fill="white"/>
+</g>
+<circle cx="50.0391" cy="49.2559" r="29" stroke="#060606" stroke-width="1.5"/>
+<ellipse cx="50.0391" cy="49.2559" rx="17.1221" ry="29" stroke="#060606" stroke-width="1.5"/>
+<ellipse cx="49.9609" cy="49.2559" rx="14.1309" ry="29" transform="rotate(90 49.9609 49.2559)" stroke="#060606" stroke-width="1.5"/>
+<circle r="4" transform="matrix(0.403694 -0.914894 0.590475 0.807056 67.1612 47.9651)" fill="#B0F127" stroke="#060606" stroke-width="1.5"/>
+<circle r="4" transform="matrix(0.866025 0.5 -2.20305e-08 1 34.3186 61.3867)" fill="#B0F127" stroke="#060606" stroke-width="1.5"/>
+<circle r="3.44" transform="matrix(0.0586257 0.99828 -0.835223 0.549911 35.1107 35.1246)" fill="#B0F127" stroke="#060606" stroke-width="1.5"/>
+</svg>
