@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background-color: black;
+    height: 70px;
+}
+.logo{
+    height: 100px;
+    position: relative;
+    bottom: 17px;
+}
+.nav_btn{
+height: 40px;
+margin-top: 20px;
+border-radius: 20px;
+width: 150px;
+background-color: greenyellow;
+color: black;
+
+}
+.header_content{
+    margin-left: 5%;
+    margin-right: 5%;
+}

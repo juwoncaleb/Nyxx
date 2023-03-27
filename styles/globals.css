@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header {
+  background-color: black;
+  height: 70px;
+}
+
+.logo {
+  height: 100px;
+  position: relative;
+  bottom: 17px;
+}
+
+.nav_btn {
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 150px;
+  background-color: greenyellow;
+  color: black;
+}
+
+.header_content {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.land {
+  background-color: black;
+  color: white;
+  font-family: Archivo;
+}
+
+.hero_text {
+  width: 40%;
+  margin-top: 150px;
+}
+
+.hero_text_main {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.hero_images {
+  width: 60%;
+  margin-top: 250px;
+  position: relative;
+}
+
+.images_Section {
+  width: 50%;
+  display: grid;
+}
+
+.hero_page {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: black;
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .feature_head {
+    text-align: justify;
+    font-size: 50px;
+  }
+  .feature_sub {
+    font-size: 22px;
+  }
+  .images_Section {
+    width: 50%;
+    display: flex;
+  }
+  .features_texts {
+    width: 50%;
+  }
+  .features {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 150px;
+  }
+  .rinng {
+    position: absolute;
+    z-index: 1;
+    left: 240px;
+    top: -40px;
+    width: 150px;
+  }
+  .lana {
+    position: absolute;
+    right: 130px;
+    top: 100px;
+    width: 60px;
+  }
+  .lock {
+    max-height: 650px;
+    z-index: 0;
+    position: relative;
+    left: 240px;
+  }
+  .graph {
+    z-index: 1;
+    max-width: 320px;
+    max-height: 320px;
+    position: relative;
+    top: 180px;
+    right: 220px;
+  }
+  .btc {
+    z-index: 1;
+    min-width: 180px;
+    max-height: 180px;
+    position: relative;
+    top: 450px;
+    right: 470px;
+  }
+  .trio {
+    z-index: 1;
+    position: absolute;
+    left: 500px;
+    bottom: 200px;
+  }
+  .capture {
+    max-width: 700px;
+    z-index: 0;
+    position: absolute;
+  }
+  .text_btn_1 {
+    width: 200px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 25px;
+    height: 50px;
+  }
+  .text_btn_2 {
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    border: 1px solid white;
+  }
+  .verificaton_text {
+    width: 50%;
+  }
+  .c2 {
+    height: 400px;
+  }
+  .about {
+    height: 800px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+  }
+  .wallet {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+  }
+  .icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .c1 {
+    z-index: 0;
+  }
+  .kin {
+    font-size: 32px;
+  }
+  .bills {
+    z-index: 1;
+    max-width: 200px;
+    position: relative;
+    left: 342px;
+    height: 200px;
+    min-width: 520px;
+    top: 23px;
+  }
+  .learn {
+    font-weight: bold;
+  }
+  .arroww {
+    width: 30px;
+  }
+  .verification {
+    width: 50%;
+    display: flex;
+  }
+  .code {
+    max-height: 650px;
+    z-index: 0;
+    position: relative;
+    left: 0px;
+    z-index: 0;
+  }
+  .padlock {
+    z-index: 1;
+    height: 280px;
+    width: 180px;
+    position: relative;
+    top: 390px;
+    right: 50px;
+  }
+  .card_header {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .card_sub_1 {
+    border-top-left-radius: 30px;
+    border: 2px solid #ccc;
+  }
+  .card_sub_3 {
+    border-bottom-left-radius: 30px;
+  }
+  .card_sub_2 {
+    border-top-right-radius: 30px;
+  }
+  .card_sub_4 {
+    border-bottom-right-radius: 30px;
+  }
+  .neon {
+    color: greenyellow;
+  }
+  .card {
+    width: 100%;
+    height: 400px;
+  }
+  .card_sub {
+    text-align: center;
+    height: 200px;
+    border: 1px solid gray;
+  }
+  .cta {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 130px;
+  }
+  .cta_btn_1 {
+    width: 200px;
+    background-color: greenyellow;
+    height: 60px;
+    color: black;
+    border-radius: 30px;
+  }
+  .cta_btn_2 {
+    width: 200px;
+    border: 1px solid ghostwhite;
+    height: 60px;
+    border-radius: 30px;
+  }
+}
+.security {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 180px;
+}
+
+.company {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 130px;
+}
+
+.companies {
+  margin-left: 5%;
+  margin-right: 5%;
+}/*# sourceMappingURL=globals.css.map */
