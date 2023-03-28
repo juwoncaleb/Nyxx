@@ -1,10 +1,11 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 export default function Landingpage() {
   return (
     <div className='land'>
-      {/* <Header /> */}
+      <Header />
       <div>
         <div className='md:flex justify-center  hero_page '>
           {/* TEXTS */}
@@ -162,7 +163,7 @@ export default function Landingpage() {
           <p className='feature_head'> security by design</p>
           <p className='feature_sub mt-4'>The secure digital asset management platform you can trust with </p>
           <p className='feature_sub mb-6'>a strong Next-of-Kin design. Earn 5-20% on your investments.</p>
-          <div className='card flex grid sm:grid-cols-2'>
+          <div className='card mt-18 flex grid sm:grid-cols-2'>
             <div className='card_sub card_sub_1'>
               <p className='card_header'>CISA <span className='neon'>+</span></p>
               <p>Security incident</p>
@@ -204,8 +205,8 @@ export default function Landingpage() {
       <div className='about grid lg:grid-cols-3 mb-10 '>
         <div className='col-span-2 c3 '>
           <div className='c1'>
-            <p className='kin mb-4 mt-2 ml-10'>Next of kins</p>
-            <p className='ml-10'>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
+            <p className='kin mb-4 mt-2 ml-10 top'>Next of kins</p>
+            <p className='ml-10 '>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
             <p className='ml-10 mt-1'>digital asset to your loved ones or family in sad cases of death or absence</p>
             <div className='flex ml-10 mt-4'>
               <p className='learn'>Learn More</p>
@@ -249,7 +250,7 @@ export default function Landingpage() {
         </div>
       </div>
       <div className='cta2 mb-10 '>
-        <div className=' port flex justify-between'>
+        <div className=' port flex '>
           {/* IMAGES */}
           <div className="flex ">
             <img className='eth' src='./eth.png' />
@@ -260,10 +261,10 @@ export default function Landingpage() {
           </div>
 
           {/* TEXTS */}
-          <div>
+          <div className='mr-20'>
             <div>
-              <p className='feature_head text-black mt-20 cta3'> Try Truzact Today </p>
-              <p className='feature_head text-black cta3'>trade and invest </p>
+              <p className=' text-black mt-20 cta3'> Try Truzact Today </p>
+              <p className=' text-black cta3'>trade and invest </p>
               <div className='flex mb-10 mt-6'>
                 <button className='text_btn_1 apple mr-6 flex justify-center'>
                   <p className='mt-3'> Get The app on
@@ -283,23 +284,132 @@ export default function Landingpage() {
       <div className='tutorial'>
         <p className='tutorial_text mt-20 '> Watch how easy it is to </p>
         <p className='tutorial_text  '>use <span className='neon'>Truzact app</span> </p>
-        <div className='tutor flex'>
+        <div className='tutor mt-20 flex'>
           <div className='tutorial_video'>
 
           </div>
-          <div>
-            <div className='step1'>
-
+          <div className=' step grid grid-cols-1'>
+            <div className='step1 download flex justify-around'>
+              <div className='flex justify-around '>
+                <img src='./upload.png' />
+                <p className='step2'>Download the app</p>
+              </div>
+              <p className='neon toggle'>+</p>
             </div>
-            <div >
-
+            <div className='step1 flex justify-around'>
+              <div className='flex justify-around'>
+                <img className='icon ' src='./wall.png' />
+                <p className='step2'>Download the app</p>
+              </div>
+              <p className='neon toggle'>+</p>
             </div>
-            <div>
-
+            <div className='step1 trader flex justify-around'>
+              <div className='flex justify-around'>
+                <img className='trade ' src='./eth.png' />
+                <p className='step2'>Buy, trade & sell your assests</p>
+              </div>
+              <p className='neon toggle'>+</p>
             </div>
           </div>
         </div>
       </div>
+      <div className='testimonial'>
+        <p className='tutorial_text mt-20 '> What our cients </p>
+        <p className='tutorial_text  '>say <span className='neon'>about us</span> </p>
+        <div className='mt-20 grid md:grid-cols-3 gap-6'>
+          <div className='testimonal_card'>
+            <p className='step2'>Buy, trade & sell your assests</p>
+            <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
+            <div className='flex mr-auto mt-8 mb-4'>
+              <img className='test_img mr-6 ml-8' src='./john.jpg' />
+              <div>
+                <p>John Carter</p>
+                <p className='neon'>@johncarter</p>
+              </div>
+            </div>
+          </div>
+          <div className='testimonal_card'>
+            <p className='step2 '>The best tool for my team</p>
+            <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
+            <div className='flex mr-auto mt-8 mb-4'>
+              <img className='test_img mr-6 ml-8' src='./jc.jpg' />
+              <div>
+                <p>Soneye Omojuwon</p>
+                <p className='neon'>@juwoncaleb</p>
+              </div>
+            </div>
+          </div>
+          <div className='testimonal_card'>
+            <p className='step2'>The future of crypto trading</p>
+            <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
+            <div className='flex mr-auto mt-8 mb-4 ml-8'>
+              <img className='test_img mr-6' src='./sophie.jpg' />
+              <div>
+                <p>charles kenths</p>
+                <p className='neon'>@charlie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='blogs'>
+        <div className='flex justify-between mb-14'>
+          <p className='tutorial_text  '>Latest <span className='neon'>Blogs</span> </p>
+          <p className='mt-6'>Quis exercitation deserunt dolor non duis reprehenderit cupidatat anim fugiat.</p>
+        </div>
+        <div className='flex justify-between'>
+          <div className='blogspost'>
+            <img src='./blog1.png' />
+            <p className='date'>Apps - Jan 6, 2023</p>
+            <p className='title'>Best platform to trade BTC on your</p>
+            <p className='title2'>Phone</p>
+
+            <div className='flex ml-14 mt-4'>
+              <p className='learn'>Learn More</p>
+              <img className='arroww ml-4' src="./arrow.png" />
+            </div>
+
+          </div>
+          <div className='blogspost'>
+            <img src='./blog2.png' />
+            <p className='date'>Products - Jan 6, 2023</p>
+            <p className='title'>What is the best & most secure  </p>
+            <p className='title2'>wallet in 2023 ?</p>
+
+            <div className='flex ml-14 mt-4'>
+              <p className='learn'>Learn More</p>
+              <img className='arroww ml-4' src="./arrow.png" />
+            </div>
+
+          </div>
+        </div>
+        <button className='text_btn_2  mr-auto  ml-auto  mt-20 flex justify-center'>
+          <p className='mt-3'> Get The app on
+          </p>
+        </button>
+      </div>
+
+      <div className='cta4 mt-24 flex justify-between'>
+
+        <div className=''>
+          <p className=' final_cta mt-20'> <span className='neon'>Download</span> the crypto </p>
+          <p className=' final_cta'>wallet of the future today</p>
+          <div className='flex mb-10 mt-6'>
+            <button className='text_btn_1 apple mr-6 flex justify-center'>
+              <p className='mt-3'> Get The app on
+              </p>
+              <img className='store2' src="https://img.icons8.com/sf-black/64/null/mac-os.png" />
+            </button>
+            <button className='text_btn_2 flex justify-center'>
+              <p className='mt-3'>  Get The app on</p>
+              <img className='store' src="https://img.icons8.com/fluency/48/null/google-play-store-new.png" />
+            </button>
+          </div>
+        </div>
+        <img src='./laptop.png' />
+      </div>
+      <Footer/>
     </div>
   )
 }
