@@ -70,6 +70,9 @@
     text-align: justify;
     font-size: 50px;
   }
+  .cta3 {
+    font-weight: 600;
+  }
   .feature_sub {
     font-size: 22px;
   }
@@ -138,6 +141,33 @@
     border-radius: 25px;
     height: 50px;
   }
+  .store {
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .store2 {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .tutorial_text {
+    text-align: center;
+    font-size: 50px;
+  }
+  .tutorial {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: bisque;
+  }
+  .tutorial_video {
+    background-color: aqua;
+    height: 800px;
+    width: 50%;
+  }
+  .tutor {
+    height: 800px;
+  }
   .text_btn_2 {
     width: 200px;
     background-color: black;
@@ -151,6 +181,7 @@
   }
   .c2 {
     height: 400px;
+    border: solid 1px gray;
   }
   .about {
     height: 800px;
@@ -170,8 +201,26 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .transfer {
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+  }
   .c1 {
     z-index: 0;
+  }
+  .c3 {
+    border: solid 1px gray;
+    border-top-left-radius: 35px;
+  }
+  .c4 {
+    border-top-right-radius: 35px;
+  }
+  .c5 {
+    border-bottom-left-radius: 35px;
+  }
+  .c6 {
+    border-bottom-right-radius: 35px;
   }
   .kin {
     font-size: 32px;
@@ -258,6 +307,54 @@
     border: 1px solid ghostwhite;
     height: 60px;
     border-radius: 30px;
+  }
+  .cta2 {
+    background-color: greenyellow;
+    margin-top: 200px;
+    height: 600px;
+  }
+  .btclana {
+    position: relative;
+    right: 300px;
+    top: 120px;
+  }
+  .eth {
+    width: 123px;
+    height: 193px;
+    z-index: 2;
+    position: relative;
+    top: 370px;
+    left: 150px;
+  }
+  .con {
+    position: relative;
+    right: 380px;
+  }
+  .apple {
+    border: 1px black solid;
+  }
+  .phone {
+    height: 600px;
+    z-index: 0;
+  }
+  .slot {
+    height: 480px;
+    z-index: 1;
+    position: relative;
+    right: 200px;
+    top: 125px;
+  }
+  .coin1 {
+    width: 83px;
+    height: 103px;
+  }
+  .coin2 {
+    width: 110px;
+    height: 153px;
+  }
+  .port {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 .security {

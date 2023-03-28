@@ -202,7 +202,7 @@ export default function Landingpage() {
       </div>
 
       <div className='about grid lg:grid-cols-3 mb-10 '>
-        <div className='col-span-2 c1 '>
+        <div className='col-span-2 c3 '>
           <div className='c1'>
             <p className='kin mb-4 mt-2 ml-10'>Next of kins</p>
             <p className='ml-10'>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
@@ -211,40 +211,95 @@ export default function Landingpage() {
               <p className='learn'>Learn More</p>
               <img className='arroww ml-4' src="./arrow.png" />
             </div>
+
           </div>
           <img className='bills' src='./b2.png' />
 
         </div>
-        <div className='c2  '>
+        <div className='c2 c4 '>
           <div className='wallet'>
             <img className='icon mb-2 mt-20' src='./wall.png' />
-            <p className='kin mb-2 '>Secure and encripted wallet</p>
-            <p className='ml-10'>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
+            <p className='kin mb-6 '>Secure and encripted wallet</p>
+            <p className=''>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
+          </div>
+        </div>
+        <div className='c2 c5 '>
+          <div className='wallet'>
+            <img className='transfer mb-8 mt-20' src='./tranfer.png' />
+            <p className='kin mb-6 '>Fast Tranfer</p>
+            <p className=''>Deposit , sell, swap assests on Truzact in minutes  </p>
+            <p>Tranfer ca be done with username or phone number on contact list</p>
           </div>
         </div>
         <div className='c2 '>
           <div className='wallet'>
-            <img className='icon mb-2 mt-20' src='./wall.png' />
-            <p className='kin mb-2 '>Secure and encripted wallet</p>
-            <p className='ml-10'>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
+            <img className='icon mb-6 mt-20' src='./donation.png' />
+            <p className='kin mb-6 '>Donation</p>
+            <p className=''>Raise funds from private and public donations from   </p>
+            <p className=''>anyone on the globe with the use of uniquw donation link, which can be shared to anyone </p>
+
           </div>
         </div>
-        <div className='c2 '>
+        <div className='c2 c6'>
           <div className='wallet'>
-            <img className='icon mb-2 mt-20' src='./wall.png' />
-            <p className='kin mb-2 '>Secure and encripted wallet</p>
-            <p className='ml-10'>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
-          </div>
-        </div>
-        <div className='c2 '>
-          <div className='wallet'>
-            <img className='icon mb-2 mt-20' src='./wall.png' />
-            <p className='kin mb-2 '>Secure and encripted wallet</p>
-            <p className='ml-10'>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
+            <img className='icon mb-2 mt-20' src='./referral.png' />
+            <p className='kin mb-6 '>Refferal</p>
+            <p className=''>$10 worth of USDT commission when the person you referred saves or invest in Truzact 🙌🏽</p>
           </div>
         </div>
       </div>
-      kjglkef
+      <div className='cta2 mb-10 '>
+        <div className=' port flex justify-between'>
+          {/* IMAGES */}
+          <div className="flex ">
+            <img className='eth' src='./eth.png' />
+            <img className='phone' src='./portfolio.png' />
+            <img className='slot' src='./slot.png' />
+            <img className='con coin1' src='./lana.png' />
+            <img className='coin2 con mt-24' src='./btc.png' />
+          </div>
+
+          {/* TEXTS */}
+          <div>
+            <div>
+              <p className='feature_head text-black mt-20 cta3'> Try Truzact Today </p>
+              <p className='feature_head text-black cta3'>trade and invest </p>
+              <div className='flex mb-10 mt-6'>
+                <button className='text_btn_1 apple mr-6 flex justify-center'>
+                  <p className='mt-3'> Get The app on
+                  </p>
+                  <img className='store2' src="https://img.icons8.com/sf-black/64/null/mac-os.png" />
+                </button>
+                <button className='text_btn_2 flex justify-center'>
+                  <p className='mt-3'>  Get The app on</p>
+                  <img className='store' src="https://img.icons8.com/fluency/48/null/google-play-store-new.png" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* TUTORIAL */}
+      <div className='tutorial'>
+        <p className='tutorial_text mt-20 '> Watch how easy it is to </p>
+        <p className='tutorial_text  '>use <span className='neon'>Truzact app</span> </p>
+        <div className='tutor flex'>
+          <div className='tutorial_video'>
+
+          </div>
+          <div>
+            <div className='step1'>
+
+            </div>
+            <div >
+
+            </div>
+            <div>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
