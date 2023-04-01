@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 export default function About() {
@@ -59,6 +60,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
