@@ -60,7 +60,54 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <div className='flex justify-between system_class'>
+                <div>
+                    <img className='system' src='./about/system.png' />
+                </div>
+                <div>
+                    <div className='system_text' >
+                        <p className='syste'><span className='neon'>Take a look </span>at what </p>
+                        <p className='syste mb-8'>we've accomplished</p>
+                        <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
+                        <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
+                        <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
+                        <button className='text_btn_1 mt-10 mr-6 '>
+                            Download
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div className='team'>
+                <div className='team_member' >
+                    <p className='achieve_text'><span className='neon'>Meet </span>the team </p>
+                    <p className='achieve_text mb-8'>behind Truzact</p>
+                </div>
+                <div className='grid grid-cols-3'>
+                    <div className='team_card'>
+                        <img src='./about/g1.jpg' />
+                    </div>
+                    <div>
+                        <img src='./about/g2.jpg' />
+
+                    </div> <div>
+                        <img src='./about/g3.jpg' />
+
+                    </div>
+                    <div>
+                        <img src='./about/g4.jpg' />
+
+                    </div>
+                    <div>
+                        <img src='./about/g5.jpg' />
+
+                    </div> <div>
+                        <img src='./about/g6.jpg' />
+
+                    </div>
+                </div>
+            </div>
+            <Footer />
         </div>
     )
 }

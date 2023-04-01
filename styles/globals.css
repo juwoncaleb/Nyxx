@@ -613,7 +613,22 @@
 
 .about_us {
   color: white;
+  font-family: Archivo;
   background-color: black;
+}
+
+.team_member {
+  text-align: center;
+}
+
+.team_card {
+  background-color: palevioletred;
+}
+
+.team {
+  margin-top: 100px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .about_header {
@@ -683,4 +698,24 @@
   height: 150px;
   width: 170px;
   right: 400px;
+}
+
+.system_class {
+  margin-top: 280px;
+  margin-bottom: 200px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.system {
+  height: 700px;
+}
+
+.system_text {
+  margin-right: 5%;
+}
+
+.syste {
+  font-size: 60px;
+  font-weight: 600;
 }/*# sourceMappingURL=globals.css.map */

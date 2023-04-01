@@ -1,6 +1,20 @@
 .about_us {
     color: white;
+    font-family: Archivo;
+
     background-color: black;
+}
+
+.team_member {
+    text-align: center;
+}
+.team_card{
+    background-color: palevioletred;
+}
+.team{
+    margin-top: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .about_header {
@@ -15,16 +29,19 @@
     margin-right: auto;
     width: 1200px;
 }
-.achieve_text{
+
+.achieve_text {
     font-size: 45px;
     font-weight: 600;
 }
-.achievement{
+
+.achievement {
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 200px;
 }
-.globe_images{
+
+.globe_images {
     position: relative;
     bottom: 100px;
 }
@@ -55,7 +72,8 @@
     height: 100px;
     width: 100px;
 }
-.about_items{
+
+.about_items {
     font-size: 20px;
 }
 
@@ -65,5 +83,25 @@
     top: 350px;
     height: 150px;
     width: 170px;
-    right:400px;
+    right: 400px;
+}
+
+.system_class {
+    margin-top: 280px;
+    margin-bottom: 200px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.system {
+    height: 700px;
+}
+
+.system_text {
+    margin-right: 5%;
+}
+
+.syste {
+    font-size: 60px;
+    font-weight: 600;
 }
