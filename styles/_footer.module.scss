@@ -1,10 +1,32 @@
-.footer{
+.footer {
     background-color: black;
     color: white;
+    height: 600px;
+    padding-top: 50px;
+    margin-top: 200px;
+
 }
-.footerItem{
+
+.footerItem {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 100px;
     padding-bottom: 100px;
+}
+
+.invest {
+    font-weight: 500;
+}
+
+.footer_img {
+    background-color: greenyellow;
+    text-align: left;
+    width: 600px;
+    padding-left: 80px;
+    height: 500px;
+    border-radius: 35px;
+
+}
+.ft_img{
+    height: 300px;
 }
