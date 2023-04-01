@@ -467,4 +467,126 @@
   margin-right: 5%;
   margin-top: 100px;
   padding-bottom: 100px;
+}
+
+.hedge {
+  background-color: black;
+  color: white;
+  font-family: Archivo;
+}
+
+.hedge_img {
+  width: 60%;
+}
+
+.hedgeFund {
+  margin-top: 170px;
+  margin-bottom: 100px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.hedge_content {
+  text-align: left;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+.hedge_img {
+  width: 60%;
+}
+
+.hedge_text {
+  width: 40%;
+}
+
+.safe {
+  width: 500px;
+  z-index: 0;
+  height: 520px;
+  position: relative;
+  left: 200px;
+}
+
+.hedgeText {
+  width: 40%;
+}
+
+.pry {
+  width: 130px;
+  height: 100px;
+  z-index: 1;
+  position: relative;
+  right: 970px;
+  top: 50px;
+}
+
+.lan {
+  width: 140px;
+  height: 150px;
+  z-index: 1;
+  position: relative;
+  top: 250px;
+  right: 1020px;
+}
+
+.add {
+  width: 120px;
+  height: 90px;
+  z-index: 1;
+  position: relative;
+  top: 100px;
+  right: 650px;
+}
+
+.dodge {
+  width: 160px;
+  height: 160px;
+  z-index: 1;
+  position: relative;
+  right: 290px;
+  top: 10px;
+}
+
+.prism {
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+  position: relative;
+  right: 300px;
+  top: 50px;
+}
+
+.etherum {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  right: 10px;
+  top: 240px;
+  z-index: 1;
+}
+
+.solana {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  z-index: 1;
+  right: 30px;
+  top: 330px;
+}
+
+.laptop {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.hedge_content_2 {
+  text-align: left;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
 }/*# sourceMappingURL=globals.css.map */
