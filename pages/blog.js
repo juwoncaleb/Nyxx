@@ -36,7 +36,7 @@ export default function blog() {
                         <div className='flex '>
                             <input className='input' />
                             <button className='subs'>
-                                Subscribe
+                                 Subscribe
                             </button>
                         </div>
                     </div>
