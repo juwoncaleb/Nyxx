@@ -9,7 +9,7 @@ export default function hedge() {
             <div className='flex justify-center hedgeFund '>
                 {/* TEXTS */}
                 <div className='hedge_text '>
-                    <p className='text-6xl mb-14'>Hedge Nkem</p>
+                    <p className='text-6xl mb-14'>Hedge Fund</p>
                     <p>Sint laboris velit dolor ut consequat dolor ex. Anim ipsum tempor officia cillum id enim velit proident mollit cupidatat ex reprehenderit amet. Consequat ut cillum duis nostrud non voluptate deserunt minim ex tempor. Esse esse magna enim irure magna labore mollit incididunt et consequat. Nisi esse mollit veniam duis consectetur cillum nostrud elit consequat sunt.</p>
                     <div className='flex mb-10 mt-10'>
                         <button className='text_btn_2'>
