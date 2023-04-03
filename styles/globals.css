@@ -740,14 +740,25 @@
   font-size: 20px;
 }
 
+.blog_card {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.search {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
 .blog_hero {
   border-top-left-radius: 30px;
   border: 1px solid gray;
   border-bottom-left-radius: 30px;
 }
 
-.blog_head {
-  padding: 70px;
+.blog_hero_img {
+  height: 400px;
+  width: 600px;
 }
 
 .blog_header {
@@ -755,7 +766,11 @@
 }
 
 .blog_header {
-  font-size: 40px;
+  font-size: 33px;
+}
+
+.blog_head {
+  padding-left: 30px;
 }
 
 .blog_sub {
@@ -773,6 +788,13 @@
   background-color: greenyellow;
 }
 
+.all {
+  margin-left: 7%;
+  margin-right: 7%;
+  height: 1000px;
+  margin-bottom: 1200px;
+}
+
 .blog_heads {
   border: 1px solid gray;
   border-radius: 30px;
@@ -782,8 +804,8 @@
   margin-top: 150px;
   border-radius: 30px;
   border: 1px solid gray;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .news {
@@ -835,6 +857,15 @@
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 150px;
+}
+
+.latest {
+  font-size: 48px;
+}
+
+.blog_card {
+  border-radius: 30px;
+  border: 1px solid gray;
 }
 
 .career {
