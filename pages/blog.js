@@ -74,7 +74,8 @@ export default function blog() {
                     </div>
                 </div>
 
-                {activeButton === 1 ? <div className='all gap:4 mt-20 grid md:grid-cols-2'>
+                {activeButton === 1 ?
+                 <div className='all gap:4 mt-20 grid md:grid-cols-2'>
                     
                     <div className='blog_card'>
                         <img className='search' src='./blog/search.png' />
@@ -89,7 +90,7 @@ export default function blog() {
                         </div>
                     </div>
                     <div className='blog_card'>
-                        <img className='search' src='./blog/search.png' />
+                        <img className='search' src='./blog/safe.png' />
                         <div className='blog_head'>
                             <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
                             <p className='blog_header mt-8'>Best platform to trade BTC </p>
@@ -149,7 +150,81 @@ export default function blog() {
                         </div>
                     </div>
                 </div> : null}
-                {activeButton === 2 ? <div>Div 2: Text X</div> : null}
+                {activeButton === 2 ?   <div className='all gap:4 mt-20 grid md:grid-cols-2'>
+                    
+                    <div className='blog_card'>
+                        <img className='search' src='./blog/search.png' />
+                        <div className='blog_head'>
+                            <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
+                            <p className='blog_header mt-8'>Best platform to trade BTC </p>
+                            <p className='blog_header mb-2'>on your phone</p>
+                            <div className='flex mt-10'>
+                                <p className='blog_sub'>Read article</p>
+                                <img className='greenArrow' src="./career/arrow.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='blog_card'>
+                        <img className='search' src='./blog/safe.png' />
+                        <div className='blog_head'>
+                            <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
+                            <p className='blog_header mt-8'>Best platform to trade BTC </p>
+                            <p className='blog_header mb-2'>on your phone</p>
+                            <div className='flex mt-10'>
+                                <p className='blog_sub'>Read article</p>
+                                <img className='greenArrow' src="./career/arrow.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='blog_card'>
+                        <img className='search' src='./blog/search.png' />
+                        <div className='blog_head'>
+                            <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
+                            <p className='blog_header mt-8'>Best platform to trade BTC </p>
+                            <p className='blog_header mb-2'>on your phone</p>
+                            <div className='flex mt-10'>
+                                <p className='blog_sub'>Read article</p>
+                                <img className='greenArrow' src="./career/arrow.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='blog_card'>
+                        <img className='search' src='./blog/cell.png' />
+                        <div className='blog_head'>
+                            <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
+                            <p className='blog_header mt-8'>Best platform to trade BTC </p>
+                            <p className='blog_header mb-2'>on your phone</p>
+                            <div className='flex mt-10'>
+                                <p className='blog_sub'>Read article</p>
+                                <img className='greenArrow' src="./career/arrow.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='blog_card'>
+                        <img className='search' src='./blog/stats.png' />
+                        <div className='blog_head'>
+                            <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
+                            <p className='blog_header mt-8'>Best platform to trade BTC </p>
+                            <p className='blog_header mb-2'>on your phone</p>
+                            <div className='flex mt-10'>
+                                <p className='blog_sub'>Read article</p>
+                                <img className='greenArrow' src="./career/arrow.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='blog_card'>
+                        <img className='search' src='./blog/wallet.png' />
+                        <div className='blog_head'>
+                            <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
+                            <p className='blog_header mt-8'>Best platform to trade BTC </p>
+                            <p className='blog_header mb-2'>on your phone</p>
+                            <div className='flex mt-10'>
+                                <p className='blog_sub'>Read article</p>
+                                <img className='greenArrow' src="./career/arrow.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div> : null}
                 {activeButton === 3 ? <div>Div 3: Text Y</div> : null}
                 {activeButton === 4 ? <div>Div 4: Text Z</div> : null}
             </div>
