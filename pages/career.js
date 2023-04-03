@@ -89,47 +89,48 @@ export default function Career() {
                         <p className='hero_text_main'>Company <span className='neon'>perks</span></p>
                     </div>
                     <div className='grid job'>
-                        <div className='flex justify-between jb_1'>
+                        <div className='flex justify-between job_card jb_1'>
                             <div >
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                            hjfk
+                           <img className='green_arrow' src="./career/arrow.png"/>
                         </div>
-                        <div className='flex justify-between'>
+                        <div className='flex job_card  justify-between'>
                             <div>
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                            hjfk
+                           <img className='green_arrow' src="./career/arrow.png"/>
                         </div>
-                        <div className='flex justify-between'>
+                        <div className='flex job_card  justify-between'>
                             <div>
                                 <p className='job_head'> Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                            hjfk
+                           <img className='green_arrow' src="./career/arrow.png"/>
                         </div>
-                        <div className='flex justify-between'>
+                        <div className='flex job_card  justify-between'>
                             <div>
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                            hjfk
+                            <img className='green_arrow' src="./career/arrow.png"/>
+
                         </div>
-                        <div className='flex justify-between'>
+                        <div className='flex job_card  justify-between'>
                             <div>
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                            hjfk
+                           <img className='green_arrow' src="./career/arrow.png"/>
                         </div>
-                        <div className='flex justify-between jb_6'>
+                        <div className='flex job_card justify-between jb_6'>
                             <div>
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                            hjfk
+                           <img className='green_arrow' src="./career/arrow.png"/>
                         </div>
                     </div>
                 </div>

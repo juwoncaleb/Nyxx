@@ -1,0 +1,112 @@
+.blogsPost {
+    background-color: black;
+    color: white;
+    font-family: Archivo;
+
+}
+
+.resource {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 140px;
+    font-weight: 600;
+}
+
+.res {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.blog_hero {
+    border-top-left-radius: 30px;
+    border: 1px solid gray;
+    border-bottom-left-radius: 30px;
+
+}
+
+
+.blog_head {
+    padding: 70px;
+}
+
+.blog_header {
+    border-radius: 30px;
+}
+
+.blog_header {
+    font-size: 40px;
+}
+
+.blog_sub {
+    font-size: 18px;
+}
+
+.greenArrow {
+    width: 30px;
+    margin-left: 15px;
+}
+
+.newletter {
+    margin-top: 170px;
+    height: 700px;
+    background-color: greenyellow;
+}
+
+.blog_heads {
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.blog_content {
+    margin-top: 150px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.news {
+    color: black;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.blog_img {
+    width: 530px;
+}
+
+.news_text {
+    padding: 100px;
+    width: 50%;
+}
+
+.subscibe {
+    font-size: 50px;
+    font-weight: 900px;
+}
+
+.letter {
+    position: relative;
+    bottom: 25px;
+}
+
+.input {
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 20px;
+    background-color: greenyellow;
+}
+
+.subs {
+    background-color: black;
+    border-radius: 20px;
+    height: 50px;
+    color: white;
+    width: 140px;
+    position: relative;
+    right: 100px;
+    top: 20px;
+}

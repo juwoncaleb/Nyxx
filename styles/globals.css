@@ -463,6 +463,7 @@
   height: 600px;
   padding-top: 50px;
   margin-top: 200px;
+  color: black;
 }
 
 .footerItem {
@@ -720,6 +721,116 @@
   font-weight: 600;
 }
 
+.blogsPost {
+  background-color: black;
+  color: white;
+  font-family: Archivo;
+}
+
+.resource {
+  font-size: 65px;
+  text-align: center;
+  margin-top: 140px;
+  font-weight: 600;
+}
+
+.res {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.blog_hero {
+  border-top-left-radius: 30px;
+  border: 1px solid gray;
+  border-bottom-left-radius: 30px;
+}
+
+.blog_head {
+  padding: 70px;
+}
+
+.blog_header {
+  border-radius: 30px;
+}
+
+.blog_header {
+  font-size: 40px;
+}
+
+.blog_sub {
+  font-size: 18px;
+}
+
+.greenArrow {
+  width: 30px;
+  margin-left: 15px;
+}
+
+.newletter {
+  margin-top: 170px;
+  height: 700px;
+  background-color: greenyellow;
+}
+
+.blog_heads {
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+.blog_content {
+  margin-top: 150px;
+  border-radius: 30px;
+  border: 1px solid gray;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.news {
+  color: black;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.blog_img {
+  width: 530px;
+}
+
+.news_text {
+  padding: 100px;
+  width: 50%;
+}
+
+.subscibe {
+  font-size: 50px;
+  font-weight: 900px;
+}
+
+.letter {
+  position: relative;
+  bottom: 25px;
+}
+
+.input {
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 50px;
+  margin-top: 20px;
+  background-color: greenyellow;
+}
+
+.subs {
+  background-color: black;
+  border-radius: 20px;
+  height: 50px;
+  color: white;
+  width: 140px;
+  position: relative;
+  right: 100px;
+  top: 20px;
+}
+
 .career {
   background-color: black;
   color: white;
@@ -797,20 +908,10 @@
 }
 
 .job {
-  height: 700px;
+  height: 800px;
   width: 600px;
   border: 1px solid gray;
-  border-radius: 35px;
-}
-
-.job_head {
-  font-size: 24px;
-  margin-left: 20px;
-}
-
-.loc {
-  margin-top: 10px;
-  margin-left: 20px;
+  border-radius: 30px;
 }
 
 .jb_1 {
@@ -818,7 +919,78 @@
   border-top-left-radius: 30px;
 }
 
-.jb_1 {
+.jb_6 {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+.job_card {
+  border: 1px solid gray;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.job_head {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.green_arrow {
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.loc {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.singleCareer {
+  background-color: black;
+  color: white;
+}
+
+.location {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+.job_title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.jb_desc {
+  text-align: center;
+  font-size: 16px;
+}
+
+.apply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.job_description {
+  margin-left: 10%;
+  margin-top: 140px;
+  margin-right: 10%;
+}
+
+.job_dec {
+  font-size: 40px;
+  margin-right: 200px;
+}
+
+.jb_text {
+  width: 50%;
+}
+
+.job_description {
+  border-top: 1px solid gray;
+  padding-top: 100px;
 }/*# sourceMappingURL=globals.css.map */

@@ -3,7 +3,7 @@ import Landingpage from './Landingpage'
 export default function index() {
   return (
     <div className='main'>
-      <Landingpage/>
+      <Landingpage />
     </div>
   )
 }
