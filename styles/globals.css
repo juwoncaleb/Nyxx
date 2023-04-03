@@ -759,6 +759,9 @@
 .blog_hero_img {
   height: 400px;
   width: 600px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: 1px solid gray;
 }
 
 .blog_header {
