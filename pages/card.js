@@ -3,7 +3,6 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 export default function card() {
     const [active, setActive] = useState(null)
-    console.log(active);
     return (
         <div className='card_section'>
             <Header />
