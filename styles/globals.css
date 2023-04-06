@@ -1181,6 +1181,12 @@
   align-self: center;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .otc_sub {
   text-align: center;
   font-size: 20px;
