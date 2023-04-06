@@ -1190,20 +1190,38 @@
   margin-top: 100px;
 }
 
+.video {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
 .dets {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.learn {
+.learmn {
   width: 250px;
   background-color: greenyellow;
   height: 70px;
   font-size: 20px;
   color: black;
+}
+
+.otc_icon {
+  width: 60px;
+  margin-bottom: 40px;
+}
+
+.otc_Card_icon {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 17px;
 }
 
 .button-container {
@@ -1220,4 +1238,19 @@
 
 .ot_s {
   margin-top: 30px;
+}
+
+.trade_benefit {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+.ot_card {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.61);
+  padding-top: 50px;
+  padding-left: 25px;
+  text-align: left;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=globals.css.map */
