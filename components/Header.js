@@ -1,8 +1,11 @@
 import React from 'react'
 
 export default function Header() {
+  const color = {
+    color: 'white',
+};
   return (
-    <div className='header'>
+    <div style={color} className='header'>
       <div className='flex justify-between header_content'>
         <img className='logo' src='./logo.png' />
         <div className='flex '>

@@ -1,6 +1,10 @@
 import React from 'react'
 
 export default function Footer() {
+
+    const color = {
+        color: 'white',
+    };
     return (
         <div className='footer grid md:flex  justify-around '>
             <div className='neon footer_img'>
@@ -13,9 +17,9 @@ export default function Footer() {
                 </button>
                 <img className='ft_img' src='./footer.png' />
             </div>
-            <div className='grid md:grid-cols-2 justify-between footerItem '>
+            <div style={color} className='grid md:grid-cols-2 justify-between footerItem '>
                 <div>
-                    <p className='text-2xl mb-4'>Company</p>
+                    <p className='text-2xl mb-4 comp'>Company</p>
                     <p  >About </p>
                     <p className='mt-2'>Blogs</p>
                     <p className='mt-2'>Features</p>
