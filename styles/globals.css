@@ -1253,4 +1253,42 @@
   padding-left: 25px;
   text-align: left;
   padding-bottom: 50px;
+}
+
+.onBoard_texts {
+  margin-right: 100px;
+}
+
+.onBoard_laptop {
+  margin-left: 150px;
+}
+
+.onboarding_texts {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.onboard_numbers {
+  margin-right: 60px;
+  z-index: 1;
+}
+
+.onboard_number {
+  height: 50px;
+  width: 50px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.vl {
+  border-left: 4px solid greenyellow;
+  height: 200px;
+  position: relative;
+  left: 28px;
+  z-index: 0;
 }/*# sourceMappingURL=globals.css.map */
