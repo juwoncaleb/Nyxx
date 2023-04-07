@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 export default function otc() {
@@ -24,14 +24,14 @@ export default function otc() {
                     <p>Our Over-the-counter (OTC) desk is an exclusive and more personalized service outside of the Patricia</p>
                     <p>App. Where high net-worth individuals can get instant liquidity for their bulk trades, with utmost privacy</p>
                     <p>and the most competitive rates.</p>
-                    <img className='video' src='./vd.png' />
+                    <img className='video ' src='./vd.png' />
                 </div>
             </div>
             <div>
                 <p className='explaination'>Trade on the exchange with the <br /> most benefits</p>
                 <div className='dets'>
                     <p>Our OTC is designed to give you value for your time and money.</p>
-                    <div className='grid md:grid-cols-2 gap-8 trade_benefit mt-14'>
+                    <div className='grid md:grid-cols-2 gap-8 trade_benefit '>
                         <div className='ot_card'>
                             <img className='otc_icon' src='./donation.png' />
                             <p className='otc_Card_icon'>Personalized trading experience</p>
@@ -59,8 +59,8 @@ export default function otc() {
                 </div>
             </div>
 
-            <div>
-                <p className='explaination'>The OTC Desk Process</p>
+            <div className='mb-20'>
+                <p className='explaination mb-14'>The OTC Desk Process</p>
                 <div className='flex justify-center  mt-20'>
                     <div className='onBoard_texts'>
                         <div className='flex onboard'>
@@ -109,6 +109,11 @@ export default function otc() {
                     </div>
                     <img className='onBoard_laptop' src='./laptop.png' />
                 </div>
+            </div>
+            <div class="button-container ">
+                <button class="learmn mr-6">
+                    GET STARTED
+                </button>
             </div>
             <div className='faq_head'>
                 <p className='faq'>FAQ</p>
