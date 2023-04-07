@@ -25,11 +25,106 @@ export default function exchange() {
                 <img src='./exchange/hero.png' />
             </div>
 
-            <div>
+            <div className='flex justify-between exchange_steps'>
                 {/* TEXT */}
                 <div>
+                    <p className='exchange_text'>
+                        Step into a world of <br /> trading with ease with <br /> TRAZACT
+                    </p>
+                    <p>Experience the New Roqqu Cryptocurrency Payment Gateway, <br />
+                        a smart and efficient way to receive fiat payments in cryptocurrency.</p>
+                    <div className='exchange_step'>
+                        <div className='flex justify-between mt-8 mb-14'>
+                            <div>
+                                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_17_30413)">
+                                        <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
+                                        <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_17_30413">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div className='round'>
 
+                                </div>
+                                <div className='round2'>
+
+                                </div>
+                                <div className='round3'>
+
+                                </div>
+                            </div>
+                            <div>
+                                <p>Buy and sell in microseconds</p>
+                                <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
+                                <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-between mb-14'>
+                            <div>
+                                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_17_30413)">
+                                        <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
+                                        <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_17_30413">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div className='round'>
+
+                                </div>
+                                <div className='round2'>
+
+                                </div>
+                                <div className='round3'>
+
+                                </div>
+                            </div>
+                            <div>
+                                <p>Buy and sell in microseconds</p>
+                                <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
+                                <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-between mb-14'>
+                            <div>
+                                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_17_30413)">
+                                        <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
+                                        <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_17_30413">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div className='round'>
+
+                                </div>
+                                <div className='round2'>
+
+                                </div>
+                                <div className='round3'>
+
+                                </div>
+                            </div>
+                            <div>
+                                <p>Buy and sell in microseconds</p>
+                                <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
+                                <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                jwldka
             </div>
             <Footer />
 
