@@ -18,8 +18,8 @@ export default function otc() {
                     </button>
                 </div>
             </div>
-            <div>
-                <p className='explaination'>What is OTC?</p>
+            <div className=''>
+                <p className='explaination mt-10'>What is OTC?</p>
                 <div className='dets'>
                     <p>Our Over-the-counter (OTC) desk is an exclusive and more personalized service outside of the Patricia</p>
                     <p>App. Where high net-worth individuals can get instant liquidity for their bulk trades, with utmost privacy</p>
