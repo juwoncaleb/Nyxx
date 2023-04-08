@@ -22,9 +22,11 @@
     padding-top: 150px;
     padding-bottom: 50px;
 }
-.otc_header{
+
+.otc_header {
     margin-top: 100px;
 }
+
 .explaination {
     text-align: center;
     font-size: 50px;
@@ -54,14 +56,17 @@
     height: 70px;
     font-size: 20px;
     color: black;
+    font-weight: 500;
+
 }
 
 .otc_icon {
     width: 60px;
     margin-bottom: 40px;
 }
-.otc_Card_icon{
-    font-size:20px;
+
+.otc_Card_icon {
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 17px;
 }
@@ -83,9 +88,8 @@
 }
 
 .trade_benefit {
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 100px;
 }
 
@@ -94,27 +98,34 @@
     border: 1px solid rgba(255, 255, 255, 0.61);
     padding-top: 50px;
     padding-left: 25px;
+    padding-right: 25px;
+
     text-align: left;
     padding-bottom: 50px;
 }
-.onboard{
-}
-.onBoard_texts{
+
+
+
+.onBoard_texts {
     margin-right: 100px;
 }
-.onBoard_laptop{
+
+.onBoard_laptop {
     margin-left: 150px;
 }
-.onboarding_texts{
+
+.onboarding_texts {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.onboard_numbers{
+
+.onboard_numbers {
     margin-right: 60px;
     z-index: 1;
 }
-.onboard_number{
+
+.onboard_number {
     height: 50px;
     width: 50px;
     background-color: greenyellow;
@@ -125,10 +136,187 @@
     color: black;
     font-weight: 600;
 }
+
 .vl {
     border-left: 4px solid greenyellow;
     height: 200px;
     position: relative;
     left: 28px;
     z-index: 0;
-  }
+}
+
+@media only screen and (max-width: 1024px) {
+    .otc_text {
+        text-align: center;
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .otc_sub {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .learmn {
+        width: 150px;
+        background-color: greenyellow;
+        height: 50px;
+        font-size: 18px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .explaination {
+        text-align: center;
+        font-size: 45px;
+        font-weight: 600;
+        margin-top: 150px;
+
+    }
+
+    .dets {
+        margin-top: 30px;
+        font-size: 17px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .video {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+
+    }
+
+    .onBoard_laptop {
+        margin-left: 150px;
+        height: 400px;
+    }
+
+    .bord {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .onBoard_texts {
+        margin-right: 0px;
+    }
+
+    .onboarding_texts {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .onboarding_texts_sub {
+        font-size: 13px;
+    }
+
+    .vl {
+        border-left: 4px solid greenyellow;
+        height: 150px;
+        position: relative;
+        left: 28px;
+        z-index: 0;
+    }
+
+    .faq_head {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .trade_benefit {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .trade_benefit {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 60px;
+    }
+
+    .ot_card {
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.61);
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .onBoard_laptop {
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .otc_text {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .otc_sub {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .learmn {
+        width: 140px;
+        background-color: greenyellow;
+        height: 40px;
+        font-size: 20px;
+        color: black;
+        font-weight: 500;
+
+    }
+
+    .explaination {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 150px;
+
+    }
+
+    .dets {
+        margin-top: 30px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .trade_benefit {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+    }
+    
+}
+@media only screen and (max-width: 375px){
+    .learmn {
+        width: 140px;
+        background-color: greenyellow;
+        height: 40px;
+        font-size: 16px;
+        color: black;
+        font-weight: 500;
+
+    }
+.otc_section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
