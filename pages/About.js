@@ -9,18 +9,19 @@ export default function About() {
             <div className='about_header'>
                 <p>Our main mission is to </p>
                 <p className='neon'>democratize finance</p>
-                <div className='globe_images'>
-                    <div className='flex justify-between'>
+                <div className=''>
+                    {/* <div className='flex justify-between'>
                         <img className='about_eth' src='./about/eth.png' />
                         <img className='about_sola' src='./about/sola.png' />
                         <img className='about_btc' src='./about/btc.png' />
                         <img className='about_lana' src='./about/lana.png' />
-                    </div>
+                    </div> */}
 
-                    <div>
+                   
+                </div>
+                <div>
                         <img className='globe' src='./about/abt.png' />
                     </div>
-                </div>
 
             </div>
             <div className='flex justify-between achievement'>
