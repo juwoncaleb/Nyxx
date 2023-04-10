@@ -5,7 +5,7 @@ import Header from '../components/Header'
 export default function About() {
     return (
         <div className='about_us'>
-            <Header />
+            {/* <Header /> */}
             <div className='about_header'>
                 <p>Our main mission is to </p>
                 <p className='neon mb-40'>democratize finance</p>
@@ -24,7 +24,7 @@ export default function About() {
                 </div>
 
             </div>
-            <div className=' grid md:flex justify-between achievement'>
+            <div className=' flex justify-between achievement'>
                 <div className='verificatin_accom' >
                     <p className='achieve_text'><span className='neon'>Take a look </span>at what </p>
                     <p className='achieve_text mb-8'>we've accomplished</p>
@@ -34,9 +34,8 @@ export default function About() {
                     <button className='text_btn_1 mt-10 mr-6 '>
                         Download
                     </button>
-
                 </div>
-                <div className='verificaton_text'>
+                 <div className='verificaton_text'>
                     <div className='card mt-18 flex grid sm:grid-cols-2 '>
                         <div className='card_sub card_sub_1'>
                             <p className='card_header'>CISA <span className='neon'>+</span></p>
@@ -59,7 +58,7 @@ export default function About() {
                         </div>
 
                     </div>
-                </div>
+                </div> 
             </div>
             <div className='flex justify-between system_class'>
                 <div>

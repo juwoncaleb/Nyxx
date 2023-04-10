@@ -1023,7 +1023,26 @@
     height: 500px;
   }
 }
+.achievement {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 830px) {
+  .achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .about_header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 120px;
+  }
   .coins {
     z-index: 10;
     position: relative;
@@ -1069,15 +1088,6 @@
     margin-top: 100px;
     position: relative;
     top: 50px;
-  }
-  .verificatin_accom {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .verificaton_text {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .blogsPost {
