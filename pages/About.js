@@ -5,32 +5,32 @@ import Header from '../components/Header'
 export default function About() {
     return (
         <div className='about_us'>
-            <Header />
+            {/* <Header /> */}
             <div className='about_header'>
                 <p>Our main mission is to </p>
-                <p className='neon'>democratize finance</p>
-                <div className=''>
-                    {/* <div className='flex justify-between'>
+                <p className='neon mb-40'>democratize finance</p>
+                <div className='coins'>
+                    <div className='flex justify-center'>
                         <img className='about_eth' src='./about/eth.png' />
                         <img className='about_sola' src='./about/sola.png' />
                         <img className='about_btc' src='./about/btc.png' />
                         <img className='about_lana' src='./about/lana.png' />
-                    </div> */}
-
-                   
-                </div>
-                <div>
-                        <img className='globe' src='./about/abt.png' />
                     </div>
 
+
+                </div>
+                <div>
+                    <img className='globe' src='./about/abt.png' />
+                </div>
+
             </div>
-            <div className='flex justify-between achievement'>
-                <div >
+            <div className=' grid md:flex justify-between achievement'>
+                <div className='verificatin_accom' >
                     <p className='achieve_text'><span className='neon'>Take a look </span>at what </p>
                     <p className='achieve_text mb-8'>we've accomplished</p>
-                    <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
-                    <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
-                    <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
+                    <p className='achieve_seb'>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
+                    <p className='achieve_seb'>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
+                    <p className='achieve_seb'>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
                     <button className='text_btn_1 mt-10 mr-6 '>
                         Download
                     </button>
@@ -108,7 +108,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

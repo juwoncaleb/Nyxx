@@ -23,17 +23,20 @@
     margin-left: 7%;
     margin-right: 7%;
 }
+
 .card_wallet {
     width: 500px;
     margin-left: 100px;
 }
-.question{
-    font-size: 20px; 
+
+.question {
+    font-size: 20px;
 
 }
+
 .card_head {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 50px;
 }
 
@@ -63,7 +66,6 @@
 
 .bannerz {
     width: 500px;
-
 }
 
 .bannerrs {
@@ -112,6 +114,147 @@
     padding-bottom: 20px;
 
 }
-.faq{
+
+.faq {
     font-size: 35px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card_text {
+        text-align: center;
+        font-size: 55px;
+        margin-top: 130px;
+        font-weight: 600;
+    }
+
+    .card_truzact {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .card_head {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+
+    .arroww {
+        width: 25px;
+    }
+
+    .bannerz {
+        width: 400px;
+
+    }
+
+    .bannerrs {
+        margin-top: 100px;
+        max-width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .card_wallet {
+        width: 350px;
+        margin-top: 30px;
+    }
+
+    .card_rates {
+        width: 350px;
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card_wallet {
+        width: 400px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card_rates {
+        width: 500px;
+        margin-right: 100px;
+        order: 1;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+
+    .cardtext {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bannerz {
+        width: 300px;
+        margin-top: 20px;
+        height: 300px;
+    }
+
+    .card_banner {
+        padding-left: 10px;
+        padding-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+        background-color: rgb(56, 56, 56);
+        max-width: 1200px;
+    }
+    .bannerrs {
+        margin-top: 100px;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+    
+    }
+    .steps {
+        background-color: rgb(31, 30, 30);
+        height: 250px;
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+    }
+    .card_head {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .card_text {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 100px;
+        font-weight: 600;
+    } 
+    .card_truzact {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    .card_head {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }  
+    .bannerz{
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .working {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
 }

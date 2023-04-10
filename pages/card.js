@@ -5,11 +5,11 @@ export default function card() {
     const [active, setActive] = useState(null)
     return (
         <div className='card_section'>
-            <Header />
+            {/* <Header /> */}
             <p className='card_text'>TRUZACT CARD</p>
             <img className='card_truzact mt-10' src='./card/card.png' />
 
-            <div className='card_1 flex justify-center'>
+            <div className='card_1 md:flex grid justify-center'>
                 <div className='cardtext'>
                     <p className='card_head'>Earn up to 8% BNB Cashback everytime you spend</p>
                     <p>All your cashback from eligible purchases are automatically deposited in your Funding Wallet so you only need to worry about spending your crypto.</p>
@@ -20,7 +20,7 @@ export default function card() {
                 </div>
                 <img className='card_wallet' src='./card/wallet.png' />
             </div>
-            <div className='card_2 flex justify-center'>
+            <div className='card_2 md:flex grid  justify-center'>
                 <img className='card_rates' src='./card/low.png' />
 
                 <div className='cardtext'>
@@ -33,7 +33,7 @@ export default function card() {
                 </div>
             </div>
 
-            <div className='card_1 flex justify-center'>
+            <div className='card_1 md:flex grid  justify-center'>
                 <div className='cardtext'>
                     <p className='card_head'>Earn up to 8% BNB Cashback everytime you spend</p>
                     <p>All your cashback from eligible purchases are automatically deposited in your Funding Wallet so you only need to worry about spending your crypto.</p>
@@ -44,7 +44,9 @@ export default function card() {
                 </div>
                 <img className='card_wallet' src='./card/car.png' />
             </div>
-            <div className='card_banner flex justify-center'>
+
+            
+            <div className='card_banner md:flex grid justify-center'>
                 <img className='bannerz mr-20' src='./card/banner.png' />
 
                 <div className='cardtext mt-20'>
@@ -170,7 +172,7 @@ export default function card() {
                     )}
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
