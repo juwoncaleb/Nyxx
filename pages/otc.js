@@ -6,7 +6,7 @@ export default function otc() {
 
     return (
         <div className='otc'>
-            {/* <Header /> */}
+            <Header />
             <div className='otc_hero'>
                 <p className='otc_text ot'>VIP & personalized crypto OTC for </p>
                 <p className='otc_text'>individuals and businesses</p>
@@ -206,7 +206,7 @@ export default function otc() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

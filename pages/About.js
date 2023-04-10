@@ -5,7 +5,7 @@ import Header from '../components/Header'
 export default function About() {
     return (
         <div className='about_us'>
-            {/* <Header /> */}
+            <Header />
             <div className='about_header'>
                 <p>Our main mission is to </p>
                 <p className='neon mb-40'>democratize finance</p>
@@ -108,7 +108,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

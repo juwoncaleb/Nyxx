@@ -23,7 +23,7 @@ export default function exchange() {
                 </div>
                 <img src='./exchange/hero.png' />
             </div>
-            <div className='flex justify-between exchange_steps'>
+            <div className='flex justify-center exchange_steps'>
                 {/* TEXT */}
                 <div>
                     <p className='exchange_text'>
@@ -122,13 +122,13 @@ export default function exchange() {
                     </div>
                 </div>
                 <div>
-                    <img className='gr' src='./graph.png' />
+                    <img className='gr ml-40' src='./graph.png' />
 
                 </div>
             </div>
-            <div className='flex justify-between exchange_steps2 '>
+            <div className='flex justify-center exchange_steps2 '>
                 <div>
-                    <img className='pone' src='./lock.png' />
+                    <img className='pone mr-40' src='./lock.png' />
                 </div>
                 {/* TEXT */}
                 <div>
