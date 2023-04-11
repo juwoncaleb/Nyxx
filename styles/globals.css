@@ -541,6 +541,7 @@
   .slot_img {
     order: 2;
     margin-bottom: 100px;
+    padding-left: 16%;
   }
   .trial_btn {
     display: flex;
