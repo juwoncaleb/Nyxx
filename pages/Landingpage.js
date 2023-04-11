@@ -249,38 +249,35 @@ export default function Landingpage() {
           </div>
         </div>
       </div>
-      <div className='cta2 mb-10 '>
-        <div className=' port flex justify-between '>
-          {/* IMAGES */}
-          <div className="flex ">
-            <img className='phone' src='./portfolio.png' />
-            <img className='eth' src='./eth.png' />
+      <div className=' mb-10 port cta2 flex justify-between '>
+        {/* IMAGES */}
+        <div className="flex  slot_img">
+          <img className='phone' src='./portfolio.png' />
+          <img className='eth' src='./eth.png' />
 
-             <img className='slot' src='./slot.png' />
-            <img className='con coin1' src='./lana.png' />
-            <img className='coin2 con mt-24' src='./btc.png' /> 
-          </div>
+          <img className='slot' src='./slot.png' />
+          <img className='con coin1' src='./lana.png' />
+          <img className='coin2 con mt-24' src='./btc.png' />
+        </div>
 
-          {/* TEXTS */}
-          <div className=''>
-            <div>
-              <p className=' text-black mt-20 cta3'> Try Truzact Today </p>
-              <p className=' text-black cta3'>trade and invest </p>
-              <div className='flex mb-10 mt-6'>
-                <button className='text_btn_1 apple mr-6 flex justify-center'>
-                  <p className='mt-3'> Get The app on
-                  </p>
-                  <img className='store2' src="https://img.icons8.com/sf-black/64/null/mac-os.png" />
-                </button>
-                <button className='text_btn_2 flex justify-center'>
-                  <p className='mt-3'>  Get The app on</p>
-                  <img className='store' src="https://img.icons8.com/fluency/48/null/google-play-store-new.png" />
-                </button>
-              </div>
-            </div>
+        {/* TEXTS */}
+        <div className='trial'>
+          <p className=' text-black mt-20 cta3'> Try Truzact Today </p>
+          <p className=' text-black cta3'>trade and invest </p>
+          <div className='trial_btn flex mb-10 mt-6'>
+            <button className='text_btn_1 apple mr-6 flex justify-center'>
+              <p className='mt-3'> Get The app on
+              </p>
+              <img className='store2' src="https://img.icons8.com/sf-black/64/null/mac-os.png" />
+            </button>
+            <button className='text_btn_2 flex justify-center'>
+              <p className='mt-3'>  Get The app on</p>
+              <img className='store' src="https://img.icons8.com/fluency/48/null/google-play-store-new.png" />
+            </button>
           </div>
         </div>
       </div>
+
       {/* TUTORIAL */}
       <div className='tutorial'>
         <p className='tutorial_text mt-20 '> Watch how easy it is to </p>
@@ -410,7 +407,7 @@ export default function Landingpage() {
         </div>
         <img src='./laptop.png' />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

@@ -308,7 +308,6 @@
 }
 
 .about {
-  height: 800px;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 100px;
@@ -318,7 +317,6 @@
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
-  height: 300px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -412,6 +410,13 @@
   border: 2px solid #ccc;
 }
 
+.phone {
+  height: 600px;
+  z-index: 0;
+  position: relative;
+  left: 100px;
+}
+
 .card_sub_3 {
   border-bottom-left-radius: 30px;
 }
@@ -463,7 +468,6 @@
 .cta2 {
   background-color: greenyellow;
   margin-top: 200px;
-  height: 600px;
 }
 
 .btclana {
@@ -488,12 +492,6 @@
 
 .apple {
   border: 1px black solid;
-}
-
-.phone {
-  height: 600px;
-  z-index: 0;
-  position: relative;
 }
 
 .slot {
@@ -536,6 +534,24 @@
   margin-right: 5%;
 }
 
+@media only screen and (max-width: 974px) {
+  .port {
+    display: grid;
+  }
+  .slot_img {
+    order: 2;
+    margin-bottom: 100px;
+  }
+  .trial_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .trial {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .hero_text {
     width: 40%;
@@ -560,6 +576,31 @@
     width: 320px;
     top: 23px;
     margin-left: 15%;
+  }
+  .phone {
+    height: 400px;
+    z-index: 0;
+    position: relative;
+    left: 50px;
+  }
+  .slot {
+    height: 380px;
+    z-index: 1;
+    position: relative;
+    right: 220px;
+    top: 125px;
+  }
+  .eth {
+    width: 103px;
+    height: 143px;
+    z-index: 2;
+    position: relative;
+    top: 370px;
+    left: 100px;
+  }
+  .coin2 {
+    width: 90px;
+    height: 123px;
   }
 }
 .footer {
