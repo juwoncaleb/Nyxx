@@ -6,6 +6,8 @@
 }
 .exchange_hero{
     margin-top: 130px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 .exhange_header{
     font-size: 50px;
@@ -70,4 +72,83 @@
     border: 1px solid greenyellow;
     margin-left: 10px;
     margin-top: 10px;
+}
+@media only screen and (max-width: 1024px) {
+    .exchange_text{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .exchange_text_sub{
+        font-size: 16px;
+    }
+    .gr{
+        height: 350px;
+        width: 350px;
+       margin-top: 200px;
+    }
+
+    .exhange_hero_img{
+        width: 500px;
+        height: 500px;
+    }
+
+}
+@media only screen and (max-width: 910px) {
+    .exchange_hero{
+        display: grid;
+    }
+    .exchange_btn {
+        width: 200px;
+        background-color: greenyellow;
+        height: 50px;
+        font-size: 20px;
+        color: black;
+    }
+    .exhange_hero_img{
+        width: 500px;
+        height: 500px;
+        margin-top: 60px;
+    }
+    .exchange_steps{
+        display: grid;
+    }
+   .gr{
+    margin-right: auto;
+    margin-left: auto;
+   }
+   .exchange_steps2{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .exchange_text{
+    text-align: center;
+   }
+  .exchange_text_sub{
+    text-align: center;
+  }
+  .exchange_step{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pone{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .exchange_s{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+    .exhange_header{
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .exhange_hero_img{
+        width: 400px;
+        height: 400px;
+    }
 }

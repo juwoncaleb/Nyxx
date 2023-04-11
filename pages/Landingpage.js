@@ -73,7 +73,7 @@ export default function Landingpage() {
           </div>
 
         </div>
-        <div className='features flex justify-between '>
+        <div className='features flex justify-around '>
           {/* TEXTS */}
           <div className='features_texts'>
             <p className='feature_head'>Truzact is a safe, fast </p>
@@ -250,18 +250,19 @@ export default function Landingpage() {
         </div>
       </div>
       <div className='cta2 mb-10 '>
-        <div className=' port flex '>
+        <div className=' port flex justify-between '>
           {/* IMAGES */}
           <div className="flex ">
-            <img className='eth' src='./eth.png' />
             <img className='phone' src='./portfolio.png' />
-            <img className='slot' src='./slot.png' />
+            <img className='eth' src='./eth.png' />
+
+             <img className='slot' src='./slot.png' />
             <img className='con coin1' src='./lana.png' />
-            <img className='coin2 con mt-24' src='./btc.png' />
+            <img className='coin2 con mt-24' src='./btc.png' /> 
           </div>
 
           {/* TEXTS */}
-          <div className='mr-20'>
+          <div className=''>
             <div>
               <p className=' text-black mt-20 cta3'> Try Truzact Today </p>
               <p className=' text-black cta3'>trade and invest </p>

@@ -85,10 +85,10 @@
 
 
 .lock {
-    max-height: 650px;
+    height: 650px;
     z-index: 0;
     position: relative;
-    left: 240px;
+    left: 100px;
 }
 
 .graph {
@@ -102,8 +102,8 @@
 
 .btc {
     z-index: 1;
-    min-width: 180px;
-    max-height: 180px;
+    width: 180px;
+    height: 140px;
     position: relative;
     top: 450px;
     right: 470px;
@@ -303,9 +303,10 @@
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
     height: 300px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .icon {
@@ -351,11 +352,10 @@
     z-index: 1;
     max-width: 200px;
     position: relative;
-    left: 342px;
     height: 200px;
     min-width: 520px;
     top: 23px;
-
+    margin-left: 25%;
 }
 
 .learn {
@@ -489,6 +489,8 @@
 .phone {
     height: 600px;
     z-index: 0;
+    position: relative;
+    
 }
 
 .slot {
@@ -532,4 +534,34 @@
 .companies {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero_text {
+        width: 40%;
+        margin-top: 50px;
+    }
+
+    .feature_head {
+        text-align: justify;
+        font-size: 40px;
+    }
+
+    .graph {
+        z-index: 1;
+        width: 270px;
+        height: 300px;
+        position: relative;
+        top: 250px;
+        right: 300px;
+    }
+    .bills {
+        z-index: 1;
+        position: relative;
+        height: 180px;
+        width: 320px;
+        top: 23px;
+        margin-left: 15%;
+    }
+
 }

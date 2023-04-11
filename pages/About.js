@@ -35,7 +35,7 @@ export default function About() {
                         Download
                     </button>
                 </div>
-                 <div className='verificaton_text'>
+                <div className='verificaton_text'>
                     <div className='card mt-18 flex grid sm:grid-cols-2 '>
                         <div className='card_sub card_sub_1'>
                             <p className='card_header'>CISA <span className='neon'>+</span></p>
@@ -58,7 +58,7 @@ export default function About() {
                         </div>
 
                     </div>
-                </div> 
+                </div>
             </div>
             <div className='flex justify-between system_class'>
                 <div>
@@ -106,6 +106,8 @@ export default function About() {
 
                     </div>
                 </div>
+
+                
             </div>
             <Footer />
         </div>

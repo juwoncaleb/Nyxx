@@ -275,6 +275,7 @@
         right: 990px;
         top: 120px;
     }
+
     .solana {
         width: 150px;
         height: 150px;
@@ -284,16 +285,201 @@
         top: 400px;
     }
 }
+
 @media only screen and (max-width: 425px) {
-    .hedge_img{
+    .hedge_img {
         margin-left: auto;
         margin-right: auto;
-        
-    }
-    .safe {
-      z-index: 0;
-      position: relative;
-      right: 150px;
+
     }
 
+    .safe {
+        z-index: 0;
+        position: relative;
+        width: 300px;
+        height: 400px;
+        left: 50px;
+    }
+
+    .hedge_img {
+        width: 100%;
+
+    }
+
+    .solana {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        z-index: 1;
+        right: 30px;
+        top: 330px;
+    }
+
+    .etherum {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        right: 50px;
+        top: 240px;
+        z-index: 1;
+    }
+
+    .dodge {
+        width: 90px;
+        height: 90px;
+        z-index: 1;
+        position: relative;
+        right: 210px;
+        top: 10px;
+    }
+
+    .add {
+        width: 60px;
+        height: 60px;
+        z-index: 1;
+        position: relative;
+        top: 70px;
+        right: 450px;
+    }
+
+    .prism {
+        width: 70px;
+        height: 70px;
+        z-index: 1;
+        position: relative;
+        right: 250px;
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .hedge_img {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .safe {
+        z-index: 0;
+        position: relative;
+        width: 250px;
+        height: 300px;
+        left: 50px;
+    }
+
+    .hedge_img {
+        width: 100%;
+
+    }
+
+    .solana {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        z-index: 1;
+        right: 30px;
+        top: 230px;
+    }
+
+    .etherum {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        right: 50px;
+        top: 140px;
+        z-index: 1;
+    }
+
+    .dodge {
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        position: relative;
+        right: 190px;
+        top: 1px;
+    }
+
+    .add {
+        width: 60px;
+        height: 60px;
+        z-index: 1;
+        position: relative;
+        top: 50px;
+        right: 380px;
+    }
+
+    .prism {
+        width: 70px;
+        height: 70px;
+        z-index: 1;
+        position: relative;
+        right: 250px;
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hedge_img {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .safe {
+        z-index: 0;
+        position: relative;
+        width: 250px;
+        height: 300px;
+        left: 30px;
+    }
+
+    .hedge_img {
+        width: 100%;
+
+    }
+
+    .solana {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        z-index: 1;
+        right: 80px;
+        top: 230px;
+    }
+
+    .etherum {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        right: 100px;
+        top: 140px;
+        z-index: 1;
+    }
+
+    .dodge {
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        position: relative;
+        right: 220px;
+        top: 1px;
+    }
+
+    .add {
+        width: 60px;
+        height: 60px;
+        z-index: 1;
+        position: relative;
+        top: 50px;
+        right: 380px;
+    }
+
+    .prism {
+        width: 50px;
+        height: 50px;
+        z-index: 1;
+        position: relative;
+        right: 290px;
+        bottom: 0px;
+    }
 }

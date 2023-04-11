@@ -5,7 +5,7 @@ import Header from '../components/Header'
 export default function hedge() {
     return (
         <div className='hedge'>
-            <Header />
+            {/* <Header /> */}
             <div className='flex justify-center hedgeFund '>
                 {/* TEXTS */}
                 <div className='hedge_text '>
@@ -21,12 +21,12 @@ export default function hedge() {
                     {/* <img className='safe' src='./integration/safe.png' /> */}
                     <img className='safe' src='./integration/safe.png' />
 
-                    <img className='solana' src='./integration/sola.png' />
+                     <img className='solana' src='./integration/sola.png' />
                     <img className='etherum' src='./integration/eth.png' />
                     <img className='dodge' src='./integration/dodge.png' />
                     <img className='add' src='./integration/add.png' />
                     <img className='prism' src='./integration/prism.png' />
-                    <img className='pry' src='./integration/pryamind.png' />
+                    <img className='pry' src='./integration/pryamind.png' /> 
                
                 </div>
             </div>
@@ -46,7 +46,7 @@ export default function hedge() {
                 <p className='mt-10'>Duis eiusmod ut et enim esse cillum sit elit fugiat amet fugiat. Velit deserunt officia do minim cupidatat consectetur aliquip esse consectetur duis elit. Magna esse fugiat fugiat voluptate excepteur sint aliquip ea labore mollit amet cillum. Occaecat duis non quis ipsum deserunt eu incididunt eu. Pariatur esse ullamco incididunt do consectetur commodo fugiat .</p>
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
