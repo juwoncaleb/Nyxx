@@ -250,24 +250,21 @@ export default function Landingpage() {
           <div className=' step grid grid-cols-1'>
             <div className='step1 download flex justify-around'>
               <div className='flex justify-around '>
-                <img src='./upload.png' />
+                <img className='icon ' src='./upload.png' />
                 <p className='step2'>Download the app</p>
               </div>
-              <p className='neon toggle'>+</p>
             </div>
             <div className='step1 flex justify-around'>
               <div className='flex justify-around'>
                 <img className='icon ' src='./wall.png' />
                 <p className='step2'>Download the app</p>
               </div>
-              <p className='neon toggle'>+</p>
             </div>
             <div className='step1 trader flex justify-around'>
               <div className='flex justify-around'>
-                <img className='trade ' src='./eth.png' />
-                <p className='step2'>Buy, trade & sell your assests</p>
+                <img className='icon ' src='./eth.png' />
+                <p className='step2'>Buy, trade & sell </p>
               </div>
-              <p className='neon toggle'>+</p>
             </div>
           </div>
         </div>
@@ -315,16 +312,14 @@ export default function Landingpage() {
       <div className='blogs'>
         <div className='flex justify-between mb-14'>
           <p className='tutorial_text  '>Latest <span className='neon'>Blogs</span> </p>
-          <p className='mt-6'>Quis exercitation deserunt dolor non duis reprehenderit cupidatat anim fugiat.</p>
         </div>
         <div className=' grid grid-cols-2 gap-4'>
           <div className='blogspost'>
             <img src='./blog1.png' />
             <p className='date'>Apps - Jan 6, 2023</p>
-            <p className='title'>Best platform to trade BTC on your</p>
-            <p className='title2'>Phone</p>
+            <p className='title'>Best platform to trade BTC </p>
 
-            <div className='flex ml-14 mt-4'>
+            <div className='flex ml-1 md:ml-14 mt-4'>
               <p className='learn'>Learn More</p>
               <img className='arroww ml-4' src="./arrow.png" />
             </div>

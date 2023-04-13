@@ -236,6 +236,7 @@
 .step1 {
     align-items: center;
     border: 1px solid gray;
+   
 }
 
 .tutor {
@@ -880,4 +881,29 @@
         margin-top: 10px;
         margin-left: 0;
     }
+    .step2 {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .date {
+        text-align: left;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-top: 40px;
+    }
+    .title {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .title2 {
+        font-size: 18px;
+    }
+    
+.blogspost {
+    border: 1px solid gray;
+    padding-bottom: 10px;
+
+}
 }
