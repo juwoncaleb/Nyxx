@@ -376,7 +376,6 @@
 .verification {
   width: 50%;
   display: flex;
-  background-color: cadetblue;
 }
 
 .code {
@@ -718,6 +717,13 @@
   }
 }
 @media only screen and (max-width: 425px) {
+  .btc {
+    z-index: 1;
+    height: 120px;
+    position: relative;
+    top: 300px;
+    right: 370px;
+  }
   .lock {
     height: 450px !important;
     z-index: 0;
@@ -759,8 +765,16 @@
     width: 270px;
     height: 200px;
     position: relative;
-    top: 350px !important;
+    top: 250px !important;
     right: 200px !important;
+  }
+  .eth {
+    width: 73px;
+    height: 103px;
+    z-index: 2;
+    position: relative;
+    top: 370px;
+    left: 100px;
   }
   .images_Section {
     width: 100%;
@@ -782,7 +796,22 @@
     height: 50px;
   }
   .verification {
-    margin-top: 150px;
+    margin-top: 250px;
+  }
+  .slot_img {
+    order: 2;
+    margin-bottom: 150px;
+    padding-left: 0%;
+  }
+  .store2 {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .store {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 0;
   }
 }
 .footer {
