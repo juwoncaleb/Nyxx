@@ -37,25 +37,20 @@
   font-family: Archivo;
 }
 
-.hero_text {
-  width: 40%;
-  margin-top: 150px;
-}
-
 .hero_text_main {
   font-size: 50px;
   font-weight: bolder;
 }
 
-.hero_images {
-  width: 60%;
-  margin-top: 250px;
-  position: relative;
+.capture {
+  height: 380px;
 }
 
-.images_Section {
-  width: 50%;
-  display: grid;
+.rinng {
+  height: 200px;
+  position: relative;
+  right: 450px;
+  bottom: 50px;
 }
 
 .hero_page {
@@ -94,14 +89,6 @@
   margin-top: 150px;
 }
 
-.rinng {
-  position: absolute;
-  z-index: 1;
-  left: 240px;
-  top: -40px;
-  width: 150px;
-}
-
 .lana {
   position: absolute;
   right: 130px;
@@ -113,7 +100,7 @@
   height: 650px;
   z-index: 0;
   position: relative;
-  left: 100px;
+  left: 250px;
 }
 
 .graph {
@@ -127,24 +114,10 @@
 
 .btc {
   z-index: 1;
-  width: 180px;
-  height: 140px;
+  height: 120px;
   position: relative;
   top: 450px;
   right: 470px;
-}
-
-.trio {
-  z-index: 1;
-  position: absolute;
-  left: 500px;
-  bottom: 200px;
-}
-
-.capture {
-  max-width: 700px;
-  z-index: 0;
-  position: absolute;
 }
 
 .text_btn_1 {
@@ -202,10 +175,27 @@
   padding-top: 50px;
 }
 
+.hero_page {
+  margin-top: 150px;
+}
+
 .testimonial {
   margin-top: 180px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.hero_text {
+  width: 40%;
+}
+
+.hero_images {
+  width: 60%;
+}
+
+.hero_lap {
+  width: 600px;
+  margin-left: 60px;
 }
 
 .trader {
@@ -303,8 +293,19 @@
 }
 
 .c2 {
-  height: 400px;
   border: solid 1px gray;
+}
+
+.truzact_feature {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 100px;
+}
+
+.truzact_border {
+  border: 2px solid white;
+  padding-left: 25px;
+  padding-bottom: 20px;
 }
 
 .about {
@@ -325,12 +326,13 @@
 .icon {
   margin-left: auto;
   margin-right: auto;
+  height: 60px;
 }
 
 .transfer {
   margin-left: auto;
   margin-right: auto;
-  height: 90px;
+  height: 62px;
 }
 
 .c1 {
@@ -355,17 +357,12 @@
 }
 
 .kin {
-  font-size: 32px;
+  font-size: 25px;
+  text-align: center;
 }
 
-.bills {
-  z-index: 1;
-  max-width: 200px;
-  position: relative;
-  height: 200px;
-  min-width: 520px;
-  top: 23px;
-  margin-left: 25%;
+.kinp {
+  font-size: 25px;
 }
 
 .learn {
@@ -379,6 +376,7 @@
 .verification {
   width: 50%;
   display: flex;
+  background-color: cadetblue;
 }
 
 .code {
@@ -540,7 +538,7 @@
   }
   .slot_img {
     order: 2;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     padding-left: 16%;
   }
   .trial_btn {
@@ -553,30 +551,121 @@
     text-align: center;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .hero_text {
-    width: 40%;
-    margin-top: 50px;
+@media only screen and (max-width: 962px) {
+  .cta {
+    display: grid;
+    justify-content: center;
+    align-items: center;
   }
-  .feature_head {
-    text-align: justify;
-    font-size: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .verificaton_text {
+    width: 100%;
+  }
+  .cta4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .security {
+    display: grid;
+  }
+  .verification {
+    order: 2;
+    padding-left: 15%;
+  }
+  .padlock {
+    z-index: 1;
+    height: 240px;
+    width: 150px;
+    position: relative;
+    top: 190px !important;
+    right: 50px;
+  }
+  .verification {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .images_Section {
+    width: 100%;
+    padding-left: 10%;
+  }
+  .features_texts {
+    width: 100%;
+  }
+  .features {
+    display: grid;
+  }
+  .hero_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .hero_lap {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero_images {
+    width: 100%;
+  }
+  .hero_text {
+    width: 100%;
+    text-align: center;
+  }
+  .hero_page {
+    display: grid;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .bills {
+    height: 200px;
+  }
+  .slot_img {
+    margin-bottom: 130px;
+  }
+  .btc {
+    z-index: 1;
+    height: 120px;
+    position: relative;
+    top: 450px;
+    right: 370px;
   }
   .graph {
     z-index: 1;
     width: 270px;
-    height: 300px;
+    height: 250px;
     position: relative;
     top: 250px;
-    right: 300px;
+    right: 200px;
   }
-  .bills {
-    z-index: 1;
+  .code {
+    height: 550px;
+    z-index: 0;
     position: relative;
-    height: 180px;
-    width: 320px;
-    top: 23px;
-    margin-left: 15%;
+    left: 0px;
+    z-index: 0;
+    margin-top: 100px;
+  }
+  .lock {
+    height: 550px;
+    z-index: 0;
+    position: relative;
+    left: 150px;
+    margin-top: 70px;
+  }
+  .capture {
+    height: 200px;
+  }
+  .feature_head {
+    font-size: 40px;
+  }
+  .hero_lap {
+    width: 550px;
+    margin-left: 20px;
   }
   .phone {
     height: 400px;
@@ -602,6 +691,98 @@
   .coin2 {
     width: 90px;
     height: 123px;
+  }
+  .lana {
+    position: absolute;
+    right: 130px;
+    top: 100px;
+    width: 60px;
+  }
+  .soil {
+    height: 130px;
+  }
+  .ether {
+    height: 140px;
+  }
+  .padlock {
+    z-index: 1;
+    height: 240px;
+    width: 150px;
+    position: relative;
+    top: 390px;
+    right: 50px;
+  }
+  .hero_text_main {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .lock {
+    height: 450px !important;
+    z-index: 0;
+    position: relative;
+    left: 0px !important;
+    margin-top: 70px;
+  }
+  .feature_sub {
+    font-size: 17px;
+  }
+  .feature_head {
+    font-size: 30px;
+  }
+  .kin {
+    font-size: 12px;
+  }
+  .cta_btn_2 {
+    width: 150px;
+    border: 1px solid ghostwhite;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .cta_btn_1 {
+    width: 150px;
+    background-color: greenyellow;
+    height: 60px;
+    color: black;
+    border-radius: 30px;
+  }
+  .lock {
+    height: 550px;
+    z-index: 0;
+    position: relative;
+    left: 0px !important;
+    margin-top: 70px;
+  }
+  .graph {
+    z-index: 1;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    top: 350px !important;
+    right: 200px !important;
+  }
+  .images_Section {
+    width: 100%;
+    display: flex;
+  }
+  .text_btn_2 {
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    border: 1px solid white;
+  }
+  .text_btn_1 {
+    width: 150px !important;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 25px;
+    height: 50px;
+  }
+  .verification {
+    margin-top: 150px;
   }
 }
 .footer {
