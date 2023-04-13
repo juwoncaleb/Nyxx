@@ -6,29 +6,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.nav_mob {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: right;
+}
+
+.ham {
+  width: 25px;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
 .header {
-  background-color: black;
+  font-family: Archivo;
   height: 70px;
 }
 
 .logo {
-  height: 100px;
-  position: relative;
-  bottom: 17px;
+  height: 65px;
+  margin-top: 5px;
 }
 
-.nav_btn {
-  height: 40px;
-  margin-top: 20px;
-  border-radius: 20px;
-  width: 150px;
-  background-color: greenyellow;
-  color: black;
+.header_links {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 17px;
 }
 
-.header_content {
-  margin-left: 5%;
-  margin-right: 5%;
+@media only screen and (max-width: 1024px) {
+  .nav_mob {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: right;
+  }
+  .header_links {
+    margin-left: 7%;
+    margin-right: 4%;
+    font-size: 17px;
+  }
+}
+.newLine {
+  border: 1px solid rgb(196, 193, 193);
+}
+
+.loogo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.copy {
+  text-align: center;
 }
 
 .land {
@@ -717,6 +745,14 @@
   }
 }
 @media only screen and (max-width: 425px) {
+  .tutorial_text {
+    text-align: center;
+    font-size: 35px;
+  }
+  .cta3 {
+    font-weight: 600;
+    font-size: 35px;
+  }
   .btc {
     z-index: 1;
     height: 120px;
@@ -787,6 +823,8 @@
     border-radius: 25px;
     height: 50px;
     border: 1px solid white;
+    font-weight: 600;
+    font-size: 14px;
   }
   .text_btn_1 {
     width: 150px !important;
@@ -794,6 +832,8 @@
     color: black;
     border-radius: 25px;
     height: 50px;
+    font-weight: 600;
+    font-size: 14px;
   }
   .verification {
     margin-top: 250px;
@@ -871,6 +911,13 @@
     position: relative;
     top: 390px;
     left: 50px;
+  }
+  .slot {
+    height: 320px;
+    z-index: 1;
+    position: relative;
+    right: 200px;
+    top: 125px;
   }
 }
 .footer {

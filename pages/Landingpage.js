@@ -5,7 +5,7 @@ import Header from '../components/Header'
 export default function Landingpage() {
   return (
     <div className='land'>
-      {/* <Header /> */}
+      <Header />
       <div>
         <div className='flex justify-between  hero_page '>
           {/* TEXTS */}
@@ -361,7 +361,7 @@ export default function Landingpage() {
         </div>
         <img src='./laptop.png' />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

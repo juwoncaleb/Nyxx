@@ -7,25 +7,61 @@
 @tailwind components;
 @tailwind utilities;
 
-.header{
-    background-color: black;
+.nav_mob {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+.ham {
+    width: 25px;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.header {
+    font-family: Archivo;
     height: 70px;
 }
-.logo{
-    height: 100px;
-    position: relative;
-    bottom: 17px;
+
+.logo {
+    height: 65px;
+    margin-top: 5px;
 }
-.nav_btn{
-height: 40px;
-margin-top: 20px;
-border-radius: 20px;
-width: 150px;
-background-color: greenyellow;
-color: black;
+
+.header_links {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 425px) {
+   
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .nav_mob {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: right;
+    }
+    .header_links {
+        margin-left: 7%;
+        margin-right: 4%;
+        font-size: 17px;
+    }
 
 }
-.header_content{
-    margin-left: 5%;
-    margin-right: 5%;
+.newLine{
+border: 1px solid rgb(196, 193, 193);
+}
+.loogo{
+    font-weight: 600;
+    font-size: 20px;
+}
+.copy{
+    text-align: center;
+    
 }

@@ -774,6 +774,15 @@
 }
 
 @media only screen and (max-width: 425px) {
+    .tutorial_text {
+        text-align: center;
+        font-size: 35px;
+    }
+    .cta3 {
+        font-weight: 600;
+        font-size: 35px;
+    
+    }
     .btc {
         z-index: 1;
         height: 120px;
@@ -857,6 +866,8 @@
         border-radius: 25px;
         height: 50px;
         border: 1px solid white;
+        font-weight: 600;
+        font-size: 14px;
     }
 
     .text_btn_1 {
@@ -865,6 +876,8 @@
         color: black;
         border-radius: 25px;
         height: 50px;
+        font-weight: 600;
+        font-size: 14px;
     }
 
 
@@ -956,5 +969,11 @@
         top: 390px;
         left: 50px;
     }
- 
+    .slot {
+        height:320px;
+        z-index: 1;
+        position: relative;
+        right: 200px;
+        top: 125px;
+    }
 }
