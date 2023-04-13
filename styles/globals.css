@@ -808,6 +808,13 @@
     margin-top: 10px;
     margin-left: 0;
   }
+  .code {
+    max-height: 450px;
+    z-index: 0;
+    position: relative;
+    left: 0px;
+    z-index: 0;
+  }
   .store {
     height: 30px;
     margin-top: 10px;
@@ -835,6 +842,35 @@
   .blogspost {
     border: 1px solid gray;
     padding-bottom: 10px;
+  }
+  .padlock {
+    z-index: 1;
+    height: 220px;
+    width: 180px;
+    position: relative;
+    top: 390px;
+    right: 50px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .slot_img {
+    order: 2;
+    margin-bottom: 150px;
+    padding-left: 0%;
+  }
+  .phone {
+    height: 400px;
+    z-index: 0;
+    position: relative;
+    left: 10px;
+  }
+  .eth {
+    width: 73px;
+    height: 103px;
+    z-index: 2;
+    position: relative;
+    top: 390px;
+    left: 50px;
   }
 }
 .footer {

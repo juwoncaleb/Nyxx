@@ -236,7 +236,7 @@
 .step1 {
     align-items: center;
     border: 1px solid gray;
-   
+
 }
 
 .tutor {
@@ -781,7 +781,7 @@
         top: 300px;
         right: 370px;
     }
-    
+
     .lock {
         height: 450px !important;
         z-index: 0;
@@ -789,12 +789,15 @@
         left: 0px !important;
         margin-top: 70px;
     }
+
     .feature_sub {
         font-size: 17px;
     }
+
     .feature_head {
         font-size: 30px;
     }
+
     .kin {
         font-size: 12px;
     }
@@ -831,6 +834,7 @@
         top: 250px !important;
         right: 200px !important;
     }
+
     .eth {
         width: 73px;
         height: 103px;
@@ -863,47 +867,94 @@
         height: 50px;
     }
 
+
     .verification {
         margin-top: 250px;
     }
+
     .slot_img {
         order: 2;
         margin-bottom: 150px;
         padding-left: 0%;
     }
+
     .store2 {
         height: 30px;
         margin-top: 10px;
         margin-left: 0;
     }
+
+    .code {
+        max-height: 450px;
+        z-index: 0;
+        position: relative;
+        left: 0px;
+        z-index: 0;
+    }
+
     .store {
         height: 30px;
         margin-top: 10px;
         margin-left: 0;
     }
+
     .step2 {
         font-size: 17px;
         margin-top: 20px;
         margin-left: 5px;
     }
+
     .date {
         text-align: left;
         font-size: 12px;
         margin-left: 5px;
         margin-top: 40px;
     }
+
     .title {
         font-size: 17px;
         margin-top: 20px;
         margin-left: 5px;
     }
+
     .title2 {
         font-size: 18px;
     }
-    
-.blogspost {
-    border: 1px solid gray;
-    padding-bottom: 10px;
 
+    .blogspost {
+        border: 1px solid gray;
+        padding-bottom: 10px;
+
+    }
+    .padlock {
+        z-index: 1;
+        height: 220px;
+        width: 180px;
+        position: relative;
+        top: 390px;
+        right: 50px;
+    }
+    
 }
+@media only screen and (max-width: 425px) {
+    .slot_img {
+        order: 2;
+        margin-bottom: 150px;
+        padding-left: 0%;
+    }  
+    .phone {
+        height: 400px;
+        z-index: 0;
+        position: relative;
+        left: 10px;
+    }
+    .eth {
+        width: 73px;
+        height: 103px;
+        z-index: 2;
+        position: relative;
+        top: 390px;
+        left: 50px;
+    }
+ 
 }

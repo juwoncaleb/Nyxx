@@ -329,13 +329,11 @@ export default function Landingpage() {
             <img src='./blog2.png' />
             <p className='date'>Products - Jan 6, 2023</p>
             <p className='title'>What is the best & most secure  </p>
-            <p className='title2'>wallet in 2023 ?</p>
 
-            <div className='flex ml-14 mt-4'>
+            <div className='flex ml-1 md:ml-14 mt-4'>
               <p className='learn'>Learn More</p>
               <img className='arroww ml-4' src="./arrow.png" />
             </div>
-
           </div>
         </div>
         <button className='text_btn_2  mr-auto  ml-auto  mt-20 flex justify-center'>
