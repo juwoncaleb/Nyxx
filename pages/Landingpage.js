@@ -330,7 +330,7 @@ export default function Landingpage() {
             <p className='date'>Products - Jan 6, 2023</p>
             <p className='title'>What is the best & most secure  </p>
 
-            <div className='flex ml-1 md:ml-14 mt-4'>
+            <div className='flex ml-10 md:ml-14 mt-4'>
               <p className='learn'>Learn More</p>
               <img className='arroww ml-4' src="./arrow.png" />
             </div>
@@ -359,7 +359,7 @@ export default function Landingpage() {
             </button>
           </div>
         </div>
-        <img src='./laptop.png' />
+        <img className='land_lap' src='./laptop.png' />
       </div>
       <Footer />
     </div>
