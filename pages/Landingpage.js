@@ -1,14 +1,16 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import { motion, stagger } from "framer-motion"
+import { motion, stagger, useScroll, useTransform } from "framer-motion"
 
 export default function Landingpage() {
+  let {scrollYProgress} = useScroll();
+  let y = useTransform(scrollYProgress ,[0,1], ["0%", "100%"])
   return (
     <div className='land'>
       <Header />
       <div>
-        <div className='flex justify-between  hero_page '>
+        <motion.div style={{y}} className='flex justify-between  hero_page '>
           {/* TEXTS */}
           <div className='hero_text'>
             <p className='hero_text_main'>Save, Buy & trade</p>
@@ -32,7 +34,7 @@ export default function Landingpage() {
           <div className='hero_images '>
             <img className='hero_lap' src='./laptop.png' />
           </div>
-        </div>
+        </motion.div>
 
         <div className='features flex justify-around '>
           {/* TEXTS */}
