@@ -9,6 +9,10 @@
 .header {
   background-color: black;
   height: 70px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .logo {
@@ -37,6 +41,7 @@
     background-color: greenyellow;
     color: black;
     border-radius: 10px;
+    margin-top: 6px;
   }
   .word {
     margin-left: 4px;
@@ -97,7 +102,7 @@
   margin-left: 5%;
   margin-right: 5%;
   background-color: black;
-  margin-top: 100px;
+  position: fix;
 }
 
 .feature_head {
@@ -213,10 +218,6 @@
   padding-right: 20px;
   padding-bottom: 50px;
   padding-top: 50px;
-}
-
-.hero_page {
-  margin-top: 150px;
 }
 
 .testimonial {

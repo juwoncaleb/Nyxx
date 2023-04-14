@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import { motion, stagger } from "framer-motion"
 
 export default function Landingpage() {
   return (
