@@ -42,7 +42,7 @@ export default function About() {
                             : 0.6
                     }} className='verificatin_accom' >
                     <p className='achieve_text'><span className='neon'>Take a look </span>at what </p>
-                    <p className='achieve_text mb-8'>we've accomplished</p>
+                    <p className='achieve_text mb-8'>we have accomplished</p>
                     <p className='achieve_seb'>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
                     <p className='achieve_seb'>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
                     <p className='achieve_seb'>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
@@ -97,7 +97,7 @@ export default function About() {
                     }} >
                     <div className='system_text' >
                         <p className='syste'><span className='neon'>Take a look </span>at what </p>
-                        <p className='syste mb-8'>we've accomplished</p>
+                        <p className='syste mb-8'>we have accomplished</p>
                         <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
                         <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
                         <p>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
