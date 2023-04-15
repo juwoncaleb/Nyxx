@@ -11,7 +11,7 @@ export default function Career() {
 
                 <motion.div initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5 }} className='flex justify-between career_hero'>
+                    transition={{ duration: 0.5 }} className='md:flex grid justify-between career_hero'>
                     <div className='hero_text'>
                         <p className='hero_text_main'>Come and join our</p>
                         <p className='hero_text_main neon'>fast growing company</p>
