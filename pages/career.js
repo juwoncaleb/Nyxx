@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import { motion, stagger, useScroll, useTransform } from "framer-motion"
 
 export default function Career() {
     return (
@@ -8,7 +9,9 @@ export default function Career() {
             <div className='career'>
                 <Header />
 
-                <div className='flex justify-between career_hero'>
+                <motion.div initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }} className='flex justify-between career_hero'>
                     <div className='hero_text'>
                         <p className='hero_text_main'>Come and join our</p>
                         <p className='hero_text_main neon'>fast growing company</p>
@@ -26,12 +29,24 @@ export default function Career() {
                             </button>
                         </div>
                     </div>
-                    <img src='./career/tower.png' />
-                </div>
-                <div className='hero_text joinUs '>
+                    <motion.img initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5, delay: 0.25 }} src='./career/tower.png' />
+                </motion.div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8
+                    }} className='hero_text joinUs '>
                     <p className='hero_text_main'>Company <span className='neon'>perks</span></p>
-                </div>
-                <div className='grid grid-cols-2 md:grid-cols-3 mt-14 perk_head'>
+                </motion.div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8
+                    }} className='grid grid-cols-2 md:grid-cols-3 mt-14 perk_head'>
                     <div className='perks p1'>
                         <img className='perk_icn' src='./career/gaurd.png' />
                         <p className='perks_head'>Medical insurance</p>
@@ -67,11 +82,21 @@ export default function Career() {
                         <p>Esse ut duis deserunt nulla labore cupidatat fugiat ea magna.</p>
 
                     </div>
-                </div>
+                </motion.div>
                 <div className='flex justify-between culture'>
-                    <img className='pc' src='./career/pc.png' />
+                    <motion.img initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8, delay: 0.25
+                        }} className='pc' src='./career/pc.png' />
 
-                    <div className='hero_text '>
+                    <motion.div initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8
+                        }} className='hero_text '>
                         <p className='hero_text_main mb-4'>Company <span className='neon'>perks</span></p>
                         <p>Occaecat aute quis excepteur laborum adipisicing. Sit esse reprehenderit consequat
                             nulla sit. Minim aliqua anim iqua nulla exercitation ullamco cupidatat qui sunt est ex exercitation cupidatat. Ullamco est ex anim irure est labore occaecat eiusmod duis enim tempor labore ullamco laboris.</p>
@@ -81,10 +106,15 @@ export default function Career() {
                             </button>
 
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
 
-                <div className='flex justify-between board'>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 1
+                    }} className='flex justify-between board'>
                     <div className='  '>
                         <p className='hero_text_main'>Company <span className='neon'>perks</span></p>
                     </div>
@@ -94,28 +124,28 @@ export default function Career() {
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                           <img className='green_arrow' src="./career/arrow.png"/>
+                            <img className='green_arrow' src="./career/arrow.png" />
                         </div>
                         <div className='flex job_card  justify-between'>
                             <div>
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                           <img className='green_arrow' src="./career/arrow.png"/>
+                            <img className='green_arrow' src="./career/arrow.png" />
                         </div>
                         <div className='flex job_card  justify-between'>
                             <div>
                                 <p className='job_head'> Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                           <img className='green_arrow' src="./career/arrow.png"/>
+                            <img className='green_arrow' src="./career/arrow.png" />
                         </div>
                         <div className='flex job_card  justify-between'>
                             <div>
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                            <img className='green_arrow' src="./career/arrow.png"/>
+                            <img className='green_arrow' src="./career/arrow.png" />
 
                         </div>
                         <div className='flex job_card  justify-between'>
@@ -123,17 +153,17 @@ export default function Career() {
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                           <img className='green_arrow' src="./career/arrow.png"/>
+                            <img className='green_arrow' src="./career/arrow.png" />
                         </div>
                         <div className='flex job_card justify-between jb_6'>
                             <div>
                                 <p className='job_head'>Junior Frontend Engineer</p>
                                 <p className='loc'>Los Angeles ----- <span className='neon'>Full Time</span></p>
                             </div>
-                           <img className='green_arrow' src="./career/arrow.png"/>
+                            <img className='green_arrow' src="./career/arrow.png" />
                         </div>
                     </div>
-                </div>
+                </motion.div>
                 <Footer />
             </div>
         </div>
