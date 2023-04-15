@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { motion, stagger, useScroll, useTransform } from "framer-motion"
 
-export default function exchange() {
+export default function Exchange() {
     return (
         <div className='exchange'>
             <Header />

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-export default function blog() {
+export default function Blog() {
     const [activeButton, setActiveButton] = useState(1);
     const divStyle = {
         backgroundColor: 'greenyellow',

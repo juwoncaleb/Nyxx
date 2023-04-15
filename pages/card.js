@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { motion, stagger, useScroll, useTransform } from "framer-motion"
 
-export default function card() {
+export default function Card() {
     const [active, setActive] = useState(null)
     return (
         <div className='card_section'>
