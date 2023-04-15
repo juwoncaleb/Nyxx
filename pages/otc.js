@@ -10,8 +10,8 @@ export default function otc() {
         <div className='otc'>
             <Header />
             <motion.div initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5 }} className='otc_hero'>
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }} className='otc_hero'>
                 <p className='otc_text ot'>VIP & personalized crypto OTC for </p>
                 <p className='otc_text'>individuals and businesses</p>
                 <p className='otc_sub ot_s'>Are you an institution, a high volume trader or a new crypto bro, we have</p>
@@ -23,75 +23,129 @@ export default function otc() {
                 </div>
             </motion.div>
             <div className='otc_section'>
-                <motion.div 
-                     className=''>
+                <motion.div
+                    className=''>
                     <p className='explaination mt-10'>What is OTC?</p>
-                    <div className='dets'>
+                    <motion.div initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.6
+                        }} className='dets'>
                         <p>Our Over-the-counter (OTC) desk is an exclusive and more personalized service outside of the Patricia</p>
                         <p>App. Where high net-worth individuals can get instant liquidity for their bulk trades, with utmost privacy</p>
                         <p>and the most competitive rates.</p>
-                        <motion.img   initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.7 }} className='video ' src='./vd.png' />
-                    </div>
+                        <motion.img initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.6
+                            }} className='video ' src='./vd.png' />
+                    </motion.div>
                 </motion.div>
-              
-              
-                <div>
-                    <motion.p  initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.7 }} className='explaination'>Trade on the exchange with the <br /> most benefits</motion.p>
-                    <motion.p  initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.8 }}>Our OTC is designed to give you value for your time and money.</motion.p>
 
+
+                <div>
+                    <motion.div initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.6
+                        }}>
+                        <p className='explaination'>Trade on the exchange with the <br /> most benefits</p>
+                        <p className='text-center'>Our OTC is designed to give you value for your time and money.</p>
+                    </motion.div>
                     <div className='dets'>
                         <div className='grid md:grid-cols-2 gap-8 trade_benefit '>
-                            <div className='ot_card'>
+                            <motion.div initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 1
+                                }} className='ot_card'>
                                 <img className='otc_icon' src='./donation.png' />
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
 
-                            </div>
-                            <div className='ot_card'>
+                            </motion.div>
+                            <motion.div initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 1.5
+                                }} className='ot_card'>
                                 <img className='otc_icon' src='./referral.png' />
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
 
-                            </div>
-                            <div className='ot_card'>
+                            </motion.div>
+                            <motion.div initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 2
+                                }} className='ot_card'>
                                 <img className='otc_icon' src='./wall.png' />
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
 
-                            </div>
-                            <div className='ot_card'>
+                            </motion.div>
+                            <motion.div initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 2.5
+                                }} className='ot_card'>
                                 <img className='otc_icon' src='./tranfer.png' />
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
                 </div>
 
                 <div className='mb-20'>
-                    <p className='explaination mb-14'>The OTC Desk Process</p>
+                    <motion.p initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 1
+                        }} className='explaination mb-14'>The OTC Desk Process</motion.p>
                     <div className='md:flex grid justify-center bord  mt-20'>
                         <div className='onBoard_texts'>
                             <div className='flex onboard'>
-                                <div class="vl"></div>
-                                <div className='onboard_numbers'>
+                                <motion.div initial={{ opacity: 0, y: 0 }}
+                                    whileInView={{ opacity: 1, y: 10 }}
+                                    transition={{
+                                        duration
+                                            : 1, delay: 0.3
+                                    }}
+                                    class="vl">
+                                </motion.div>
+
+                                <motion.div initial={{ opacity: 0, }}
+                                    whileInView={{ opacity: 1, }}
+                                    transition={{
+                                        duration
+                                            : 1
+                                    }} className='onboard_numbers'>
                                     <div className='onboard_number'>
                                         <p>1</p>
 
                                     </div>
-                                </div>
-                                <div>
+                                </motion.div>
+
+                                <motion.div initial={{ opacity: 0, y: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{
+                                        type: 'spring', stiffness: 100, damping: 10, duration
+                                            : 2.5
+                                    }} >
                                     <p className='onboarding_texts'>ONBOARD</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
-                                </div>
+                                </motion.div>
                             </div>
 
 
