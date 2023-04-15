@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { motion, stagger } from "framer-motion"
+import Link from 'next/link';
 
 export default function Header() {
   const [ham, setHam] = useState(true);
@@ -25,8 +26,13 @@ export default function Header() {
         <div className='flex justify-between header_content'>
           <img className='logo' src='./logo.png' />
           <div className='flex '>
+            <Link href='./About'>
             <p className='mr-16 mt-6'>About</p>
+            </Link>
+            <Link href='./blog'>
             <p className='mr-16 mt-6'>Blogs</p>
+
+            </Link>
             <p className='mr-16 mt-6'>features</p>
             <p className='mr-16 mt-6'>Services</p>
             <p className='mr-16 mt-6'>Lefgal</p>

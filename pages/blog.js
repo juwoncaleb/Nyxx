@@ -15,7 +15,7 @@ export default function blog() {
     };
     const newSt = {
         backgroundColor: 'black',
-        color: 'white',
+    color: 'white',
         padding: '10px',
         border: "1px solid white",
         borderRadius: "16px",
@@ -27,7 +27,7 @@ export default function blog() {
     return (
         <div className='blogsPost'>
             <Header />
-            <p className='resource mt-20'><span className='neon'>Resource</span> center.</p>
+            <p className='resource '><span className='neon'>Resource</span> center.</p>
             <p className='res mt-4'>Sit sunt amet cillum irure  jklfkdmac lkwmaclsx lkwm,ecsx lkmac jlknmcasx kljwnkecm.</p>
             <p className='res'>Sit sjklfkdmac lkwmaclsx lkwm,ecsx lkmac jlknmcasx kljwnkecm.</p>
 
