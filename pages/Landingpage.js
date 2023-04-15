@@ -12,7 +12,9 @@ export default function Landingpage() {
       <div>
         <motion.div style={{ y }} className='flex justify-between  hero_page '>
           {/* TEXTS */}
-          <div className='hero_text'>
+          <motion.div initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }} className='hero_text'>
             <p className='hero_text_main'>Save, Buy & trade</p>
             <p className='hero_text_main'>cryptocurrency</p>
             <p className='hero_text_main'>the smart</p>
@@ -29,11 +31,13 @@ export default function Landingpage() {
                 View pricing
               </button>
             </div>
-          </div>
+          </motion.div>
           {/* IMAGE */}
-          <div className='hero_images '>
+          <motion.div  initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 , delay:0.25}} className='hero_images '>
             <img className='hero_lap' src='./laptop.png' />
-          </div>
+          </motion.div>
         </motion.div>
 
         <motion.div

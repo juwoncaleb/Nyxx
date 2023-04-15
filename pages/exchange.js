@@ -1,12 +1,16 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import { motion, stagger, useScroll, useTransform } from "framer-motion"
+
 export default function exchange() {
     return (
         <div className='exchange'>
             <Header />
             <div className='flex justify-center exchange_hero'>
-                <div>
+                <motion.div  initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }} >
                     <div className='exhange_header'>
                         <p>The fast crypto <br /> exchnage trusted by <br /> millin of users.</p>
                     </div>
@@ -20,12 +24,19 @@ export default function exchange() {
                             Learn more
                         </button>
                     </div>
-                </div>
-                <img className='exhange_hero_img' src='./exchange/hero.png' />
+                </motion.div>
+                <motion.img  initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 , delay:0.25}} className='exhange_hero_img' src='./exchange/hero.png' />
             </div>
             <div className='flex justify-center exchange_steps'>
                 {/* TEXT */}
-                <div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8,
+                    }}>
                     <p className='exchange_text'>
                         Step into a world of <br /> trading with ease with <br /> TRAZACT
                     </p>
@@ -120,18 +131,32 @@ export default function exchange() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div  initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 1, delay: 0.2
+                    }}>
                     <img className='gr ml-40' src='./graph.png' />
-
-                </div>
+                </motion.div>
             </div>
             <div className='flex justify-center exchange_steps2 '>
-                <div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 1, delay: 0.2
+                    }}>
                     <img className='pone mr-40' src='./lock.png' />
-                </div>
+                </motion.div>
                 {/* TEXT */}
-                <div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8,
+                    }}>
                     <p className='exchange_text'>
                         Step into a world of <br /> trading with ease with <br /> TRAZACT
                     </p>
@@ -231,12 +256,17 @@ export default function exchange() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
           
           
-            <div className='flex justify-left exchange_steps2 '>
-                <div>
+            <div className='md:flex grid justify-between exchange_steps2 '>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8,
+                    }}>
                     <p className='exchange_text'>
                         Step into a world of <br /> trading with ease with <br /> TRAZACT
                     </p>
@@ -251,9 +281,14 @@ export default function exchange() {
                             <p> amet reprehenderit </p>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
-                <img src='./blog1.png' />
+                <motion.img initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 1, delay: 0.2
+                    }}  src='./blog1.png' />
             </div>
             <Footer/>
         </div>

@@ -29,6 +29,7 @@
   width: 150px;
   background-color: greenyellow;
   color: black;
+  font-weight: 500;
 }
 
 .header_content {
@@ -52,6 +53,7 @@
   }
   .word {
     margin-left: 4px;
+    font-weight: 600;
   }
   .arrow_black {
     transform: rotate(90deg);

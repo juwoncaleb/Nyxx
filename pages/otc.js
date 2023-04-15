@@ -22,16 +22,16 @@ export default function otc() {
                     </button>
                 </div>
             </motion.div>
-            <div className='otc_section'>
-                <motion.div
-                    className=''>
-                    <p className='explaination mt-10'>What is OTC?</p>
-                    <motion.div initial={{ opacity: 0, y: 30 }}
+            <motion.div initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{
                             type: 'spring', stiffness: 100, damping: 10, duration
-                                : 0.6
-                        }} className='dets'>
+                                : 0.6, delay: 0.3
+                        }}  className='otc_section'>
+                <motion.div
+                    className=''>
+                    <p className='explaination mt-10'>What is OTC?</p>
+                    <motion.div className='dets'>
                         <p>Our Over-the-counter (OTC) desk is an exclusive and more personalized service outside of the Patricia</p>
                         <p>App. Where high net-worth individuals can get instant liquidity for their bulk trades, with utmost privacy</p>
                         <p>and the most competitive rates.</p>
@@ -213,7 +213,12 @@ export default function otc() {
                                 </motion.div>
                             </div>
                         </div>
-                        <img className='onBoard_laptop' src='./laptop.png' />
+                        <motion.img  initial={{ opacity: 0, y: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{
+                                        type: 'spring', stiffness: 100, damping: 10, duration
+                                            : 2
+                                    }} className='onBoard_laptop' src='./laptop.png' />
                     </div>
                 </div>
                 <div class="button-container ">
@@ -308,7 +313,7 @@ export default function otc() {
                         )}
                     </div>
                 </div>
-            </div>
+            </motion.div>
             <Footer />
         </div>
     )

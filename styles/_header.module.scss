@@ -14,7 +14,7 @@
     top: 0;
     bottom: 0;
     width: 100%;
-   z-index: 6; 
+    z-index: 6;
 }
 
 .logo {
@@ -30,47 +30,58 @@
     width: 150px;
     background-color: greenyellow;
     color: black;
-
+    font-weight: 500;
 }
 
 .header_content {
     margin-left: 5%;
     margin-right: 5%;
 }
+
 @media only screen and (max-width: 956px) {
-    .cta_button{height:25px ;
-    border-radius: 30px !important;}
+    .cta_button {
+        height: 25px;
+        border-radius: 30px !important;
+    }
 }
+
 @media only screen and (max-width: 956px) {
-    .cta_button{
+    .cta_button {
         margin-top: 15px;
         background-color: greenyellow;
         color: black;
         border-radius: 10px;
         margin-top: 6px;
     }
-    .word{
+
+    .word {
         margin-left: 4px;
+        font-weight: 600;
     }
-    .arrow_black{
+
+    .arrow_black {
         transform: rotate(90deg);
         margin-left: 7px;
         margin-right: 6px;
     }
+
     .header {
         display: none;
     }
-    .header_mob{
+
+    .header_mob {
         display: flex;
         margin-left: 5%;
         margin-right: 5%;
     }
-    .open{
+
+    .open {
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
     }
-    .close{
+
+    .close {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -79,8 +90,7 @@
 }
 
 @media only screen and (min-width: 956px) {
-   .header_mob{
-    display: none;
-   }
+    .header_mob {
+        display: none;
+    }
 }
-
