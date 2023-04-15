@@ -118,7 +118,7 @@ export default function otc() {
                                     whileInView={{ opacity: 1, y: 10 }}
                                     transition={{
                                         duration
-                                            : 1, delay: 0.3
+                                            : 1, delay: 0.2
                                     }}
                                     class="vl">
                                 </motion.div>
@@ -127,7 +127,7 @@ export default function otc() {
                                     whileInView={{ opacity: 1, }}
                                     transition={{
                                         duration
-                                            : 1
+                                            : 0.1
                                     }} className='onboard_numbers'>
                                     <div className='onboard_number'>
                                         <p>1</p>
@@ -150,32 +150,67 @@ export default function otc() {
 
 
                             <div className='flex onboard '>
-                                <div class="vl"></div>
-                                <div className='onboard_numbers'>
+                                <motion.div initial={{ opacity: 0, y: 0 }}
+                                    whileInView={{ opacity: 1, y: 10 }}
+                                    transition={{
+                                        duration
+                                            : 1, delay: 0.2
+                                    }} class="vl">
+
+                                </motion.div>
+
+                                <motion.div initial={{ opacity: 0, }}
+                                    whileInView={{ opacity: 1, }}
+                                    transition={{
+                                        duration
+                                            : 0.1
+                                    }} className='onboard_numbers'>
                                     <div className='onboard_number'>
                                         <p>2</p>
                                     </div>
-                                </div>
-                                <div >
+                                </motion.div>
+
+                                <motion.div initial={{ opacity: 0, y: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{
+                                        type: 'spring', stiffness: 100, damping: 10, duration
+                                            : 2.5
+                                    }} >
                                     <p className='onboarding_texts'>ONBOARD</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
-                                </div>
+                                </motion.div>
                             </div>
+                          
                             <div className='flex onboard '>
-                                <div class="vl"></div>
-                                <div className='onboard_numbers'>
+                                <motion.div initial={{ opacity: 0, y: 0 }}
+                                    whileInView={{ opacity: 1, y: 10 }}
+                                    transition={{
+                                        duration
+                                            : 1, delay: 0.2
+                                    }} class="vl"></motion.div>
+                                <motion.div initial={{ opacity: 0, }}
+                                    whileInView={{ opacity: 1, }}
+                                    transition={{
+                                        duration
+                                            : 0.1
+                                    }} className='onboard_numbers'>
                                     <div className='onboard_number' >
                                         <p>3</p>
                                     </div>
-                                </div>
-                                <div>
+                                </motion.div>
+                                <motion.div initial={{ opacity: 0, y: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{
+                                        type: 'spring', stiffness: 100, damping: 10, duration
+                                            : 2.5
+                                    }}>
                                     <p className='onboarding_texts'>ONBOARD</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
                                     <p className='onboarding_texts_sub'>Pariatur incididunt consequat et reprehenderit cupidatat.</p>
-                                </div>
+                                </motion.div>
                             </div>
                         </div>
                         <img className='onBoard_laptop' src='./laptop.png' />
