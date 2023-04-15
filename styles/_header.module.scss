@@ -37,7 +37,10 @@
     margin-left: 5%;
     margin-right: 5%;
 }
-
+@media only screen and (max-width: 956px) {
+    .cta_button{height:50px ;
+    border-radius: 30px !important;}
+}
 @media only screen and (max-width: 956px) {
     .cta_button{
         margin-top: 15px;

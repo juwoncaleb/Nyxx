@@ -67,7 +67,7 @@ export default function Header() {
                   onClick={() => handleMenuItemClick("div1")} class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 21 }} transition={{ delay: 0.4 }}>
                   Card
                 </motion.p>
-                <motion.button  initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.5}} class="cta_button  flex justify-center">
+                <motion.button  initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.5}} class="cta_button mb-2  flex justify-center">
                   <p class="word">Get started</p>
                   <img className="arrow_black" src="https://img.icons8.com/material-outlined/24/null/long-arrow-up.png" />
                 </motion.button>

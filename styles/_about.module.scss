@@ -1,4 +1,4 @@
-.about_us {
+    .about_us {
     color: white;
     font-family: Archivo;
 
@@ -23,9 +23,11 @@
     text-align: center;
     font-size: 60px;
     font-weight: 600;
-    margin-top: 120px;
 }
-
+.mission{
+    position: relative;
+    top: 70px;
+}
 .globe {
     margin-left: auto;
     margin-right: auto;

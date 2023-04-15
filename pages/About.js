@@ -5,10 +5,12 @@ import Header from '../components/Header'
 export default function About() {
     return (
         <div className='about_us'>
-            {/* <Header /> */}
+            <Header />
             <div className='about_header'>
-                <p>Our main mission is to </p>
-                <p className='neon mb-40'>democratize finance</p>
+                <div className='mission'>
+                    <p className='mt-14'>Our main mission is to </p>
+                    <p className='neon mb-40'>democratize finance</p>
+                </div>
                 <div className='coins'>
                     <div className='flex justify-center'>
                         <img className='about_eth' src='./about/eth.png' />
@@ -107,7 +109,7 @@ export default function About() {
                     </div>
                 </div>
 
-                
+
             </div>
             <Footer />
         </div>

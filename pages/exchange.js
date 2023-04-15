@@ -4,7 +4,7 @@ import Header from '../components/Header'
 export default function exchange() {
     return (
         <div className='exchange'>
-            {/* <Header /> */}
+            <Header />
             <div className='flex justify-center exchange_hero'>
                 <div>
                     <div className='exhange_header'>
@@ -255,7 +255,7 @@ export default function exchange() {
 
                 <img src='./blog1.png' />
             </div>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     )
 }

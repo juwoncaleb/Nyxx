@@ -5,7 +5,7 @@ import { motion, stagger, useScroll, useTransform } from "framer-motion"
 
 export default function Landingpage() {
   let {scrollYProgress} = useScroll();
-  let y = useTransform(scrollYProgress ,[0,1], ["0%", "100%"])
+  let y = useTransform(scrollYProgress ,[0,1], ["0%", "50%"])
   return (
     <div className='land'>
       <Header />

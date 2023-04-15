@@ -18,14 +18,14 @@ export default function Footer() {
                 <img className='ft_img' src='./footer.png' />
             </div>
             <div style={color} className='grid md:grid-cols-2 justify-between footerItem '>
-                <div>
+                <div className='foote_items'>
                     <p className='text-2xl mb-4 comp'>Company</p>
                     <p  >About </p>
                     <p className='mt-2'>Blogs</p>
                     <p className='mt-2'>Features</p>
                     <p className='mt-2'>Services</p>
                 </div>
-                <div>
+                <div  className='foote_items'>
                     <p className='text-2xl mb-4'>Product</p>
                     <p className='mt-2'>Buy </p>
                     <p className='mt-2'>Sell</p>
@@ -33,14 +33,14 @@ export default function Footer() {
                     <p className='mt-2'>Hedge Fund</p>
                     <p className='mt-2'>OTC</p>
                 </div>
-                <div>
+                <div  className='foote_items'>
                     <p className='text-2xl mb-4'>Learn </p>
                     <p className='mt-2'>Blog</p>
                     <p className='mt-2'>Learning Portal</p>
                     <p className='mt-2'> Help center</p>
                     <p className='mt-2'>Create tickets</p>
                 </div>
-                <div>
+                <div  className='foote_items'>
                     <p className='text-2xl mb-4'>Legal </p>
                     <p className='mt-2'>Privacy Policy</p>
                     <p className='mt-2'>Anti-Money Laundering Policy</p>

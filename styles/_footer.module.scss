@@ -1,10 +1,22 @@
 .footer {
     background-color: black;
     color: white !important;
-    height: 600px;
     padding-top: 50px;
     margin-top: 200px;
     color: black;
+
+}
+@media only screen and (max-width: 768px) {
+    .footer {
+        background-color: black;
+        color: white !important;
+        padding-top: 50px;
+        margin-top: 200px;
+        color: black;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
 }
 
 .footerItem {
@@ -30,6 +42,23 @@
     border-radius: 35px;
 
 }
+@media only screen and (max-width: 425px) {
+    .footerItem{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_img {
+        background-color: greenyellow;
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 500px;
+        border-radius: 35px;
+    
+    }
+}
+
 
 .ft_img {
     height: 300px;

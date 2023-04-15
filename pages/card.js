@@ -5,7 +5,7 @@ export default function card() {
     const [active, setActive] = useState(null)
     return (
         <div className='card_section'>
-            {/* <Header /> */}
+            <Header />
             <p className='card_text'>TRUZACT CARD</p>
             <img className='card_truzact mt-10' src='./card/card.png' />
 
@@ -172,7 +172,7 @@ export default function card() {
                     )}
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
