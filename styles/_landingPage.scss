@@ -58,6 +58,7 @@
 .images_Section {
     width: 50%;
     display: flex;
+    margin-top: 40px;
 }
 
 .features_texts {
@@ -68,7 +69,7 @@
 .features {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
 
@@ -572,6 +573,21 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .card_sub_3 {
+        border-bottom-left-radius: 0px;
+    }
+    .card_sub_1{
+        border-top-left-radius: 0px;
+
+    }
+    .card_sub_2 {
+        border-top-right-radius: 0px;
+    }
+    
+    .card_sub_4 {
+        border-bottom-right-radius: 0px;
+    }
+    
     .verificaton_text {
         width: 100%;
     }
@@ -777,7 +793,7 @@
     }
 
     .hero_text_main {
-        font-size: 40px;
+        font-size: 45px;
         font-weight: bolder;
     }
 }
@@ -786,6 +802,10 @@
     .tutorial_text {
         text-align: center;
         font-size: 35px;
+    }
+    .hero_text_main {
+        font-size: 40px;
+        font-weight: bolder;
     }
     .cta3 {
         font-weight: 600;

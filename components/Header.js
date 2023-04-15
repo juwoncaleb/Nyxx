@@ -24,7 +24,9 @@ export default function Header() {
     <div>
       <div style={color} className='header'>
         <div className='flex justify-between header_content'>
+          <Link href='/'>
           <img className='logo' src='./logo.png' />
+          </Link>
           <div className='flex '>
             <Link href='./About'>
               <p className='mr-16 mt-6'>About</p>
@@ -56,8 +58,9 @@ export default function Header() {
       </div>
 
       <div style={color} className='header_mob flex justify-between'>
-        <img className='logo' src='./logo.png' />
-
+        <Link href='./'>
+          <img className='logo' src='./logo.png' />
+        </Link>
         <div className=' justify-between header_content'>
           <div className=' '>
             {ham ? (

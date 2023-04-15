@@ -4,13 +4,13 @@ import Header from '../components/Header'
 import { motion, stagger, useScroll, useTransform } from "framer-motion"
 
 export default function Landingpage() {
-  let {scrollYProgress} = useScroll();
-  let y = useTransform(scrollYProgress ,[0,1], ["0%", "50%"])
+  let { scrollYProgress } = useScroll();
+  let y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"])
   return (
     <div className='land'>
       <Header />
       <div>
-        <motion.div style={{y}} className='flex justify-between  hero_page '>
+        <motion.div style={{ y }} className='flex justify-between  hero_page '>
           {/* TEXTS */}
           <div className='hero_text'>
             <p className='hero_text_main'>Save, Buy & trade</p>
@@ -36,9 +36,19 @@ export default function Landingpage() {
           </div>
         </motion.div>
 
-        <div className='features flex justify-around '>
+        <motion.div
+
+
+          className='features flex justify-around '>
           {/* TEXTS */}
-          <div className='features_texts'>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.6
+            }}
+            className='features_texts'>
             <p className='feature_head'>Truzact is a safe, fast </p>
             <p className='feature_head'> and secure way to save,</p>
             <p className='feature_head'> invest, store and transact</p>
@@ -101,27 +111,55 @@ export default function Landingpage() {
               </svg>
               <p className='ml-8'>Auto Save</p>
             </div>
-          </div>
+          </motion.div>
           {/* IMAGE */}
-          <div className='images_Section  '>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.68
+            }}
+            className='images_Section  '>
             <img className='lock' src='./lock.png' />
             <img className='graph' src='./graph.png' />
             <img className='btc' src='./btc.png' />
-          </div>
+          </motion.div>
 
-        </div>
+        </motion.div>
       </div>
 
-      <div className='security flex justify-center'>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: 'spring', stiffness: 100, damping: 10, duration
+            : 0.6
+        }}
+        className='security flex justify-center'>
         {/* IMAGE */}
-        <div className='verification  '>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: 'spring', stiffness: 100, damping: 10, duration
+              : 0.6
+          }}
+          className='verification  '>
           <img className='code' src='./code.png' />
           <img className='padlock' src="./padlock.png" />
 
-        </div>
+        </motion.div>
 
         {/* TEXTS */}
-        <div className='verificaton_text'>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: 'spring', stiffness: 100, damping: 10, duration
+              : 0.78
+          }}
+          className='verificaton_text'>
           <p className='feature_head mt-4'>Bulletproof </p>
           <p className='feature_head'> security by design</p>
           <p className='feature_sub mt-4'>The secure digital asset management platform you can trust with </p>
@@ -148,11 +186,18 @@ export default function Landingpage() {
             </div>
 
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
 
 
-      <div className='cta flex justify-between'>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: 'spring', stiffness: 100, damping: 10, duration
+            : 0.6
+        }}
+        className='cta flex justify-between'>
         <div>
           <p className='feature_head'> Fully featured to <span className='neon'>buy</span></p>
           <p className='feature_head'><span className='neon'>trade and invest </span>in crypto</p>
@@ -165,10 +210,17 @@ export default function Landingpage() {
             Learn More
           </button>
         </div>
-      </div>
+      </motion.div>
 
 
-      <div className='grid  grid-cols-1 md:grid-cols-3 truzact_feature'>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: 'spring', stiffness: 100, damping: 10, duration
+            : 0.6
+        }}
+        className='grid  grid-cols-1 md:grid-cols-3 truzact_feature'>
 
 
         <div className=' md:col-span-2 truzact_border'>
@@ -211,21 +263,37 @@ export default function Landingpage() {
           <p className=''>$10 worth of USDT commission when the person you referred saves or invest in Truzact 🙌🏽</p>
           <p>Eiusmod eu commodo quis officia minim ut velit quis.</p>
         </div>
-      </div>
+      </motion.div>
 
-      <div className=' mb-10 port cta2 flex justify-between '>
+      <div
+
+        className=' mb-10 port cta2 flex justify-between '>
         {/* IMAGES */}
-        <div className="flex  slot_img">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: 'spring', stiffness: 100, damping: 10, duration
+              : 0.6
+          }}
+          className="flex  slot_img">
           <img className='phone' src='./portfolio.png' />
           <img className='eth' src='./eth.png' />
 
           <img className='slot' src='./slot.png' />
           <img className='con coin1' src='./lana.png' />
           <img className='coin2 con mt-24' src='./btc.png' />
-        </div>
+        </motion.div>
 
         {/* TEXTS */}
-        <div className='trial'>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: 'spring', stiffness: 100, damping: 10, duration
+              : 0.6
+          }}
+          className='trial'>
           <p className=' text-black mt-20 cta3'> Try Truzact Today </p>
           <p className=' text-black cta3'>trade and invest </p>
           <div className='trial_btn flex mb-10 mt-6'>
@@ -239,11 +307,18 @@ export default function Landingpage() {
               <img className='store' src="https://img.icons8.com/fluency/48/null/google-play-store-new.png" />
             </button>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* TUTORIAL */}
-      <div className='tutorial'>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: 'spring', stiffness: 100, damping: 10, duration
+            : 0.6
+        }}
+        className='tutorial'>
         <p className='tutorial_text mt-20 '> Watch how easy it is to </p>
         <p className='tutorial_text  '>use <span className='neon'>Truzact app</span> </p>
         <div className='tutor mt-20 flex'>
@@ -271,12 +346,17 @@ export default function Landingpage() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className='testimonial'>
         <p className='tutorial_text mt-20 '> What our cients </p>
         <p className='tutorial_text  '>say <span className='neon'>about us</span> </p>
-        <div className='mt-20 grid md:grid-cols-3 gap-6'>
-          <div className='testimonal_card'>
+        <motion.div className='mt-20 grid md:grid-cols-3 gap-6'>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.6
+            }} className='testimonal_card'>
             <p className='step2'>Buy, trade & sell your assests</p>
             <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
             <div className='flex mr-auto mt-8 mb-4'>
@@ -286,8 +366,13 @@ export default function Landingpage() {
                 <p className='neon'>@johncarter</p>
               </div>
             </div>
-          </div>
-          <div className='testimonal_card'>
+          </motion.div>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.63
+            }} className='testimonal_card'>
             <p className='step2 '>The best tool for my team</p>
             <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
             <div className='flex mr-auto mt-8 mb-4'>
@@ -297,8 +382,13 @@ export default function Landingpage() {
                 <p className='neon'>@juwoncaleb</p>
               </div>
             </div>
-          </div>
-          <div className='testimonal_card'>
+          </motion.div>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.66
+            }} className='testimonal_card'>
             <p className='step2'>The future of crypto trading</p>
             <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
             <div className='flex mr-auto mt-8 mb-4 ml-8'>
@@ -308,15 +398,20 @@ export default function Landingpage() {
                 <p className='neon'>@charlie</p>
               </div>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
 
-      <div className='blogs'>
+      <motion.div initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: 'spring', stiffness: 100, damping: 10, duration
+            : 0.66
+        }} className='blogs'>
         <div className='flex justify-between mb-14'>
           <p className='tutorial_text  '>Latest <span className='neon'>Blogs</span> </p>
         </div>
-        <div className=' grid grid-cols-2 gap-4'>
+        <div className=' grid md:grid-cols-2 grid-cols-1 gap-4'>
           <div className='blogspost'>
             <img src='./blog1.png' />
             <p className='date'>Apps - Jan 6, 2023</p>
@@ -343,9 +438,14 @@ export default function Landingpage() {
           <p className='mt-3'> Get The app on
           </p>
         </button>
-      </div>
+      </motion.div>
 
-      <div className='cta4 mt-24 grid md:flex justify-between'>
+      <motion.div initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: 'spring', stiffness: 100, damping: 10, duration
+            : 0.66
+        }} className='cta4 mt-24 grid md:flex justify-between'>
 
         <div className=''>
           <p className=' final_cta mt-20'> <span className='neon'>Download</span> the crypto </p>
@@ -363,7 +463,7 @@ export default function Landingpage() {
           </div>
         </div>
         <img className='land_lap' src='./laptop.png' />
-      </div>
+      </motion.div>
       <Footer />
     </div>
   )

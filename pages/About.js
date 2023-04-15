@@ -1,33 +1,46 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import { motion, stagger, useScroll, useTransform } from "framer-motion"
 
 export default function About() {
     return (
         <div className='about_us'>
             <Header />
             <div className='about_header'>
-                <div className='mission'>
+                <motion.div initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className='mission'>
                     <p className='mt-14'>Our main mission is to </p>
                     <p className='neon mb-40'>democratize finance</p>
-                </div>
+                </motion.div>
                 <div className='coins'>
-                    <div className='flex justify-center'>
+                    <motion.div initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 1 }} className='flex justify-center'>
                         <img className='about_eth' src='./about/eth.png' />
                         <img className='about_sola' src='./about/sola.png' />
                         <img className='about_btc' src='./about/btc.png' />
                         <img className='about_lana' src='./about/lana.png' />
-                    </div>
+                    </motion.div>
 
 
                 </div>
-                <div>
+                <motion.div initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.7 }}>
                     <img className='globe' src='./about/abt.png' />
-                </div>
+                </motion.div>
 
             </div>
-            <div className=' flex justify-between achievement'>
-                <div className='verificatin_accom' >
+            <motion.div className=' flex justify-between achievement'>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.6
+                    }} className='verificatin_accom' >
                     <p className='achieve_text'><span className='neon'>Take a look </span>at what </p>
                     <p className='achieve_text mb-8'>we've accomplished</p>
                     <p className='achieve_seb'>Ut sit quis proident id uhjkj hiuoj ijlkjhkj hikjli ipsum qui.</p>
@@ -36,8 +49,13 @@ export default function About() {
                     <button className='text_btn_1 mt-10 mr-6 '>
                         Download
                     </button>
-                </div>
-                <div className='verificaton_text'>
+                </motion.div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8
+                    }} className='verificaton_text'>
                     <div className='card mt-18 flex grid sm:grid-cols-2 '>
                         <div className='card_sub card_sub_1'>
                             <p className='card_header'>CISA <span className='neon'>+</span></p>
@@ -60,13 +78,23 @@ export default function About() {
                         </div>
 
                     </div>
-                </div>
-            </div>
+                </motion.div>
+            </motion.div>
             <div className='flex justify-between system_class'>
-                <div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.6
+                    }} >
                     <img className='system' src='./about/system.png' />
-                </div>
-                <div>
+                </motion.div>
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8
+                    }} >
                     <div className='system_text' >
                         <p className='syste'><span className='neon'>Take a look </span>at what </p>
                         <p className='syste mb-8'>we've accomplished</p>
@@ -78,14 +106,24 @@ export default function About() {
                         </button>
 
                     </div>
-                </div>
+                </motion.div>
             </div>
             <div className='team'>
-                <div className='team_member' >
+                <motion.div initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.5
+                    }} className='team_member' >
                     <p className='achieve_text'><span className='neon'>Meet </span>the team </p>
                     <p className='achieve_text mb-8'>behind Truzact</p>
-                </div>
-                <div className='grid grid-cols-3'>
+                </motion.div>
+                <motion.div  initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        type: 'spring', stiffness: 100, damping: 10, duration
+                            : 0.8
+                    }}  className='grid grid-cols-3'>
                     <div className='team_card'>
                         <img src='./about/g1.jpg' />
                     </div>
@@ -107,7 +145,7 @@ export default function About() {
                         <img src='./about/g6.jpg' />
 
                     </div>
-                </div>
+                </motion.div>
 
 
             </div>
