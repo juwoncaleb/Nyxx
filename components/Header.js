@@ -27,16 +27,26 @@ export default function Header() {
           <img className='logo' src='./logo.png' />
           <div className='flex '>
             <Link href='./About'>
-            <p className='mr-16 mt-6'>About</p>
+              <p className='mr-16 mt-6'>About</p>
             </Link>
             <Link href='./blog'>
-            <p className='mr-16 mt-6'>Blogs</p>
+              <p className='mr-16 mt-6'>Blogs</p>
 
             </Link>
-            <p className='mr-16 mt-6'>features</p>
-            <p className='mr-16 mt-6'>Services</p>
-            <p className='mr-16 mt-6'>Lefgal</p>
+            <Link href="./otc">
+              <p className='mr-16 mt-6'>OTC</p>
+            </Link>
+            <Link href='./card'>
+              <p className='mr-16 mt-6'>Card</p>
 
+            </Link>
+
+            <Link href='./exchange'>
+              <p className='mr-16 mt-6'>Exchange</p>
+            </Link>
+            <Link href='./career'>
+              <p className='mr-16 mt-6'>Career</p>
+            </Link>
             <button className='nav_btn'>
               download  aapp
             </button>
@@ -57,23 +67,29 @@ export default function Header() {
             )}
             {showMenu && (
               <div class="menu">
+                <Link href='./About'>
+                  <motion.p class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 18 }} transition={{ delay: 0.1 }}>
+                    About
+                  </motion.p>
+                </Link>
+                <Link href='./blog'>
+                  <motion.p
+                    class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 19 }} transition={{ delay: 0.2 }}>
+                    Blogs
+                  </motion.p>
+                </Link>
+                <Link href="./otc">
+                  <motion.p
+                    class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 20 }} transition={{ delay: 0.3 }}>
+                    OTC
+                  </motion.p>
+                </Link>
+
                 <motion.p
-                  onClick={() => handleMenuItemClick("div1")} class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 18 }} transition={{ delay: 0.1 }}>
-                  About
-                </motion.p>
-                <motion.p
-                  onClick={() => handleMenuItemClick("div1")} class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 19 }} transition={{ delay: 0.2 }}>
-                  Otc
-                </motion.p>
-                <motion.p
-                  onClick={() => handleMenuItemClick("div1")} class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 20 }} transition={{ delay: 0.3 }}>
-                  Exhange
-                </motion.p> 
-                 <motion.p
-                  onClick={() => handleMenuItemClick("div1")} class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 21 }} transition={{ delay: 0.4 }}>
+                  class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 21 }} transition={{ delay: 0.4 }}>
                   Card
                 </motion.p>
-                <motion.button  initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.5}} class="cta_button mb-2  flex justify-center">
+                <motion.button initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.5 }} class="cta_button mb-2  flex justify-center">
                   <p class="word">Get started</p>
                   <img className="arrow_black" src="https://img.icons8.com/material-outlined/24/null/long-arrow-up.png" />
                 </motion.button>
