@@ -31,10 +31,7 @@ export default function Header() {
             <Link href='./About'>
               <p className='mr-16 mt-6'>About</p>
             </Link>
-            <Link href='./blog'>
-              <p className='mr-16 mt-6'>Blogs</p>
-
-            </Link>
+            
             <Link href="./otc">
               <p className='mr-16 mt-6'>OTC</p>
             </Link>
@@ -75,12 +72,7 @@ export default function Header() {
                     About
                   </motion.p>
                 </Link>
-                <Link href='./blog'>
-                  <motion.p
-                    class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 19 }} transition={{ delay: 0.2 }}>
-                    Blogs
-                  </motion.p>
-                </Link>
+                
                 <Link href="./otc">
                   <motion.p
                     class="mt-6 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 20 }} transition={{ delay: 0.3 }}>

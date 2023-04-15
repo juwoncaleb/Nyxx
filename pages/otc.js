@@ -1,13 +1,17 @@
 import React, { useState } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import { motion, stagger, useScroll, useTransform } from "framer-motion"
+
 export default function otc() {
     const [active, setActive] = useState(null)
 
     return (
         <div className='otc'>
             <Header />
-            <div className='otc_hero'>
+            <motion.div initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }} className='otc_hero'>
                 <p className='otc_text ot'>VIP & personalized crypto OTC for </p>
                 <p className='otc_text'>individuals and businesses</p>
                 <p className='otc_sub ot_s'>Are you an institution, a high volume trader or a new crypto bro, we have</p>
@@ -17,21 +21,31 @@ export default function otc() {
                         Learn more
                     </button>
                 </div>
-            </div>
+            </motion.div>
             <div className='otc_section'>
-                <div className=''>
+                <motion.div 
+                     className=''>
                     <p className='explaination mt-10'>What is OTC?</p>
                     <div className='dets'>
                         <p>Our Over-the-counter (OTC) desk is an exclusive and more personalized service outside of the Patricia</p>
                         <p>App. Where high net-worth individuals can get instant liquidity for their bulk trades, with utmost privacy</p>
                         <p>and the most competitive rates.</p>
-                        <img className='video ' src='./vd.png' />
+                        <motion.img   initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.7 }} className='video ' src='./vd.png' />
                     </div>
-                </div>
+                </motion.div>
+              
+              
                 <div>
-                    <p className='explaination'>Trade on the exchange with the <br /> most benefits</p>
+                    <motion.p  initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.7 }} className='explaination'>Trade on the exchange with the <br /> most benefits</motion.p>
+                    <motion.p  initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.8 }}>Our OTC is designed to give you value for your time and money.</motion.p>
+
                     <div className='dets'>
-                        <p>Our OTC is designed to give you value for your time and money.</p>
                         <div className='grid md:grid-cols-2 gap-8 trade_benefit '>
                             <div className='ot_card'>
                                 <img className='otc_icon' src='./donation.png' />
