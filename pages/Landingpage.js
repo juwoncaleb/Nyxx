@@ -58,59 +58,23 @@ export default function Landingpage() {
             <p className='feature_sub mt-10'>The secure digital asset management platform you can trust with </p>
             <p className='feature_sub'>a strong Next-of-Kin design. Earn 5-20% on your investments.</p>
             <div className='flex mt-8'>
-              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_17_30413)">
-                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
-                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_17_30413">
-                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
-                  </clipPath>
-                </defs>
-              </svg>
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+
               <p className='ml-8'>Fast Transactions</p>
             </div>
             <div className='flex mt-2'>
-              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_17_30413)">
-                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
-                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_17_30413">
-                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
-                  </clipPath>
-                </defs>
-              </svg>
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+
               <p className='ml-8'>Auto Save</p>
             </div>
             <div className='flex mt-2'>
-              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_17_30413)">
-                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
-                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_17_30413">
-                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
-                  </clipPath>
-                </defs>
-              </svg>
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+
               <p className='ml-8'>Fast Transactions</p>
             </div>
             <div className='flex mt-2'>
-              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_17_30413)">
-                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
-                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_17_30413">
-                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
-                  </clipPath>
-                </defs>
-              </svg>
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+
               <p className='ml-8'>Auto Save</p>
             </div>
           </motion.div>
@@ -123,7 +87,7 @@ export default function Landingpage() {
                 : 0.68
             }}
             className='images_Section  '>
-            <img className='lock' src='./phone/phone1.png' />
+            <img className='lock' src='./phone/phone2.png' />
 
           </motion.div>
 
@@ -147,7 +111,7 @@ export default function Landingpage() {
               : 0.6
           }}
           className='verification  '>
-          <img className='code' src='./phone/phone2.png' />
+          <img className='code' src='./phone/phone1.png' />
 
         </motion.div>
 
@@ -277,12 +241,8 @@ export default function Landingpage() {
               : 0.6
           }}
           className="flex  slot_img">
-          <img className='phone' src='./portfolio.png' />
-          <img className='eth' src='./eth.png' />
-
-          <img className='slot' src='./slot.png' />
-          <img className='con coin1' src='./lana.png' />
-          <img className='coin2 con mt-24' src='./btc.png' />
+          <img className='phone' src='./banner.png' />
+          
         </motion.div>
 
         {/* TEXTS */}
@@ -445,7 +405,7 @@ export default function Landingpage() {
         transition={{
           type: 'spring', stiffness: 100, damping: 10, duration
             : 0.66
-        }} className='cta4 mt-24 grid md:flex justify-between'>
+        }} className='cta4 mt-24 grid md:flex justify-around'>
 
         <div className=''>
           <p className=' final_cta mt-20'> <span className='neon'>Download</span> the crypto </p>
@@ -462,7 +422,7 @@ export default function Landingpage() {
             </button>
           </div>
         </div>
-        <img className='land_lap' src='./laptop.png' />
+        <img className='land_lap' src='./float.png' />
       </motion.div>
       <Footer />
     </div>

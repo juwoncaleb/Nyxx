@@ -118,7 +118,7 @@
 
 .text_btn_1 {
     width: 200px;
-    background-color: dodgerblue;
+    background-color: #1971F9;
     color: black;
     border-radius: 25px;
     height: 50px;
@@ -297,6 +297,7 @@
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .truzact_border {
@@ -415,7 +416,6 @@
     height: 600px;
     z-index: 0;
     position: relative;
-    left: 100px;
 }
 
 .card_sub_3 {
@@ -432,7 +432,7 @@
 
 
 .neon {
-    color: dodgerblue;
+    color: #1971F9;
 }
 
 .card {
@@ -450,17 +450,18 @@
 .cta {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 130px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgba(143, 143, 143, 0.507) ;
+    background-color: rgba(143, 143, 143, 0.205) ;
 }
 
 .cta_btn_1 {
     width: 200px;
-    background-color: dodgerblue;
+    background-color: #1971F9;
     height: 60px;
     color: black;
     border-radius: 30px;
@@ -476,8 +477,9 @@
 }
 
 .cta2 {
-    background-color: dodgerblue;
+    background-color: rgba(143, 143, 143, 0.205) ;
     margin-top: 200px;
+    margin-bottom: 160px;
 }
 
 
@@ -537,7 +539,7 @@
 .security {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 180px;
+    margin-top: 250px;
 }
 .hero_buttons{
    align-items: center;
@@ -690,6 +692,9 @@
     .hero_page {
         display: grid;
     }
+}
+.land_lap {
+    width: 700px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -873,7 +878,7 @@
 
     .cta_btn_1 {
         width: 150px;
-        background-color: greenyellow;
+        background-color: #1971F9;
         height: 60px;
         color: black;
         border-radius: 30px;
@@ -925,7 +930,7 @@
 
     .text_btn_1 {
         width: 150px !important;
-        background-color: dodgerblue;
+        background-color: #1971F9;
         color: black;
         border-radius: 25px;
         height: 50px;

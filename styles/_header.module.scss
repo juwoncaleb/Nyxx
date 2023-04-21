@@ -18,9 +18,11 @@
 }
 
 .logo {
-    height: 100px;
+    height: 45px;
     position: relative;
     bottom: 17px;
+    position: relative;
+    top: 0px;
 }
 
 .nav_btn {
@@ -28,7 +30,7 @@
     margin-top: 20px;
     border-radius: 20px;
     width: 150px;
-    background-color: dodgerblue;
+    background-color: #1971F9;
     color: black;
     font-weight: 500;
 }
@@ -44,11 +46,10 @@
         border-radius: 30px !important;
     }
 }
-
 @media only screen and (max-width: 956px) {
     .cta_button {
         margin-top: 15px;
-        background-color: greenyellow;
+        background-color: #1971F9;
         color: black;
         border-radius: 10px;
         margin-top: 6px;
@@ -71,8 +72,11 @@
 
     .header_mob {
         display: flex;
-        margin-left: 5%;
-        margin-right: 5%;
+       padding-left: 20px;
+       padding-right: 20px;
+        background-color: black;
+        padding-bottom: 5px;
+       
     }
 
     .open {
