@@ -7,7 +7,7 @@
 @tailwind components;
 @tailwind utilities;
 .header {
-  background-color: rgb(25, 34, 39);
+  background-color: rgb(1, 5, 14);
   height: 70px;
   position: fixed;
   top: 0;
@@ -92,7 +92,7 @@
 }
 
 .hero_text {
-  margin-top: 190px;
+  margin-top: 140px;
 }
 
 .hero_images {
@@ -100,8 +100,12 @@
   margin-top: 190px;
 }
 
+.hero_section {
+  background-color: rgba(143, 143, 143, 0.507) !important;
+}
+
 .hero_text_main {
-  font-size: 50px;
+  font-size: 58px;
   font-weight: bolder;
 }
 
@@ -119,8 +123,11 @@
 .hero_page {
   margin-left: 5%;
   margin-right: 5%;
-  background-color: white;
-  position: fix;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .feature_head {
@@ -190,6 +197,7 @@
   color: black;
   border-radius: 25px;
   height: 50px;
+  font-weight: 600;
 }
 
 .store {
@@ -245,13 +253,10 @@
   margin-right: 5%;
 }
 
-.hero_text {
-  width: 40%;
-}
-
 .hero_lap {
-  width: 600px;
-  margin-left: 60px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .trader {
@@ -505,7 +510,7 @@
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: rgba(214, 214, 214, 0.664);
+  background-color: rgba(143, 143, 143, 0.507);
 }
 
 .cta_btn_1 {
@@ -581,6 +586,12 @@
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 180px;
+}
+
+.hero_buttons {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .company {
@@ -807,7 +818,7 @@
     font-size: 35px;
   }
   .hero_text_main {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
   }
   .cta3 {

@@ -10,36 +10,34 @@ export default function Landingpage() {
     <div className='land'>
       <Header />
       <div>
-        <motion.div style={{ y }} className='flex justify-between  hero_page '>
-          {/* TEXTS */}
-          <motion.div initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 }} className='hero_text'>
-            <p className='hero_text_main'>Save, Buy & trade</p>
-            <p className='hero_text_main'>cryptocurrency</p>
-            <p className='hero_text_main'>the smart</p>
-            <p className='hero_text_main'>way</p>
-            <p className='mt-4'> Magna et id non quis in sint est enim dolor laborum
-              adipisicing.eniam anim anim voluptate <br />
-              ex eu enim laboris qui duis occaecat labore esse commodo minim
-              . Laborum aliquip ipsum nostrud sint laboris.</p>
-            <div className='flex hero_buttons mb-10 mt-6'>
-              <button className='text_btn_1 mr-6 '>
-                Download 
-              </button>
-              <button className='text_btn_2'>
-                View pricing
-              </button>
-            </div>
-          </motion.div>
-          {/* IMAGE */}
-          <motion.div  initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 , delay:0.25}} className='hero_images '>
-            <img className='hero_lap' src='./laptop.png' />
-          </motion.div>
-        </motion.div>
+        <div className='hero_section'>
+          <motion.div style={{ y }} className=' hero_page '>
+            {/* TEXTS */}
+            <motion.div initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }} className='hero_text'>
+              <p className='hero_text_main'>Save, Buy & trade cryptocurrency</p>
+              <p className='hero_text_main'>the smart way</p>
 
+              <div className='flex hero_buttons mb-14 mt-10'>
+                <button className='text_btn_1 mr-6 '>
+                  Download
+                </button>
+                <button className='text_btn_2'>
+                  View pricing
+                </button>
+              </div>
+            </motion.div>
+            {/* IMAGE */}
+
+          </motion.div>
+          <motion.div initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.25 }} className='hero_lap '>
+            <img className='hero_lap' src='./land2.png' />
+          </motion.div>
+
+        </div>
         <motion.div
 
 
@@ -126,7 +124,7 @@ export default function Landingpage() {
             }}
             className='images_Section  '>
             <img className='lock' src='./phone/phone1.png' />
-           
+
           </motion.div>
 
         </motion.div>
