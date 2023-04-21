@@ -15,7 +15,7 @@ export default function Footer() {
                 <button className='text_btn_2 flex mb-1 mt-1 justify-center'>
                     <p className='mt-3'>  Download the app</p>
                 </button>
-                <img className='ft_img' src='./footer.png' />
+                <img className='ft_img' src='./footer_img.png' />
             </div>
             <div style={color} className='grid md:grid-cols-2 justify-between footerItem '>
                 <div className='foote_items'>

@@ -18,10 +18,7 @@
 
 .logo {
   height: 45px;
-  position: relative;
-  bottom: 17px;
-  position: relative;
-  top: 0px;
+  margin-top: 10px;
 }
 
 .nav_btn {
@@ -613,7 +610,8 @@
 
 @media only screen and (max-width: 974px) {
   .port {
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
   .slot_img {
     order: 2;
@@ -727,7 +725,9 @@
     height: 200px;
   }
   .land_lap {
-    height: 350px;
+    width: 500px;
+    height: 300px;
+    margin-top: 70px;
   }
   .slot_img {
     margin-bottom: 130px;
@@ -769,14 +769,15 @@
     font-size: 40px;
   }
   .hero_lap {
-    width: 550px;
-    margin-left: 20px;
+    width: 700px;
   }
   .phone {
-    height: 400px;
+    height: 350px;
+    width: 350px;
     z-index: 0;
     position: relative;
     left: 50px;
+    margin-top: 50px;
   }
   .slot {
     height: 380px;
@@ -823,9 +824,17 @@
   }
 }
 @media only screen and (max-width: 425px) {
+  .land_lap {
+    width: 500px;
+    height: 250px;
+    margin-top: 70px;
+  }
   .tutorial_text {
     text-align: center;
     font-size: 35px;
+  }
+  .hero_lap {
+    width: 400px;
   }
   .hero_text_main {
     font-size: 30px;
@@ -972,6 +981,21 @@
     position: relative;
     top: 390px;
     right: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .hero_lap {
+    width: 370px;
+  }
+  .land_lap {
+    width: 500px;
+    height: 220px;
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .hero_lap {
+    width: 300px;
   }
 }
 @media only screen and (max-width: 425px) {

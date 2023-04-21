@@ -56,7 +56,7 @@ export default function Header() {
 
       <div style={color} className='header_mob flex justify-between'>
         <Link href='./'>
-          <img className='logo' src='./logo.png' />
+          <img className='logo mt-4' src='./logo.png' />
         </Link>
         <div className=' justify-between header_content'>
           <div className=' '>

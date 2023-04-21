@@ -559,7 +559,9 @@
 
 @media only screen and (max-width: 974px) {
     .port {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+    
     }
 
     .slot_img {
@@ -704,7 +706,9 @@
     }
 
     .land_lap {
-        height: 350px;
+       width: 500px;
+       height: 300px;
+       margin-top: 70px;
     }
 
     .slot_img {
@@ -756,17 +760,18 @@
     }
 
     .hero_lap {
-        width: 550px;
-        margin-left: 20px;
+        width: 700px;
     }
 
 
 
     .phone {
-        height: 400px;
+        height: 350px;
+        width: 350px;
         z-index: 0;
         position: relative;
         left: 50px;
+        margin-top: 50px;
     }
 
     .slot {
@@ -825,9 +830,17 @@
 }
 
 @media only screen and (max-width: 425px) {
+    .land_lap {
+        width: 500px;
+        height: 250px;
+        margin-top: 70px;
+     }
     .tutorial_text {
         text-align: center;
         font-size: 35px;
+    }
+    .hero_lap {
+        width: 400px;
     }
 
     .hero_text_main {
@@ -1009,6 +1022,21 @@
 
 }
 
+@media only screen and (max-width: 375px) {
+    .hero_lap {
+        width: 370px;
+    }
+    .land_lap {
+        width: 500px;
+        height: 220px;
+        margin-top: 70px;
+     }
+}
+@media only screen and (max-width: 320px) {
+    .hero_lap {
+        width: 300px;
+    }
+}
 @media only screen and (max-width: 425px) {
     .slot_img {
         order: 2;
