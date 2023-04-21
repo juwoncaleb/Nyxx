@@ -125,9 +125,8 @@ export default function Landingpage() {
                 : 0.68
             }}
             className='images_Section  '>
-            <img className='lock' src='./lock.png' />
-            <img className='graph' src='./graph.png' />
-            <img className='btc' src='./btc.png' />
+            <img className='lock' src='./phone/phone1.png' />
+           
           </motion.div>
 
         </motion.div>
@@ -150,8 +149,7 @@ export default function Landingpage() {
               : 0.6
           }}
           className='verification  '>
-          <img className='code' src='./code.png' />
-          <img className='padlock' src="./padlock.png" />
+          <img className='code' src='./phone/phone2.png' />
 
         </motion.div>
 

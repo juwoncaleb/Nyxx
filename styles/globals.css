@@ -503,6 +503,8 @@
   margin-top: 130px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: rgba(214, 214, 214, 0.664);
 }
 
@@ -2114,8 +2116,8 @@
 }
 
 .card_section {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: Archivo;
   padding-top: 100px;
 }
@@ -2172,7 +2174,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 250px;
-  background-color: rgb(56, 56, 56);
+  background-color: rgba(172, 172, 172, 0.781);
   max-width: 1200px;
 }
 
@@ -2188,7 +2190,7 @@
 }
 
 .steps {
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(190, 190, 190);
   height: 250px;
   padding-top: 50px;
   padding-left: 25px;
@@ -2446,7 +2448,7 @@
 
 .ot_card {
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.61);
+  border: 2px solid black;
   padding-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
@@ -2639,8 +2641,8 @@
   }
 }
 .exchange {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: Archivo;
 }
 
