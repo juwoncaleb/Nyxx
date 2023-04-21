@@ -1,9 +1,9 @@
 .land {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: Archivo;
 }
-
+ 
 .hero_text{
     margin-top: 190px;
 }
@@ -34,7 +34,7 @@
 .hero_page {
     margin-left: 5%;
     margin-right: 5%;
-    background-color: black;
+    background-color: white;
     position: fix;
 }
 
@@ -111,7 +111,7 @@
 
 .text_btn_1 {
     width: 200px;
-    background-color: greenyellow;
+    background-color: dodgerblue;
     color: black;
     border-radius: 25px;
     height: 50px;
@@ -260,7 +260,7 @@
 
 .text_btn_2 {
     width: 200px;
-    background-color: black;
+    background-color: rgb(25, 34, 39);
     color: white;
     border-radius: 25px;
     height: 50px;
@@ -427,7 +427,7 @@
 
 
 .neon {
-    color: greenyellow;
+    color: dodgerblue;
 }
 
 .card {
@@ -450,7 +450,7 @@
 
 .cta_btn_1 {
     width: 200px;
-    background-color: greenyellow;
+    background-color: dodgerblue;
     height: 60px;
     color: black;
     border-radius: 30px;
@@ -461,10 +461,12 @@
     border: 1px solid ghostwhite;
     height: 60px;
     border-radius: 30px;
+    background-color: rgb(25, 34, 39);
+    color: white;
 }
 
 .cta2 {
-    background-color: greenyellow;
+    background-color: dodgerblue;
     margin-top: 200px;
 }
 
@@ -901,7 +903,7 @@
 
     .text_btn_1 {
         width: 150px !important;
-        background-color: greenyellow;
+        background-color: dodgerblue;
         color: black;
         border-radius: 25px;
         height: 50px;

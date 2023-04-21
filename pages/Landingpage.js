@@ -25,7 +25,7 @@ export default function Landingpage() {
               . Laborum aliquip ipsum nostrud sint laboris.</p>
             <div className='flex hero_buttons mb-10 mt-6'>
               <button className='text_btn_1 mr-6 '>
-                Download
+                Download 
               </button>
               <button className='text_btn_2'>
                 View pricing

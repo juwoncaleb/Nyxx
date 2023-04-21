@@ -93,6 +93,11 @@
     font-size: 30px;
 }
 
+.arroww {
+   
+    transform: rotate(90deg);
+}
+
 .working {
     text-align: center;
     font-size: 35px;
@@ -140,7 +145,7 @@
     }
 
     .arroww {
-        width: 25px;
+        transform: rotate(90deg);
     }
 
     .bannerz {

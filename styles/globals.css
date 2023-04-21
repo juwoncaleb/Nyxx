@@ -7,7 +7,7 @@
 @tailwind components;
 @tailwind utilities;
 .header {
-  background-color: black;
+  background-color: rgb(25, 34, 39);
   height: 70px;
   position: fixed;
   top: 0;
@@ -27,7 +27,7 @@
   margin-top: 20px;
   border-radius: 20px;
   width: 150px;
-  background-color: greenyellow;
+  background-color: dodgerblue;
   color: black;
   font-weight: 500;
 }
@@ -86,8 +86,8 @@
   }
 }
 .land {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: Archivo;
 }
 
@@ -119,7 +119,7 @@
 .hero_page {
   margin-left: 5%;
   margin-right: 5%;
-  background-color: black;
+  background-color: white;
   position: fix;
 }
 
@@ -186,7 +186,7 @@
 
 .text_btn_1 {
   width: 200px;
-  background-color: greenyellow;
+  background-color: dodgerblue;
   color: black;
   border-radius: 25px;
   height: 50px;
@@ -324,7 +324,7 @@
 
 .text_btn_2 {
   width: 200px;
-  background-color: black;
+  background-color: rgb(25, 34, 39);
   color: white;
   border-radius: 25px;
   height: 50px;
@@ -483,7 +483,7 @@
 }
 
 .neon {
-  color: greenyellow;
+  color: dodgerblue;
 }
 
 .card {
@@ -505,7 +505,7 @@
 
 .cta_btn_1 {
   width: 200px;
-  background-color: greenyellow;
+  background-color: dodgerblue;
   height: 60px;
   color: black;
   border-radius: 30px;
@@ -516,10 +516,12 @@
   border: 1px solid ghostwhite;
   height: 60px;
   border-radius: 30px;
+  background-color: rgb(25, 34, 39);
+  color: white;
 }
 
 .cta2 {
-  background-color: greenyellow;
+  background-color: dodgerblue;
   margin-top: 200px;
 }
 
@@ -882,7 +884,7 @@
   }
   .text_btn_1 {
     width: 150px !important;
-    background-color: greenyellow;
+    background-color: dodgerblue;
     color: black;
     border-radius: 25px;
     height: 50px;
@@ -1009,7 +1011,7 @@
 }
 
 .footer_img {
-  background-color: greenyellow;
+  background-color: dodgerblue;
   text-align: left;
   width: 600px;
   padding-left: 80px;
@@ -1472,9 +1474,9 @@
   }
 }
 .about_us {
-  color: white;
+  color: black;
   font-family: Archivo;
-  background-color: black;
+  background-color: white;
 }
 
 .team_member {
@@ -2199,6 +2201,10 @@
   font-size: 30px;
 }
 
+.arroww {
+  transform: rotate(90deg);
+}
+
 .working {
   text-align: center;
   font-size: 35px;
@@ -2242,7 +2248,7 @@
     margin-bottom: 50px;
   }
   .arroww {
-    width: 25px;
+    transform: rotate(90deg);
   }
   .bannerz {
     width: 400px;
@@ -2344,8 +2350,8 @@
   }
 }
 .otc {
-  background-color: black;
-  color: white !important;
+  background-color: white;
+  color: black !important;
   font-family: Archivo;
 }
 
@@ -2362,7 +2368,7 @@
 }
 
 .otc_hero {
-  background-color: rgb(24, 24, 24) !important;
+  background-color: rgba(226, 216, 216, 0.356) !important;
   padding-top: 150px;
   padding-bottom: 50px;
 }
@@ -2395,7 +2401,7 @@
 
 .learmn {
   width: 250px;
-  background-color: greenyellow;
+  background-color: dodgerblue;
   height: 70px;
   font-size: 20px;
   color: black;
@@ -2467,7 +2473,7 @@
 .onboard_number {
   height: 50px;
   width: 50px;
-  background-color: greenyellow;
+  background-color: dodgerblue;
   border-radius: 10px;
   text-align: center;
   padding-top: 10px;
@@ -2477,7 +2483,7 @@
 }
 
 .vl {
-  border-left: 4px solid greenyellow;
+  border-left: 4px solid dodgerblue;
   height: 200px;
   position: relative;
   left: 28px;
