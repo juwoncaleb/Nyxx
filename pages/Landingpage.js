@@ -241,7 +241,7 @@ export default function Landingpage() {
             type: 'spring', stiffness: 100, damping: 10, duration
               : 0.6
           }}
-          className="flex  slot_img">
+          className="flex  ">
           <img className='phone' src='https://ik.imagekit.io/juwoncaleb/banner_tlymfmQ-nc.webp?updatedAt=1682341830945' />
           
         </motion.div>
@@ -295,7 +295,7 @@ export default function Landingpage() {
             </div>
             <div className='step1 flex justify-around'>
               <div className='flex justify-around'>
-                <img className='icon ' src='./wall.png' />
+                <img className='icon 'src='https://ik.imagekit.io/juwoncaleb/wall_9TZHPxkvK1.webp?updatedAt=1682341533272' />
                 <p className='step2'>Download the app</p>
               </div>
             </div>
