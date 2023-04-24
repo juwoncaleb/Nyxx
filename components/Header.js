@@ -43,9 +43,7 @@ export default function Header() {
             <Link href='./exchange'>
               <p className='mr-16 mt-6'>Exchange</p>
             </Link>
-            <Link href='./blog'>
-              <p className='mr-16 mt-6'>Blogs</p>
-            </Link>
+           
             <Link href='./career'>
               <p className='mr-16 mt-6'>Career</p>
             </Link>
@@ -94,19 +92,14 @@ export default function Header() {
                     Exchange
                   </motion.p>
                 </Link>
-                <Link href='./blog'>
-                  <motion.p
-                    class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 23 }} transition={{ delay: 0.5 }}>
-                    Blogs
-                  </motion.p>
-                </Link>
+                
                 <Link href='./career'>
                   <motion.p
-                    class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 23 }} transition={{ delay: 0.6}}>
+                    class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 23 }} transition={{ delay: 0.5}}>
                     Career
                   </motion.p>
                 </Link>
-                <motion.button initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.7}} class="cta_button mb-8  flex justify-center">
+                <motion.button initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.6}} class="cta_button mb-8  flex justify-center">
                   <p class="word">Get started</p>
                   <img className="arrow_black" src="https://img.icons8.com/material-outlined/24/null/long-arrow-up.png" />
                 </motion.button>
