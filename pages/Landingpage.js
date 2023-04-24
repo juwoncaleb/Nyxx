@@ -34,7 +34,7 @@ export default function Landingpage() {
           <motion.div initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.25 }} className='hero_lap '>
-            <img className='hero_lap' src='./land2.png' />
+            <img className='hero_lap' src='https://ik.imagekit.io/juwoncaleb/land2_TFDslvSNw.webp?updatedAt=1682340752799' />
           </motion.div>
 
         </div>
@@ -87,7 +87,7 @@ export default function Landingpage() {
                 : 0.68
             }}
             className='images_Section  '>
-            <img className='lock' src='./phone/phone2.png' />
+            <img className='lock' src='https://ik.imagekit.io/juwoncaleb/phone2_qq_ffdkw3.webp?updatedAt=1682341085477' />
 
           </motion.div>
 
@@ -111,7 +111,7 @@ export default function Landingpage() {
               : 0.6
           }}
           className='verification  '>
-          <img className='code' src='./phone/phone1.png' />
+          <img className='code' src='https://ik.imagekit.io/juwoncaleb/phone1_tuD7wOwZV.webp?updatedAt=1682341285038' />
 
         </motion.div>
 
@@ -196,33 +196,34 @@ export default function Landingpage() {
             <p className='learn'>Learn More</p>
             <img className='arroww ml-4' src="./arrow.png" />
           </div>
-          <img className='bills mb-4 mt-4' src='./b2.png' />
+          <img className='bills mb-4 mt-4' src='https://ik.imagekit.io/juwoncaleb/b2_yr29hXcGs.webp?updatedAt=1682341388785' />
+
 
         </div>
 
 
         <div className='truzact_border'>
-          <img className='icon mb-2 mt-20' src='./wall.png' />
+          <img className='icon mb-2 mt-20' src='https://ik.imagekit.io/juwoncaleb/wall_9TZHPxkvK1.webp?updatedAt=1682341533272' />
           <p className='kin mb-6 '>Secure and encripted wallet</p>
           <p className=''>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
 
         </div>
         <div className='truzact_border'>
-          <img className='transfer mb-6 mt-20' src='./tranfer.png' />
+          <img className='transfer mb-6 mt-20' src='https://ik.imagekit.io/juwoncaleb/tranfer_VjlGiJ8238.webp?updatedAt=1682341532216' />
           <p className='kin mb-6 '>Fast Tranfer</p>
           <p className=''>Deposit , sell, swap assests on Truzact in minutes  </p>
           <p>Tranfer ca be done with username or phone number on contact list</p>
 
         </div>
         <div className='truzact_border'>
-          <img className='icon mb-6 mt-20' src='./donation.png' />
+          <img className='icon mb-6 mt-20' src='https://ik.imagekit.io/juwoncaleb/donation_vGJHI40V9.webp?updatedAt=1682341533399' />
           <p className='kin mb-6 '>Donation</p>
           <p className=''>Raise funds from private and public donations from   </p>
           <p className=''>anyone on the globe with the use of uniquw donation link, which can be shared to anyone </p>
 
         </div>
         <div className='truzact_border'>
-          <img className='icon mb-2 mt-20' src='./referral.png' />
+          <img className='icon mb-2 mt-20' src='https://ik.imagekit.io/juwoncaleb/referral_yOfuqfLoz.webp?updatedAt=1682341615510' />
           <p className='kin mb-6 '>Refferal</p>
           <p className=''>$10 worth of USDT commission when the person you referred saves or invest in Truzact 🙌🏽</p>
           <p>Eiusmod eu commodo quis officia minim ut velit quis.</p>
@@ -241,7 +242,7 @@ export default function Landingpage() {
               : 0.6
           }}
           className="flex  slot_img">
-          <img className='phone' src='./banner.png' />
+          <img className='phone' src='https://ik.imagekit.io/juwoncaleb/banner_tlymfmQ-nc.webp?updatedAt=1682341830945' />
           
         </motion.div>
 
