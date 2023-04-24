@@ -98,7 +98,7 @@ export default function Career() {
                         <p className='hero_text_main mb-4'>Company <span className='neon'>perks</span></p>
                         <p>Occaecat aute quis excepteur laborum adipisicing. Sit esse reprehllamco est ex anim irure est labore  ullamco laboris.</p>
                         <div className='flex mb-10 mt-6'>
-                            <button className='text_btn_1 mr-6 '>
+                            <button className='text_btn_1 mr-6'>
                                 Browse positions
                             </button>
 
