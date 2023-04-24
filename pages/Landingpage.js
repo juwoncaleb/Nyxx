@@ -232,7 +232,7 @@ export default function Landingpage() {
 
       <div
 
-        className=' mb-10 port cta2 flex justify-between '>
+        className=' mb-10 port cta2 flex justify-around '>
         {/* IMAGES */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
