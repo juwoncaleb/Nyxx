@@ -65,11 +65,11 @@ export default function Blog() {
                     <img className='blog_img' src='./blog/pc.png' />
                 </div>
             </div>
-            <div>
+            <div className='blogz'>
                 <div className='flex justify-between blog_button'>
                     <p className='latest'><span className='neon'>Latest</span> articles</p>
                     <div>
-                        <button className='mr-6 blog_btn' style={activeButton === 1 ? divStyle : newSt} onClick={() => { setActiveButton(1) }}>All</button>
+                        <button className='mr-6 blog_btn mt-4' style={activeButton === 1 ? divStyle : newSt} onClick={() => { setActiveButton(1) }}>All</button>
                         <button className='mr-6 blog_btn' style={activeButton === 2 ? divStyle : newSt} onClick={() => setActiveButton(2)}>Finance </button>
                         <button className='mr-6 blog_btn' style={activeButton === 3 ? divStyle : newSt} onClick={() => setActiveButton(3)}>Legal</button>
                         <button className='mr-6 blog_btn' style={activeButton === 4 ? divStyle : newSt} onClick={() => setActiveButton(4)}>Business</button>

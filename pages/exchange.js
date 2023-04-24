@@ -7,7 +7,7 @@ export default function Exchange() {
     return (
         <div className='exchange'>
             <Header />
-            <div className='flex justify-center exchange_hero'>
+            <div className='flex justify-around exchange_hero'>
                 <motion.div  initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }} >
@@ -27,7 +27,7 @@ export default function Exchange() {
                 </motion.div>
                 <motion.img  initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 , delay:0.25}} className='exhange_hero_img' src='./exchange/hero.png' />
+                transition={{ duration: 0.5 , delay:0.25}} className='exhange_hero_img' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__7__2-s1DxrVgD.webp?updatedAt=1682345789735' />
             </div>
             <div className='flex justify-center exchange_steps'>
                 {/* TEXT */}

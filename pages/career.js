@@ -31,7 +31,7 @@ export default function Career() {
                     </div>
                     <motion.img initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5, delay: 0.25 }} src='./career/tower.png' />
+                        transition={{ duration: 0.5, delay: 0.25 }} src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__8__h8kbtte1_E.webp?updatedAt=1682346262053' />
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -89,7 +89,7 @@ export default function Career() {
                         transition={{
                             type: 'spring', stiffness: 100, damping: 10, duration
                                 : 0.8, delay: 0.25
-                        }} className='pc' src='./career/pc.png' />
+                        }} className='pc' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__9__yiZulh81u1.webp?updatedAt=1682346382006' />
 
                     <motion.div initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}

@@ -1,8 +1,8 @@
 .blogsPost {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: Archivo;
-
+padding-top: 100px;
 
 }
 
@@ -72,7 +72,7 @@
 .newletter {
     margin-top: 170px;
     height: 700px;
-    background-color: #1971F9;
+    background-color: greenyellow;
 }
 
 .all {
@@ -126,7 +126,7 @@
     border: 1px solid black;
     height: 50px;
     margin-top: 20px;
-    background-color: #1971F9;
+    background-color: greenyellow;
 }
 
 .subs {
@@ -144,8 +144,14 @@
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+.blogz{
+    background-color: rgba(128, 128, 128, 0.281);
+
+}
 .latest {
     font-size: 48px;
 }

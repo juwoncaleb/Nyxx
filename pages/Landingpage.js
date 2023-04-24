@@ -58,23 +58,59 @@ export default function Landingpage() {
             <p className='feature_sub mt-10'>The secure digital asset management platform you can trust with </p>
             <p className='feature_sub'>a strong Next-of-Kin design. Earn 5-20% on your investments.</p>
             <div className='flex mt-8'>
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-
+<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_17_30413)">
+                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
+                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_17_30413">
+                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
+                  </clipPath>
+                </defs>
+              </svg>
               <p className='ml-8'>Fast Transactions</p>
             </div>
             <div className='flex mt-2'>
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-
+<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_17_30413)">
+                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
+                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_17_30413">
+                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
+                  </clipPath>
+                </defs>
+              </svg>
               <p className='ml-8'>Auto Save</p>
             </div>
             <div className='flex mt-2'>
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-
+<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_17_30413)">
+                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
+                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_17_30413">
+                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
+                  </clipPath>
+                </defs>
+              </svg>
               <p className='ml-8'>Fast Transactions</p>
             </div>
             <div className='flex mt-2'>
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-
+<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_17_30413)">
+                  <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
+                  <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_17_30413">
+                    <rect width="26" height="26" fill="white" transform="translate(0.998047 0.648438)" />
+                  </clipPath>
+                </defs>
+              </svg>
               <p className='ml-8'>Auto Save</p>
             </div>
           </motion.div>
@@ -87,7 +123,7 @@ export default function Landingpage() {
                 : 0.68
             }}
             className='images_Section  '>
-            <img className='lock' src='https://ik.imagekit.io/juwoncaleb/phone2_qq_ffdkw3.webp?updatedAt=1682341085477' />
+            <img className='lock' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__12__fQHY5HTai.webp?updatedAt=1682348117333' />
 
           </motion.div>
 
@@ -111,7 +147,7 @@ export default function Landingpage() {
               : 0.6
           }}
           className='verification  '>
-          <img className='code' src='https://ik.imagekit.io/juwoncaleb/phone1_tuD7wOwZV.webp?updatedAt=1682341285038' />
+          <img className='code' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__11__SIxx6qgSzP.webp?updatedAt=1682347997120' />
 
         </motion.div>
 
@@ -324,7 +360,7 @@ export default function Landingpage() {
               <img className='test_img mr-6 ml-8' src='https://ik.imagekit.io/juwoncaleb/john_IaDXPIV4r.webp?updatedAt=1682342577253' />
               <div>
                 <p>John Carter</p>
-                <p className='neon'>@johncarter</p>
+                <p className=''>@johncarter</p>
               </div>
             </div>
           </motion.div>
@@ -340,7 +376,7 @@ export default function Landingpage() {
               <img className='test_img mr-6 ml-8' src='https://ik.imagekit.io/juwoncaleb/jc_cY9hLvgJe.webp?updatedAt=1682342577385' />
               <div>
                 <p>Soneye Omojuwon</p>
-                <p className='neon'>@juwoncaleb</p>
+                <p className=''>@juwoncaleb</p>
               </div>
             </div>
           </motion.div>
@@ -356,7 +392,7 @@ export default function Landingpage() {
               <img className='test_img mr-6' src='https://ik.imagekit.io/juwoncaleb/sophie_EbqfTzSZQ.webp?updatedAt=1682342577189' />
               <div>
                 <p>charles kenths</p>
-                <p className='neon'>@charlie</p>
+                <p className=''>@charlie</p>
               </div>
             </div>
           </motion.div>
@@ -373,7 +409,7 @@ export default function Landingpage() {
           <p className='tutorial_text  '>Latest <span className='neon'>Blogs</span> </p>
         </div>
         <div className=' grid md:grid-cols-2 grid-cols-1 gap-4'>
-          <div className=''>
+          <div className='blogborder'>
             <img src='https://ik.imagekit.io/juwoncaleb/blog1_oNnCwpDLg.webp?updatedAt=1682342873074' />
             <p className='date'>Apps - Jan 6, 2023</p>
             <p className='title'>Best platform to trade BTC </p>
@@ -384,7 +420,7 @@ export default function Landingpage() {
             </div>
 
           </div>
-          <div className=''>
+          <div className='blogborder'>
             <img src='https://ik.imagekit.io/juwoncaleb/blog2_57tz5OS3d.webp?updatedAt=1682342872568' />
             <p className='date'>Products - Jan 6, 2023</p>
             <p className='title'>What is the best & most secure  </p>
@@ -423,7 +459,7 @@ export default function Landingpage() {
             </button>
           </div>
         </div>
-        <img className='land_lap' src='https://ik.imagekit.io/juwoncaleb/float_pItbD-kUd7.webp?updatedAt=1682343008690' />
+        <img className='land_lap' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__10__pzJV_46yB8.webp?updatedAt=1682347741640' />
       </motion.div>
       <Footer />
     </div>

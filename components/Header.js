@@ -25,7 +25,7 @@ export default function Header() {
       <div style={color} className='header'>
         <div className='flex justify-between header_content'>
           <Link href='/'>
-          <img className='logo' src='./logo.png' />
+          <img className='logo' src='https://ik.imagekit.io/juwoncaleb/24299_451616_JRSH0nPB2.jpg?updatedAt=1682348309296' />
           </Link>
           <div className='flex navmenu '>
             <Link href='./About'>
@@ -43,6 +43,9 @@ export default function Header() {
             <Link href='./exchange'>
               <p className='mr-16 mt-6'>Exchange</p>
             </Link>
+            <Link href='./blogs'>
+              <p className='mr-16 mt-6'>Blogs</p>
+            </Link>
             <Link href='./career'>
               <p className='mr-16 mt-6'>Career</p>
             </Link>
@@ -56,7 +59,7 @@ export default function Header() {
 
       <div style={color} className='header_mob flex justify-between'>
         <Link href='./'>
-          <img className='logo mt-4' src='./logo.png' />
+          <img className='logo mt-4' src='https://ik.imagekit.io/juwoncaleb/24299_451616_JRSH0nPB2.jpg?updatedAt=1682348309296' />
         </Link>
         <div className=' justify-between header_content'>
           <div className=' '>
@@ -91,9 +94,15 @@ export default function Header() {
                     Exchange
                   </motion.p>
                 </Link>
-                <Link href='./career'>
+                <Link href='./blog'>
                   <motion.p
                     class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 23 }} transition={{ delay: 0.5 }}>
+                    Blogs
+                  </motion.p>
+                </Link>
+                <Link href='./career'>
+                  <motion.p
+                    class="mt-4 mb-8 text-center cursor-pointer" initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 23 }} transition={{ delay: 0.6}}>
                     Career
                   </motion.p>
                 </Link>

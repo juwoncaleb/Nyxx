@@ -17,7 +17,7 @@
 }
 
 .logo {
-  height: 45px;
+  height: 55px;
   margin-top: 10px;
 }
 
@@ -26,7 +26,7 @@
   margin-top: 20px;
   border-radius: 20px;
   width: 150px;
-  background-color: #1971F9;
+  background-color: greenyellow;
   color: black;
   font-weight: 500;
 }
@@ -45,7 +45,7 @@
 @media only screen and (max-width: 956px) {
   .cta_button {
     margin-top: 15px;
-    background-color: #1971F9;
+    background-color: greenyellow;
     color: black;
     border-radius: 10px;
     margin-top: 6px;
@@ -194,7 +194,7 @@
 
 .text_btn_1 {
   width: 200px;
-  background-color: #1971F9;
+  background-color: greenyellow;
   color: black;
   border-radius: 25px;
   height: 50px;
@@ -489,7 +489,7 @@
 }
 
 .neon {
-  color: #1971F9;
+  color: greenyellow;
 }
 
 .card {
@@ -504,6 +504,7 @@
 }
 
 .cta {
+  color: white;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 200px;
@@ -512,12 +513,12 @@
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: rgba(143, 143, 143, 0.205);
+  background-color: rgb(0, 0, 0);
 }
 
 .cta_btn_1 {
   width: 200px;
-  background-color: #1971F9;
+  background-color: greenyellow;
   height: 60px;
   color: black;
   border-radius: 30px;
@@ -532,10 +533,16 @@
   color: white;
 }
 
+.blogborder {
+  border: 2px solid black;
+}
+
 .cta2 {
-  background-color: rgba(143, 143, 143, 0.205);
+  background-color: rgb(12, 12, 12);
   margin-top: 200px;
   margin-bottom: 160px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .btclana {
@@ -875,7 +882,7 @@
   }
   .cta_btn_1 {
     width: 150px;
-    background-color: #1971F9;
+    background-color: greenyellow;
     height: 60px;
     color: black;
     border-radius: 30px;
@@ -908,21 +915,21 @@
     display: flex;
   }
   .text_btn_2 {
-    width: 150px;
+    width: 120px !important;
     background-color: black;
     color: white;
     border-radius: 25px;
-    height: 50px;
+    height: 42px !important;
     border: 1px solid white;
     font-weight: 600;
     font-size: 14px;
   }
   .text_btn_1 {
-    width: 150px !important;
-    background-color: #1971F9;
+    width: 120px !important;
+    background-color: greenyellow;
     color: black;
     border-radius: 25px;
-    height: 50px;
+    height: 40px !important;
     font-weight: 600;
     font-size: 14px;
   }
@@ -1061,7 +1068,7 @@
 }
 
 .footer_img {
-  background-color: dodgerblue;
+  background-color: greenyellow;
   text-align: left;
   width: 600px;
   padding-left: 80px;
@@ -1844,9 +1851,10 @@
   }
 }
 .blogsPost {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: Archivo;
+  padding-top: 100px;
 }
 
 .resource {
@@ -1913,7 +1921,7 @@
 .newletter {
   margin-top: 170px;
   height: 700px;
-  background-color: #1971F9;
+  background-color: greenyellow;
 }
 
 .all {
@@ -1967,7 +1975,7 @@
   border: 1px solid black;
   height: 50px;
   margin-top: 20px;
-  background-color: #1971F9;
+  background-color: greenyellow;
 }
 
 .subs {
@@ -1985,6 +1993,12 @@
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blogz {
+  background-color: rgba(128, 128, 128, 0.281);
 }
 
 .latest {
@@ -1997,8 +2011,8 @@
 }
 
 .career {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .career_hero {
@@ -2786,8 +2800,9 @@
     margin-top: 200px;
   }
   .exhange_hero_img {
+    margin-top: 100px;
     width: 500px;
-    height: 500px;
+    height: 400px;
   }
 }
 @media only screen and (max-width: 910px) {
@@ -2802,8 +2817,8 @@
     color: black;
   }
   .exhange_hero_img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin-top: 60px;
   }
   .exchange_steps {
@@ -2843,7 +2858,7 @@
     font-weight: 900;
   }
   .exhange_hero_img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
 }/*# sourceMappingURL=globals.css.map */
