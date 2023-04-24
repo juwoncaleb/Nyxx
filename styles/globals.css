@@ -899,6 +899,7 @@
     position: relative;
     left: 0px !important;
     margin-top: 70px;
+    right: 20px;
   }
   .graph {
     z-index: 1;
@@ -919,6 +920,7 @@
   .images_Section {
     width: 100%;
     display: flex;
+    padding-left: 50px;
   }
   .text_btn_2 {
     width: 120px !important;
@@ -941,6 +943,7 @@
   }
   .verification {
     margin-top: 250px;
+    padding-right: 50px;
   }
   .slot_img {
     order: 2;
