@@ -19,10 +19,10 @@ export default function About() {
                     <motion.div initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1 }} className='flex justify-center'>
-                        <img className='about_eth' src='./about/eth.png' />
-                        <img className='about_sola' src='./about/sola.png' />
-                        <img className='about_btc' src='./about/btc.png' />
-                        <img className='about_lana' src='./about/lana.png' />
+                        <img className='about_eth' src='https://ik.imagekit.io/juwoncaleb/eth__1__1GaOYOuH_.webp?updatedAt=1682343293218' />
+                        <img className='about_sola' src='https://ik.imagekit.io/juwoncaleb/sola_PoGlH7BsUt.webp?updatedAt=1682343293138' />
+                        <img className='about_btc' src='https://ik.imagekit.io/juwoncaleb/btc__1__6qFN1z1Dd.webp?updatedAt=1682343292962' />
+                        <img className='about_lana' src='https://ik.imagekit.io/juwoncaleb/lana_mEDSmDL4s.webp?updatedAt=1682343292930' />
                     </motion.div>
 
 
@@ -30,7 +30,7 @@ export default function About() {
                 <motion.div initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.7 }}>
-                    <img className='globe' src='./about/abt.png' />
+                    <img className='globe' src='https://ik.imagekit.io/juwoncaleb/abt_JIb7h_Xp2.webp?updatedAt=1682343763786' />
                 </motion.div>
 
             </div>
@@ -87,7 +87,7 @@ export default function About() {
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 0.6
                     }} >
-                    <img className='system' src='./about/system.png' />
+                    <img className='system' src='https://ik.imagekit.io/juwoncaleb/system_xTG4notD3.webp?updatedAt=1682343748843' />
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -123,26 +123,26 @@ export default function About() {
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 0.8
-                    }}  className='grid grid-cols-3'>
+                    }}  className='grid gap-2 grid-cols-3'>
                     <div className='team_card'>
-                        <img src='./about/g1.jpg' />
+                        <img src='https://ik.imagekit.io/juwoncaleb/g1_ioneQ97Iw.webp?updatedAt=1682343748212' />
                     </div>
                     <div>
-                        <img src='./about/g2.jpg' />
+                        <img src='https://ik.imagekit.io/juwoncaleb/g2_wnPKL3QjS.webp?updatedAt=1682343748961' />
 
                     </div> <div>
-                        <img src='./about/g3.jpg' />
+                        <img src='https://ik.imagekit.io/juwoncaleb/g5_6pDSwyvg2.webp?updatedAt=1682343748438' />
 
                     </div>
                     <div>
-                        <img src='./about/g4.jpg' />
+                        <img src='https://ik.imagekit.io/juwoncaleb/g3_ZWIvO8uvkV.webp?updatedAt=1682343749111' />
 
                     </div>
                     <div>
-                        <img src='./about/g5.jpg' />
+                        <img src='https://ik.imagekit.io/juwoncaleb/g6_CBu9XoKd6.webp?updatedAt=1682343748833' />
 
                     </div> <div>
-                        <img src='./about/g6.jpg' />
+                        <img src='https://ik.imagekit.io/juwoncaleb/g5_6pDSwyvg2.webp?updatedAt=1682343748438' />
 
                     </div>
                 </motion.div>

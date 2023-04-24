@@ -40,7 +40,7 @@ export default function Otc() {
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
                                     : 0.6
-                            }} className='video ' src='./vd.png' />
+                            }} className='video ' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker_Maeqt39zy.webp?updatedAt=1682344376898' />
                     </motion.div>
                 </motion.div>
 
@@ -63,7 +63,7 @@ export default function Otc() {
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 1
                                 }} className='ot_card'>
-                                <img className='otc_icon' src='./donation.png' />
+                                <img className='otc_icon'  src='https://ik.imagekit.io/juwoncaleb/wall_9TZHPxkvK1.webp?updatedAt=1682341533272' />
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
 
@@ -74,7 +74,7 @@ export default function Otc() {
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 1.5
                                 }} className='ot_card'>
-                                <img className='otc_icon' src='./referral.png' />
+                                <img className='otc_icon' src='https://ik.imagekit.io/juwoncaleb/tranfer_VjlGiJ8238.webp?updatedAt=1682341532216' />
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
 
@@ -85,7 +85,7 @@ export default function Otc() {
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 2
                                 }} className='ot_card'>
-                                <img className='otc_icon' src='./wall.png' />
+                                <img className='otc_icon' src='https://ik.imagekit.io/juwoncaleb/donation_vGJHI40V9.webp?updatedAt=1682341533399' />
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
 
@@ -96,7 +96,7 @@ export default function Otc() {
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 2.5
                                 }} className='ot_card'>
-                                <img className='otc_icon' src='./tranfer.png' />
+                                <img className='otc_icon'src='https://ik.imagekit.io/juwoncaleb/referral_yOfuqfLoz.webp?updatedAt=1682341615510'/>
                                 <p className='otc_Card_icon'>Personalized trading experience</p>
                                 <p>Occaecat dolor incididunt excepteur aliqua officia tempor mollit veniam dolor dolore reprehenderit velit nulla irure.</p>
                             </motion.div>
@@ -218,7 +218,7 @@ export default function Otc() {
                                     transition={{
                                         type: 'spring', stiffness: 100, damping: 10, duration
                                             : 2
-                                    }} className='onBoard_laptop' src='./laptop.png' />
+                                    }} className='onBoard_laptop' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__1__mb2Nws7-A.webp?updatedAt=1682344768028' />
                     </div>
                 </div>
                 <div class="button-container ">

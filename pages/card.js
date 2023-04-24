@@ -13,7 +13,7 @@ export default function Card() {
                 transition={{ duration: 0.5 }} className='card_text'>TRUZACT CARD</motion.p>
             <motion.img initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.3 }} className='card_truzact mt-10' src='./card/card.png' />
+                transition={{ duration: 0.5, delay: 0.3 }} className='card_truzact mt-10' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__2__iUxEmYiiiA.webp?updatedAt=1682344881658' />
 
             <div className='card_1 md:flex grid justify-center'>
                 <motion.div initial={{ opacity: 0, y: 30 }}
@@ -34,7 +34,7 @@ export default function Card() {
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 1, delay: 0.2
-                    }} className='card_wallet' src='./card/wallet.png' />
+                    }} className='card_wallet' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__3__dbZ2XAN_b.webp?updatedAt=1682345024935' />
             </div>
             <div className='card_2 md:flex grid  justify-center'>
                 <motion.img initial={{ opacity: 0, y: 30 }}
@@ -42,7 +42,7 @@ export default function Card() {
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 1, delay: 0.2
-                    }} className='card_rates' src='./card/low.png' />
+                    }} className='card_rates' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__4__9KP5rtgj7.webp?updatedAt=1682345187048' />
 
                 <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -78,7 +78,7 @@ export default function Card() {
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 1, delay: 0.2
-                    }} className='card_wallet' src='./card/car.png' />
+                    }} className='card_wallet' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__5__2-cpU-Fis.webp?updatedAt=1682345347040' />
             </div>
 
 
@@ -88,7 +88,7 @@ export default function Card() {
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 1, delay: 0.2
-                    }} className='bannerz mr-20' src='./card/banner.png' />
+                    }} className='bannerz mr-20' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__6__Aem2cPc69.webp?updatedAt=1682345451888' />
 
                 <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
