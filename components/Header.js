@@ -106,7 +106,7 @@ export default function Header() {
                     Career
                   </motion.p>
                 </Link>
-                <motion.button initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.6 }} class="cta_button mb-8  flex justify-center">
+                <motion.button initial={{ opacity: 0, scale: 0.8, y: 0 }} animate={{ opacity: 1, scale: 1, y: 22 }} transition={{ delay: 0.7}} class="cta_button mb-8  flex justify-center">
                   <p class="word">Get started</p>
                   <img className="arrow_black" src="https://img.icons8.com/material-outlined/24/null/long-arrow-up.png" />
                 </motion.button>
