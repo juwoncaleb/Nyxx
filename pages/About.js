@@ -116,7 +116,7 @@ export default function About() {
                             : 0.5
                     }} className='team_member' >
                     <p className='achieve_text'><span className='neon'>Meet </span>the team </p>
-                    <p className='achieve_text mb-8'>behind Truzact</p>
+                    <p className='achieve_text mb-8'>behind Nyx</p>
                 </motion.div>
                 <motion.div  initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}

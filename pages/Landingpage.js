@@ -16,9 +16,11 @@ export default function Landingpage() {
             <motion.div initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }} className='hero_text'>
-              <p className='hero_text_main'>Save, Buy & trade cryptocurrency</p>
+
+              <p className='hero_text_main'>  Save, Buy & trade cryptocurrency</p>
               <p className='hero_text_main'>the smart way</p>
 
+              {/* 
               <div className='flex hero_buttons mb-14 mt-10'>
                 <button className='text_btn_1 mr-6 '>
                   Download
@@ -26,7 +28,7 @@ export default function Landingpage() {
                 <button className='text_btn_2'>
                   View pricing
                 </button>
-              </div>
+              </div> */}
             </motion.div>
             {/* IMAGE */}
 
@@ -51,14 +53,14 @@ export default function Landingpage() {
                 : 0.6
             }}
             className='features_texts'>
-            <p className='feature_head'>Truzact is a safe, fast </p>
+            <p className='feature_head'><span className='nyx'>Nyx</span> is a safe, fast </p>
             <p className='feature_head'> and secure way to save,</p>
             <p className='feature_head'> invest, store and transact</p>
             <p className='feature_head'>crypto assesst</p>
             <p className='feature_sub mt-10'>The secure digital asset management platform you can trust with </p>
             <p className='feature_sub'>a strong Next-of-Kin design. Earn 5-20% on your investments.</p>
             <div className='flex mt-8'>
-<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_17_30413)">
                   <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
                   <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
@@ -72,7 +74,7 @@ export default function Landingpage() {
               <p className='ml-8'>Fast Transactions</p>
             </div>
             <div className='flex mt-2'>
-<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_17_30413)">
                   <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
                   <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
@@ -86,7 +88,7 @@ export default function Landingpage() {
               <p className='ml-8'>Auto Save</p>
             </div>
             <div className='flex mt-2'>
-<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_17_30413)">
                   <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
                   <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
@@ -100,7 +102,7 @@ export default function Landingpage() {
               <p className='ml-8'>Fast Transactions</p>
             </div>
             <div className='flex mt-2'>
-<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_17_30413)">
                   <path d="M13.998 26.6484C21.1779 26.6484 26.998 20.8283 26.998 13.6484C26.998 6.46854 21.1779 0.648438 13.998 0.648438C6.81815 0.648438 0.998047 6.46854 0.998047 13.6484C0.998047 20.8283 6.81815 26.6484 13.998 26.6484Z" fill="#B0F127" />
                   <path d="M8.11523 14.488L11.4771 17.8499L19.8816 9.44531" stroke="#060606" stroke-width="2" />
@@ -202,12 +204,12 @@ export default function Landingpage() {
           <p className='feature_head'> Fully featured to <span className='neon'>buy</span></p>
           <p className='feature_head'><span className='neon'>trade and invest </span>in crypto</p>
         </div>
-        <div className='ftred mt-14'>
-          <button className='cta_btn_1'>
-            Download app
+        <div className='flex hero_buttons mb-14 mt-10'>
+          <button className='text_btn_1 mr-6 '>
+            Download
           </button>
-          <button className='cta_btn_2 ml-8'>
-            Learn More
+          <button className='text_btn_2'>
+            View pricing
           </button>
         </div>
       </motion.div>
@@ -225,7 +227,7 @@ export default function Landingpage() {
 
         <div className=' md:col-span-2 truzact_border'>
           <p className='kinp mb-4 mt-2 ml-10 top'>Next of kins</p>
-          <p className='ml-10 '>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
+          <p className='ml-10 '>Nyx uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
           <p className='ml-10 mt-1'>digital asset to your loved ones or family in sad cases of death or absence</p>
 
           <div className='flex ml-10 mt-4'>
@@ -241,13 +243,13 @@ export default function Landingpage() {
         <div className='truzact_border'>
           <img className='icon mb-2 mt-20' src='https://ik.imagekit.io/juwoncaleb/wall_9TZHPxkvK1.webp?updatedAt=1682341533272' />
           <p className='kin mb-6 '>Secure and encripted wallet</p>
-          <p className=''>Truzact uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
+          <p className=''>Nyx uses a strong NEXT-OF-KIN policy that lets you transfer your </p>
 
         </div>
         <div className='truzact_border'>
           <img className='transfer mb-6 mt-20' src='https://ik.imagekit.io/juwoncaleb/tranfer_VjlGiJ8238.webp?updatedAt=1682341532216' />
           <p className='kin mb-6 '>Fast Tranfer</p>
-          <p className=''>Deposit , sell, swap assests on Truzact in minutes  </p>
+          <p className=''>Deposit , sell, swap assests on Nyx in minutes  </p>
           <p>Tranfer ca be done with username or phone number on contact list</p>
 
         </div>
@@ -261,7 +263,7 @@ export default function Landingpage() {
         <div className='truzact_border'>
           <img className='icon mb-2 mt-20' src='https://ik.imagekit.io/juwoncaleb/referral_yOfuqfLoz.webp?updatedAt=1682341615510' />
           <p className='kin mb-6 '>Refferal</p>
-          <p className=''>$10 worth of USDT commission when the person you referred saves or invest in Truzact 🙌🏽</p>
+          <p className=''>$10 worth of USDT commission when the person you referred saves or invest in Nyx 🙌🏽</p>
           <p>Eiusmod eu commodo quis officia minim ut velit quis.</p>
         </div>
       </motion.div>
@@ -279,7 +281,7 @@ export default function Landingpage() {
           }}
           className="flex  ">
           <img className='phone' src='https://ik.imagekit.io/juwoncaleb/banner_tlymfmQ-nc.webp?updatedAt=1682341830945' />
-          
+
         </motion.div>
 
         {/* TEXTS */}
@@ -291,16 +293,16 @@ export default function Landingpage() {
               : 0.6
           }}
           className='trial'>
-          <p className=' text-black mt-20 cta3'> Try Truzact Today </p>
-          <p className=' text-black cta3'>trade and invest </p>
+          <p className=' text-white mt-20 cta3'> Try Nyx Today </p>
+          <p className=' text-white cta3'>trade and invest </p>
           <div className='trial_btn flex mb-10 mt-6'>
             <button className='text_btn_1 apple mr-6 flex justify-center'>
-              <p className='mt-3'> Get The app on
+              <p className='mt-3'> Get  app
               </p>
-              <img className='store2' src="https://img.icons8.com/sf-black/64/null/mac-os.png" />
+              <img className='store2 mr-2' src="https://img.icons8.com/sf-black/64/null/mac-os.png" />
             </button>
             <button className='text_btn_2 flex justify-center'>
-              <p className='mt-3'>  Get The app on</p>
+              <p className='mt-3 '>  Get  app</p>
               <img className='store' src="https://img.icons8.com/fluency/48/null/google-play-store-new.png" />
             </button>
           </div>
@@ -317,7 +319,7 @@ export default function Landingpage() {
         }}
         className='tutorial'>
         <p className='tutorial_text mt-20 '> Watch how easy it is to </p>
-        <p className='tutorial_text  '>use <span className='neon'>Truzact app</span> </p>
+        <p className='tutorial_text  '>use <span className='neon'>Nyx app</span> </p>
         <div className='tutor mt-20 flex'>
           <div className='tutorial_video'>
 
@@ -331,7 +333,7 @@ export default function Landingpage() {
             </div>
             <div className='step1 flex justify-around'>
               <div className='flex justify-around'>
-                <img className='icon 'src='https://ik.imagekit.io/juwoncaleb/wall_9TZHPxkvK1.webp?updatedAt=1682341533272' />
+                <img className='icon ' src='https://ik.imagekit.io/juwoncaleb/wall_9TZHPxkvK1.webp?updatedAt=1682341533272' />
                 <p className='step2'>Download the app</p>
               </div>
             </div>
@@ -345,7 +347,7 @@ export default function Landingpage() {
         </div>
       </motion.div>
       <div className='testimonial'>
-        <p className='tutorial_text mt-20 '> What our cients </p>
+        <p className='tutorial_text mt-20 font-medium'> What our clients </p>
         <p className='tutorial_text  '>say <span className='neon'>about us</span> </p>
         <motion.div className='mt-20 grid md:grid-cols-3 gap-6'>
           <motion.div initial={{ opacity: 0, y: 30 }}
@@ -414,7 +416,7 @@ export default function Landingpage() {
             <p className='date'>Apps - Jan 6, 2023</p>
             <p className='title'>Best platform to trade BTC </p>
 
-            <div className='flex ml-1 md:ml-14 mt-4'>
+            <div className='flex ml-1 mb-8 md:ml-14 mt-4'>
               <p className='learn'>Learn More</p>
               <img className='arroww ml-4' src="./arrow.png" />
             </div>
@@ -425,7 +427,7 @@ export default function Landingpage() {
             <p className='date'>Products - Jan 6, 2023</p>
             <p className='title'>What is the best & most secure  </p>
 
-            <div className='flex ml-10 md:ml-14 mt-4'>
+            <div className='flex mb-8 ml-10 md:ml-14 mt-4'>
               <p className='learn'>Learn More</p>
               <img className='arroww ml-4' src="./arrow.png" />
             </div>

@@ -136,6 +136,10 @@
   font-size: 50px;
 }
 
+.hero_text_main_head {
+  font-size: 75px;
+}
+
 .cta3 {
   font-weight: 600;
   font-size: 60px;
@@ -204,13 +208,11 @@
 .store {
   height: 35px;
   margin-top: 5px;
-  margin-left: 5px;
 }
 
 .store2 {
   height: 40px;
   margin-top: 5px;
-  margin-left: 5px;
 }
 
 .tutorial_text {
@@ -439,6 +441,10 @@
 .verification {
   width: 50%;
   display: flex;
+}
+
+.nyx {
+  font-weight: 600;
 }
 
 .code {
@@ -2465,7 +2471,7 @@
 
 .learmn {
   width: 250px;
-  background-color: dodgerblue;
+  background-color: greenyellow;
   height: 70px;
   font-size: 20px;
   color: black;
@@ -2537,7 +2543,7 @@
 .onboard_number {
   height: 50px;
   width: 50px;
-  background-color: dodgerblue;
+  background-color: greenyellow;
   border-radius: 10px;
   text-align: center;
   padding-top: 10px;
@@ -2547,7 +2553,7 @@
 }
 
 .vl {
-  border-left: 4px solid dodgerblue;
+  border-left: 4px solid greenyellow;
   height: 200px;
   position: relative;
   left: 28px;
@@ -2659,8 +2665,8 @@
     font-size: 16px;
   }
   .learmn {
-    width: 140px;
-    background-color: #1971F9;
+    width: 120px;
+    background-color: greenyellow;
     height: 40px;
     font-size: 20px;
     color: black;
@@ -2687,8 +2693,8 @@
 }
 @media only screen and (max-width: 375px) {
   .learmn {
-    width: 140px;
-    background-color: #1971F9;
+    width: 120px;
+    background-color: greenyellow;
     height: 40px;
     font-size: 16px;
     color: black;
@@ -2718,7 +2724,7 @@
 
 .exchange_btn {
   width: 200px;
-  background-color: #1971F9;
+  background-color: greenyellow;
   height: 50px;
   font-size: 20px;
   color: black;
@@ -2751,7 +2757,7 @@
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  border: 1px solid #1971F9;
+  border: 1px solid greenyellow;
   margin-left: 8px;
   margin-top: 10px;
 }
@@ -2760,7 +2766,7 @@
   height: 7px;
   width: 7px;
   border-radius: 50%;
-  border: 1px solid #1971F9;
+  border: 1px solid greenyellow;
   margin-left: 9px;
   margin-top: 10px;
 }
@@ -2776,11 +2782,15 @@
   width: 300px;
 }
 
+.lastboder {
+  border: 2px solid black;
+}
+
 .round3 {
   height: 5px;
   width: 5px;
   border-radius: 50%;
-  border: 1px solid #1971F9;
+  border: 1px solid greenyellow;
   margin-left: 10px;
   margin-top: 10px;
 }

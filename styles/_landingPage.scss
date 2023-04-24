@@ -51,7 +51,9 @@
     text-align: justify;
     font-size: 50px;
 }
-
+.hero_text_main_head{
+    font-size: 75px;
+}
 .cta3 {
     font-weight: 600;
     font-size: 60px;
@@ -128,14 +130,12 @@
 .store {
     height: 35px;
     margin-top: 5px;
-    margin-left: 5px;
 }
 
 
 .store2 {
     height: 40px;
     margin-top: 5px;
-    margin-left: 5px;
 }
 
 .tutorial_text {
@@ -379,6 +379,9 @@
     width: 50%;
     display: flex;
 }
+.nyx{
+    font-weight: 600;
+}
 
 .code {
     max-height: 650px;
@@ -587,6 +590,7 @@
         text-align: center;
     }
 }
+
 
 @media only screen and (max-width: 962px) {
     .cta {

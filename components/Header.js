@@ -43,7 +43,7 @@ export default function Header() {
             <Link href='./exchange'>
               <p className='mr-16 mt-6'>Exchange</p>
             </Link>
-            <Link href='./blogs'>
+            <Link href='./blog'>
               <p className='mr-16 mt-6'>Blogs</p>
             </Link>
             <Link href='./career'>

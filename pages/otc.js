@@ -230,7 +230,7 @@ export default function Otc() {
                     <p className='faq'>FAQ</p>
                     <div>
                         <div className='flex justify-between mt-10 mb-8'>
-                            <p className='question'>How to order Binance Card?</p>
+                            <p className='question'>How to order NYX Card?</p>
                             <button onClick={() => setActive(active === 1 ? null : 1)}>
                                 {active === 1 ? <p>-</p> : <p>+</p>}
                             </button>
@@ -251,7 +251,7 @@ export default function Otc() {
                     </div>
                     <div>
                         <div className='flex justify-between mt-10 mb-8'>
-                            <p className='question'>How to order Binance Card?</p>
+                            <p className='question'>How to order NYX Card?</p>
                             <button onClick={() => setActive(active === 2 ? null : 2)}>
                                 {active === 2 ? <p>-</p> : <p>+</p>}
                             </button>
@@ -272,7 +272,7 @@ export default function Otc() {
                     </div>
                     <div>
                         <div className='flex justify-between mt-10 mb-8'>
-                            <p className='question'>How to order Binance Card?</p>
+                            <p className='question'>How to order NYX Card?</p>
                             <button onClick={() => setActive(active === 3 ? null : 3)}>
                                 {active === 3 ? <p>-</p> : <p>+</p>}
                             </button>
@@ -293,7 +293,7 @@ export default function Otc() {
                     </div>
                     <div>
                         <div className='flex justify-between mt-10 mb-8'>
-                            <p className='question'>How to order Binance Card?</p>
+                            <p className='question'>How to order NYX Card?</p>
                             <button onClick={() => setActive(active === 4 ? null : 4)}>
                                 {active === 4 ? <p>-</p> : <p>+</p>}
                             </button>

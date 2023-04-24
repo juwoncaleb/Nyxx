@@ -10,7 +10,7 @@ export default function Card() {
             <Header />
             <motion.p initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 }} className='card_text'>TRUZACT CARD</motion.p>
+                transition={{ duration: 0.5 }} className='card_text'>Nyx CARD</motion.p>
             <motion.img initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }} className='card_truzact mt-10' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__2__iUxEmYiiiA.webp?updatedAt=1682344881658' />

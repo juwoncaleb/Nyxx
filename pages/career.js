@@ -17,9 +17,7 @@ export default function Career() {
                         <p className='hero_text_main neon'>fast growing company</p>
 
                         <p className='mt-4'> Magna et id non quis in sint est enim dolor laborum
-                            adipisicing.eniam anim anim voluptate
-                            ex eu enim laboris qui duis occaecat labore esse commodo minim
-                            . Laborum aliquip ipsum nostrud sint laboris.</p>
+                          s.</p>
                         <div className='flex mb-10 mt-6'>
                             <button className='text_btn_1 mr-6 '>
                                 Browse positions
@@ -83,7 +81,7 @@ export default function Career() {
 
                     </div>
                 </motion.div>
-                <div className='flex justify-between culture'>
+                <div className='md:flex grid justify-between culture'>
                     <motion.img initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{
@@ -98,8 +96,7 @@ export default function Career() {
                                 : 0.8
                         }} className='hero_text '>
                         <p className='hero_text_main mb-4'>Company <span className='neon'>perks</span></p>
-                        <p>Occaecat aute quis excepteur laborum adipisicing. Sit esse reprehenderit consequat
-                            nulla sit. Minim aliqua anim iqua nulla exercitation ullamco cupidatat qui sunt est ex exercitation cupidatat. Ullamco est ex anim irure est labore occaecat eiusmod duis enim tempor labore ullamco laboris.</p>
+                        <p>Occaecat aute quis excepteur laborum adipisicing. Sit esse reprehllamco est ex anim irure est labore  ullamco laboris.</p>
                         <div className='flex mb-10 mt-6'>
                             <button className='text_btn_1 mr-6 '>
                                 Browse positions

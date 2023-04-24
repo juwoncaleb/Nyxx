@@ -271,7 +271,7 @@ export default function Exchange() {
                         Step into a world of <br /> trading with ease with <br /> TRAZACT
                     </p>
                     <p>Ex aliquip sint aute labore do tempor enim eu eu dolore ea.</p>
-                    <div className='grid md:flex ml-auto mr-auto justify-between mt-6'>
+                    <div className='grid lastboder md:flex ml-auto mr-auto justify-around mt-6'>
                         <div>
                             <img className='mb-8 smallIcon' src='./upload.png' />
                             <p> amet reprehenderit </p>
