@@ -289,7 +289,7 @@ export default function Landingpage() {
           <div className=' step grid grid-cols-1'>
             <div className='step1 download flex justify-around'>
               <div className='flex justify-around '>
-                <img className='icon ' src='./upload.png' />
+                <img className='icon ' src='https://ik.imagekit.io/juwoncaleb/upload_SL0Iqqqts.webp?updatedAt=1682342465832' />
                 <p className='step2'>Download the app</p>
               </div>
             </div>
@@ -301,7 +301,7 @@ export default function Landingpage() {
             </div>
             <div className='step1 trader flex justify-around'>
               <div className='flex justify-around'>
-                <img className='icon ' src='./eth.png' />
+                <img className='icon ' src='https://ik.imagekit.io/juwoncaleb/btc_9hzbTkPr7.webp?updatedAt=1682342478684' />
                 <p className='step2'>Buy, trade & sell </p>
               </div>
             </div>
@@ -321,7 +321,7 @@ export default function Landingpage() {
             <p className='step2'>Buy, trade & sell your assests</p>
             <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
             <div className='flex mr-auto mt-8 mb-4'>
-              <img className='test_img mr-6 ml-8' src='./john.jpg' />
+              <img className='test_img mr-6 ml-8' src='https://ik.imagekit.io/juwoncaleb/john_IaDXPIV4r.webp?updatedAt=1682342577253' />
               <div>
                 <p>John Carter</p>
                 <p className='neon'>@johncarter</p>
@@ -337,7 +337,7 @@ export default function Landingpage() {
             <p className='step2 '>The best tool for my team</p>
             <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
             <div className='flex mr-auto mt-8 mb-4'>
-              <img className='test_img mr-6 ml-8' src='./jc.jpg' />
+              <img className='test_img mr-6 ml-8' src='https://ik.imagekit.io/juwoncaleb/jc_cY9hLvgJe.webp?updatedAt=1682342577385' />
               <div>
                 <p>Soneye Omojuwon</p>
                 <p className='neon'>@juwoncaleb</p>
@@ -353,7 +353,7 @@ export default function Landingpage() {
             <p className='step2'>The future of crypto trading</p>
             <p className='testimonal_sub mt-6'>Tempor incididunt eu non mollit irjokefpmcl okrpmgcef oimpklecfwdReprehenderit ut magna id dolore cupidatat est commodo.</p>
             <div className='flex mr-auto mt-8 mb-4 ml-8'>
-              <img className='test_img mr-6' src='./sophie.jpg' />
+              <img className='test_img mr-6' src='https://ik.imagekit.io/juwoncaleb/sophie_EbqfTzSZQ.webp?updatedAt=1682342577189' />
               <div>
                 <p>charles kenths</p>
                 <p className='neon'>@charlie</p>
@@ -373,8 +373,8 @@ export default function Landingpage() {
           <p className='tutorial_text  '>Latest <span className='neon'>Blogs</span> </p>
         </div>
         <div className=' grid md:grid-cols-2 grid-cols-1 gap-4'>
-          <div className='blogspost'>
-            <img src='./blog1.png' />
+          <div className=''>
+            <img src='https://ik.imagekit.io/juwoncaleb/blog1_oNnCwpDLg.webp?updatedAt=1682342873074' />
             <p className='date'>Apps - Jan 6, 2023</p>
             <p className='title'>Best platform to trade BTC </p>
 
@@ -384,8 +384,8 @@ export default function Landingpage() {
             </div>
 
           </div>
-          <div className='blogspost'>
-            <img src='./blog2.png' />
+          <div className=''>
+            <img src='https://ik.imagekit.io/juwoncaleb/blog2_57tz5OS3d.webp?updatedAt=1682342872568' />
             <p className='date'>Products - Jan 6, 2023</p>
             <p className='title'>What is the best & most secure  </p>
 
@@ -423,7 +423,7 @@ export default function Landingpage() {
             </button>
           </div>
         </div>
-        <img className='land_lap' src='./float.png' />
+        <img className='land_lap' src='https://ik.imagekit.io/juwoncaleb/float_pItbD-kUd7.webp?updatedAt=1682343008690' />
       </motion.div>
       <Footer />
     </div>
