@@ -7,15 +7,15 @@ export default function Footer() {
     };
     return (
         <div className='footer grid md:flex  justify-around '>
-            <div className='neon footer_img'>
+            <div className='neon footer_img '>
                 <p className='text-3xl invest text-black mt-4'>Start Investing</p>
                 <p className='text-black mt-1'>Sunt ullamco non enim dolore nostrud commodo esse.</p>
                 <p className='text-black  '>Sunt ullamco non enim dolore nostrud commodo esse.</p>
 
                 <button className='text_btn_2 flex mb-1 mt-1 justify-center'>
-                    <p className='mt-3'>  Download the app</p>
+                    <p className='mt-3'>  Download </p>
                 </button>
-                <img className='ft_img' src='https://ik.imagekit.io/juwoncaleb/footer_img_Wa6f5E-72.webp?updatedAt=1682343083267' />
+                <img className='ft_img mb-10' src='https://ik.imagekit.io/juwoncaleb/footer_img_Wa6f5E-72.webp?updatedAt=1682343083267' />
             </div>
             <div style={color} className='grid md:grid-cols-2 justify-between footerItem '>
                 <div className='foote_items'>

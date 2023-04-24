@@ -15,7 +15,7 @@ export default function Blog() {
     };
     const newSt = {
         backgroundColor: 'black',
-    color: 'white',
+        color: 'white',
         padding: '10px',
         border: "1px solid white",
         borderRadius: "16px",
@@ -48,18 +48,16 @@ export default function Blog() {
                 </div>
             </div>
 
-            <div className='newletter  '>
-                <div className='news lg:flex grid'>
-                    <div className='news_text'>
-                        <p className='subscibe'>Subscribe to our</p>
-                        <p className='subscibe letter'>newsletter</p>
-                        <p>Irure eiusmod ullamco nostrud magna magna non sunt duis aliqua ea jhdsm kjnac hjwbecsx ibecxs  do ad ea.</p>
-                        <p>Irure eiusmod ullamco nostrud m ibecxs  do ad ea.</p>
-                        <div className='flex '>
-                            <input className='input' />
-                            <button className='subs'>
-                                Subscribe
-                            </button>
+            <div className='  '>
+                <div className='news newletter lg:flex grid justify-around'>
+                    <div className='subsctiText  md:mt-40'>
+                        <p className='subsc'>Susbscribe to our newsletter</p>
+                        <p>Voluptate esse excepteur sit consequat esse nulla et sunt cillum magna amet culpa sit.</p>
+                        <div className='flex bars justify-center'>
+                            <input className='inpBar' />
+                           <div className='subsz'>
+                            Subscribe
+                           </div>
                         </div>
                     </div>
                     <img className='blog_img' src='./blog/pc.png' />
@@ -68,13 +66,14 @@ export default function Blog() {
 
             </div>
             <div className='blogz'>
-                <div className='flex justify-between blog_button'>
+                <div className='grid md:flex justify-between blog_button'>
                     <p className='latest'><span className='neon'>Latest</span> articles</p>
-                    <div>
+                    <div className=' md:flex grid grid-cols-2 gap-4'>
                         <button className='mr-6 blog_btn mt-4' style={activeButton === 1 ? divStyle : newSt} onClick={() => { setActiveButton(1) }}>All</button>
-                        <button className='mr-6 blog_btn' style={activeButton === 2 ? divStyle : newSt} onClick={() => setActiveButton(2)}>Finance </button>
-                        <button className='mr-6 blog_btn' style={activeButton === 3 ? divStyle : newSt} onClick={() => setActiveButton(3)}>Legal</button>
-                        <button className='mr-6 blog_btn' style={activeButton === 4 ? divStyle : newSt} onClick={() => setActiveButton(4)}>Business</button>
+                        <button className='mr-6 blog_btn mt-4 ' style={activeButton === 2? divStyle : newSt} onClick={() => setActiveButton(2)}>Finance</button>
+
+                        <button className='mr-6 blog_btn mt-4' style={activeButton === 3 ? divStyle : newSt} onClick={() => setActiveButton(3)}>Legal</button>
+                        <button className='mr-6 blog_btn mt-4'  style={activeButton === 4 ? divStyle : newSt} onClick={() => setActiveButton(4)}>Business</button>
                     </div>
                 </div>
 

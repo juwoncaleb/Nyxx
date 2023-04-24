@@ -8,9 +8,9 @@ export default function Exchange() {
         <div className='exchange'>
             <Header />
             <div className='flex justify-around exchange_hero'>
-                <motion.div  initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 }} >
+                <motion.div initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }} >
                     <div className='exhange_header'>
                         <p>The fast crypto <br /> exchnage trusted by <br /> millin of users.</p>
                     </div>
@@ -19,15 +19,15 @@ export default function Exchange() {
                         <p>Nostrud mollit labore adipisicing id magna ad anim nisi ex.</p>
                         <p>Nostrud mollit labore adipisicing id magna ad anim nisi ex.</p>
                     </div>
-                    <div class="mt-8">
-                        <button class="exchange_btn mr-6">
+                    <div class="button-container mt-6">
+                        <button class="learmn mr-6">
                             Learn more
                         </button>
                     </div>
                 </motion.div>
-                <motion.img  initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 , delay:0.25}} className='exhange_hero_img' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__7__2-s1DxrVgD.webp?updatedAt=1682345789735' />
+                <motion.img initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5, delay: 0.25 }} className='exhange_hero_img' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__7__2-s1DxrVgD.webp?updatedAt=1682345789735' />
             </div>
             <div className='flex justify-center exchange_steps'>
                 {/* TEXT */}
@@ -132,13 +132,13 @@ export default function Exchange() {
                         </div>
                     </div>
                 </motion.div>
-                <motion.div  initial={{ opacity: 0, y: 30 }}
+                <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 1, delay: 0.2
                     }}>
-                    <img className=' ml-40' src='./graph.png' />
+                    <img className='code' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__11__SIxx6qgSzP.webp?updatedAt=1682347997120' />
                 </motion.div>
             </div>
             <div className='flex justify-center exchange_steps2 '>
@@ -163,7 +163,7 @@ export default function Exchange() {
                     <p className='exchange_text_sub'>Experience the New Roqqu Cryptocurrency Payment Gateway, <br />
                         a smart and efficient way to receive fiat payments in cryptocurrency.</p>
                     <div className='exchange_s'>
-                       
+
                         <div className='flex exchangee justify-left mt-8 mb-14'>
                             <div>
                                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -193,8 +193,8 @@ export default function Exchange() {
                                 <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
                             </div>
                         </div>
-                       
-                       
+
+
                         <div className='flex justify-left mb-14'>
                             <div>
                                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -224,8 +224,8 @@ export default function Exchange() {
                                 <p>Incididunt nulla ea ea velit fugiat et sit officia.</p>
                             </div>
                         </div>
-                       
-                       
+
+
                         <div className='flex justify-left mb-14'>
                             <div className='mr-4'>
                                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -258,8 +258,8 @@ export default function Exchange() {
                     </div>
                 </motion.div>
             </div>
-          
-          
+
+
             <div className='md:flex grid justify-between exchange_steps2 '>
                 <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -288,9 +288,9 @@ export default function Exchange() {
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 1, delay: 0.2
-                    }}  src='./blog1.png' />
+                    }} src='./blog1.png' />
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

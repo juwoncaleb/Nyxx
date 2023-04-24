@@ -1048,6 +1048,8 @@
   padding-top: 50px;
   margin-top: 200px;
   color: black;
+  padding-left: 10px;
+  padding-right: 13px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1083,6 +1085,7 @@
   padding-left: 80px;
   height: 500px;
   border-radius: 35px;
+  padding-top: 15px;
 }
 
 @media only screen and (max-width: 425px) {
@@ -1091,13 +1094,14 @@
     margin-right: auto;
   }
   .footer_img {
-    background-color: #1971F9;
+    background-color: greenyellow;
     text-align: left;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     height: 500px;
     border-radius: 35px;
+    padding-top: 15px;
   }
 }
 .ft_img {
@@ -1870,6 +1874,7 @@
   font-size: 65px;
   text-align: center;
   font-weight: 600;
+  margin-top: 140px;
 }
 
 .res {
@@ -1932,6 +1937,10 @@
   background-color: greenyellow;
 }
 
+.subsctiText {
+  text-align: center;
+}
+
 .all {
   margin-left: 7%;
   margin-right: 7%;
@@ -1964,7 +1973,9 @@
 
 .news_text {
   padding: 100px;
-  width: 50%;
+  text-align: center;
+  align-items: left;
+  justify-content: left;
 }
 
 .subscibe {
@@ -1978,12 +1989,13 @@
 }
 
 .input {
-  width: 400px;
+  width: 350px;
   border-radius: 20px;
   border: 1px solid black;
   height: 50px;
   margin-top: 20px;
   background-color: greenyellow;
+  margin-left: 50px;
 }
 
 .subs {
@@ -1997,12 +2009,95 @@
   top: 20px;
 }
 
+.bars {
+  display: flex;
+  justify-content: left;
+}
+
+@media only screen and (max-width: 425px) {
+  .blog_img {
+    width: 350px;
+  }
+  .subsc {
+    font-size: 30px !important;
+    font-family: 600;
+  }
+  .inpBar {
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .blog_img {
+    width: 350px;
+  }
+  .subsc {
+    font-size: 30px !important;
+    font-family: 600;
+  }
+  .inpBar {
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .blog_img {
+    width: 350px;
+  }
+  .subsc {
+    font-size: 30px !important;
+    font-family: 600;
+  }
+  .inpBar {
+    width: 320px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+}
+.subsz {
+  height: 35px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  right: 50px;
+  margin-top: 10px;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.inpBar {
+  width: 400px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
 .blog_button {
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 150px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.subsc {
+  font-size: 50px;
+  font-family: 600;
 }
 
 .blogz {
@@ -2018,6 +2113,27 @@
   border: 1px solid gray;
 }
 
+@media only screen and (max-width: 425px) {
+  .blog_img {
+    width: 350px;
+  }
+  .subsc {
+    font-size: 30px !important;
+    font-family: 600;
+  }
+  .inpBar {
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .bars {
+    margin-bottom: 18px;
+    margin-left: 30px;
+  }
+}
 .career {
   background-color: white;
   color: black;
@@ -2043,7 +2159,6 @@
 }
 
 .perk_head {
-  height: 837px;
   text-align: center;
   margin-right: 10%;
   margin-left: 10%;
@@ -2060,6 +2175,7 @@
   border: 1px solid rgb(83, 80, 80);
   padding-left: 18px;
   padding-right: 18px;
+  padding-bottom: 20px;
 }
 
 .p1 {
@@ -2081,7 +2197,6 @@
 .culture {
   margin-left: 7%;
   margin-right: 7%;
-  margin-top: 150px;
 }
 
 .pc {
@@ -2115,6 +2230,7 @@
   border: 1px solid gray;
   padding-top: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .job_head {
@@ -2182,6 +2298,20 @@
   padding-top: 100px;
 }
 
+@media only screen and (max-width: 425px) {
+  .p1 {
+    border-top-left-radius: 0px;
+  }
+  .p4 {
+    border-bottom-left-radius: 0px;
+  }
+  .p2 {
+    border-top-right-radius: 0px;
+  }
+  .p6 {
+    border-bottom-right-radius: 0px;
+  }
+}
 .card_section {
   background-color: white;
   color: black;
@@ -2574,7 +2704,7 @@
   }
   .learmn {
     width: 150px;
-    background-color: #1971F9;
+    background-color: greenyellow;
     height: 50px;
     font-size: 18px;
     color: black;
@@ -2820,13 +2950,6 @@
 @media only screen and (max-width: 910px) {
   .exchange_hero {
     display: grid;
-  }
-  .exchange_btn {
-    width: 200px;
-    background-color: #1971F9;
-    height: 50px;
-    font-size: 20px;
-    color: black;
   }
   .exhange_hero_img {
     width: 400px;

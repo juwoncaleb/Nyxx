@@ -23,7 +23,6 @@
 }
 
 .perk_head {
-     height: 837px;
      text-align: center;
      margin-right: 10%;
      margin-left: 10%;
@@ -41,6 +40,7 @@
      border: 1px solid rgb(83, 80, 80);
      padding-left: 18px;
      padding-right: 18px;
+     padding-bottom: 20px;
 
 }
 
@@ -64,7 +64,6 @@
 .culture {
      margin-left: 7%;
      margin-right: 7%;
-     margin-top: 150px;
 }
 
 .pc {
@@ -99,6 +98,7 @@
      border: 1px solid gray;
      padding-top: 20px;
      padding-right: 20px;
+     padding-bottom: 20px;
 }
 
 .job_head {
@@ -155,4 +155,22 @@
  .job_description{
      border-top: 1px solid gray;
      padding-top: 100px;
+ }
+ @media only screen and (max-width: 425px) {
+     .p1 {
+          border-top-left-radius: 0px;
+     }
+     
+     .p4 {
+          border-bottom-left-radius: 0px;
+     }
+     
+     .p2 {
+          border-top-right-radius: 0px;
+     }
+     
+     .p6 {
+          border-bottom-right-radius: 0px;
+     
+     }
  }
