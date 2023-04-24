@@ -1,10 +1,8 @@
 
-module.exports = nextConfig
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+reactStrictMode: true,
 
 module.exports = {
-  reactStrictMode: true,
-
   webpack: (config, { isServer }) => {
     config.module.rules.forEach((rule) => {
       if (rule.test && typeof rule.test.toString === 'function' && rule.test.toString().includes('.css')) {
