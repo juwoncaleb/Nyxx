@@ -138,7 +138,7 @@ export default function Exchange() {
                         type: 'spring', stiffness: 100, damping: 10, duration
                             : 1, delay: 0.2
                     }}>
-                    <img className='gr ml-40' src='./graph.png' />
+                    <img className=' ml-40' src='./graph.png' />
                 </motion.div>
             </div>
             <div className='flex justify-center exchange_steps2 '>

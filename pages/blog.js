@@ -31,7 +31,7 @@ export default function Blog() {
             <p className='res mt-4'>Sit sunt amet cillum irure  jklfkdmac lkwmaclsx lkwm,ecsx lkmac jlknmcasx kljwnkecm.</p>
             <p className='res'>Sit sjklfkdmac lkwmaclsx lkwm,ecsx lkmac jlknmcasx kljwnkecm.</p>
 
-            <div className=' md:flex grid justify-between mt-20 blog_content'>
+            <div className=' lg:flex grid justify-between mt-20 blog_content'>
                 <img className='blog_hero_img' src='./blog/hero.png' />
                 <div className='blog_head'>
                     <p className='blog_sub mt-8'>Apps ---- jan 6 2023</p>
@@ -48,8 +48,8 @@ export default function Blog() {
                 </div>
             </div>
 
-            <div className='newletter '>
-                <div className='news flex'>
+            <div className='newletter  '>
+                <div className='news lg:flex grid'>
                     <div className='news_text'>
                         <p className='subscibe'>Subscribe to our</p>
                         <p className='subscibe letter'>newsletter</p>
@@ -63,7 +63,9 @@ export default function Blog() {
                         </div>
                     </div>
                     <img className='blog_img' src='./blog/pc.png' />
+
                 </div>
+
             </div>
             <div className='blogz'>
                 <div className='flex justify-between blog_button'>

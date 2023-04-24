@@ -1863,7 +1863,7 @@
   background-color: white;
   color: black;
   font-family: Archivo;
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .resource {
@@ -1929,7 +1929,6 @@
 
 .newletter {
   margin-top: 170px;
-  height: 700px;
   background-color: greenyellow;
 }
 
