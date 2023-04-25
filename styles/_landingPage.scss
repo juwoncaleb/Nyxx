@@ -769,9 +769,7 @@
         font-size: 40px;
     }
 
-    .hero_lap {
-        width: 700px;
-    }
+   
 
 
 
@@ -838,7 +836,11 @@
         font-weight: bolder;
     }
 }
-
+@media only screen and (max-width: 638px) {
+    .hero_lap {
+        width: 420px !important;
+    }
+}
 @media only screen and (max-width: 425px) {
     .land_lap {
         width: 500px;
@@ -850,7 +852,7 @@
         font-size: 35px;
     }
     .hero_lap {
-        width: 400px;
+        width: 400px !important;
     }
 
     .hero_text_main {
@@ -1038,7 +1040,7 @@
 
 @media only screen and (max-width: 375px) {
     .hero_lap {
-        width: 370px;
+        width: 370px !important;
     }
     .land_lap {
         width: 500px;
@@ -1048,7 +1050,7 @@
 }
 @media only screen and (max-width: 320px) {
     .hero_lap {
-        width: 300px;
+        width: 300px !important;
     }
 }
 @media only screen and (max-width: 425px) {
