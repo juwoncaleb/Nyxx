@@ -451,12 +451,12 @@ export default function Landingpage() {
           <p className=' final_cta'>wallet of the future today</p>
           <div className='flex mb-10 mt-6'>
             <button className='text_btn_1 apple mr-6 flex justify-center'>
-              <p className='mt-2'> Get app 
+              <p className='mt-4'> Get app 
               </p>
               <img className='store2' src="https://img.icons8.com/sf-black/64/null/mac-os.png" />
             </button>
             <button className='text_btn_2 flex justify-center'>
-              <p className='mr-2'>  Get  app </p>
+              <p className='mr-4'>  Get  app </p>
               <img className='store' src="https://img.icons8.com/fluency/48/null/google-play-store-new.png" />
             </button>
           </div>
