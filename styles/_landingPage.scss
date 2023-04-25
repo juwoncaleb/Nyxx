@@ -13,9 +13,11 @@
     width: 60%;
     margin-top: 190px;
 }
-.hero_section{
+
+.hero_section {
     background-color: rgba(143, 143, 143, 0.507) !important;
 }
+
 .hero_text_main {
     font-size: 58px;
     font-weight: bolder;
@@ -51,9 +53,11 @@
     text-align: justify;
     font-size: 50px;
 }
-.hero_text_main_head{
+
+.hero_text_main_head {
     font-size: 75px;
 }
+
 .cta3 {
     font-weight: 600;
     font-size: 60px;
@@ -120,7 +124,7 @@
 
 .text_btn_1 {
     width: 200px;
-    background-color:greenyellow;
+    background-color: greenyellow;
     color: black;
     border-radius: 25px;
     height: 50px;
@@ -379,7 +383,8 @@
     width: 50%;
     display: flex;
 }
-.nyx{
+
+.nyx {
     font-weight: 600;
 }
 
@@ -435,7 +440,7 @@
 
 
 .neon {
-    color:greenyellow;
+    color: greenyellow;
 }
 
 .card {
@@ -460,12 +465,12 @@
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(0, 0, 0) ;
+    background-color: rgb(0, 0, 0);
 }
 
 .cta_btn_1 {
     width: 200px;
-    background-color:greenyellow;
+    background-color: greenyellow;
     height: 60px;
     color: black;
     border-radius: 30px;
@@ -479,12 +484,14 @@
     background-color: rgb(25, 34, 39);
     color: white;
 }
-.blogborder{
+
+.blogborder {
     border: 2px solid black;
-    
+
 }
+
 .cta2 {
-    background-color: rgb(12, 12, 12) ;
+    background-color: rgb(12, 12, 12);
     margin-top: 200px;
     margin-bottom: 160px;
     padding-top: 40px;
@@ -550,11 +557,13 @@
     margin-right: 5%;
     margin-top: 250px;
 }
-.hero_buttons{
-   align-items: center;
-   align-content: center;
-   justify-content: center;
+
+.hero_buttons {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
+
 .company {
     text-align: center;
     font-size: 23px;
@@ -570,7 +579,7 @@
     .port {
         display: flex;
         flex-direction: column;
-    
+
     }
 
     .slot_img {
@@ -687,10 +696,7 @@
         align-content: center;
     }
 
-    .hero_lap {
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 
     .hero_images {
         width: 100%;
@@ -705,6 +711,7 @@
         display: grid;
     }
 }
+
 .land_lap {
     width: 700px;
 }
@@ -716,9 +723,9 @@
     }
 
     .land_lap {
-       width: 500px;
-       height: 300px;
-       margin-top: 70px;
+        width: 500px;
+        height: 300px;
+        margin-top: 70px;
     }
 
     .slot_img {
@@ -769,7 +776,7 @@
         font-size: 40px;
     }
 
-   
+
 
 
 
@@ -836,21 +843,25 @@
         font-weight: bolder;
     }
 }
-@media only screen and (max-width: 638px) {
+
+@media only screen and (max-width: 508px) {
     .hero_lap {
         width: 420px !important;
     }
 }
+
 @media only screen and (max-width: 425px) {
     .land_lap {
         width: 500px;
         height: 250px;
         margin-top: 70px;
-     }
+    }
+
     .tutorial_text {
         text-align: center;
         font-size: 35px;
     }
+
     .hero_lap {
         width: 400px !important;
     }
@@ -903,7 +914,7 @@
 
     .cta_btn_1 {
         width: 150px;
-        background-color:greenyellow;
+        background-color: greenyellow;
         height: 60px;
         color: black;
         border-radius: 30px;
@@ -916,7 +927,7 @@
         left: 0px !important;
         margin-top: 70px;
         right: 20px;
-        
+
     }
 
 
@@ -958,7 +969,7 @@
 
     .text_btn_1 {
         width: 120px !important;
-        background-color:greenyellow;
+        background-color: greenyellow;
         color: black;
         border-radius: 25px;
         height: 40px !important;
@@ -1036,24 +1047,6 @@
         right: 50px;
     }
 
-}
-
-@media only screen and (max-width: 375px) {
-    .hero_lap {
-        width: 370px !important;
-    }
-    .land_lap {
-        width: 500px;
-        height: 220px;
-        margin-top: 70px;
-     }
-}
-@media only screen and (max-width: 320px) {
-    .hero_lap {
-        width: 300px !important;
-    }
-}
-@media only screen and (max-width: 425px) {
     .slot_img {
         order: 2;
         margin-bottom: 150px;
@@ -1082,5 +1075,25 @@
         position: relative;
         right: 200px;
         top: 125px;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .hero_lap {
+        width: 370px !important;
+    }
+
+    .land_lap {
+        width: 500px;
+        height: 220px;
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero_lap {
+        width: 300px !important;
     }
 }
