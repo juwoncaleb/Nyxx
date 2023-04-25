@@ -705,7 +705,9 @@
         display: grid;
     }
 }
-
+.land_lap {
+    width: 700px;
+}
 
 @media only screen and (max-width: 1024px) {
     .bills {
@@ -836,11 +838,6 @@
         font-weight: bolder;
     }
 }
-@media only screen and (max-width: 638px) {
-    .hero_lap {
-        width: 450px !important;
-    }
-}
 
 @media only screen and (max-width: 425px) {
     .land_lap {
@@ -853,7 +850,7 @@
         font-size: 35px;
     }
     .hero_lap {
-        width: 400px !important;
+        width: 400px;
     }
 
     .hero_text_main {
@@ -1036,7 +1033,26 @@
         top: 390px;
         right: 50px;
     }
-  .slot_img {
+
+}
+
+@media only screen and (max-width: 375px) {
+    .hero_lap {
+        width: 370px;
+    }
+    .land_lap {
+        width: 500px;
+        height: 220px;
+        margin-top: 70px;
+     }
+}
+@media only screen and (max-width: 320px) {
+    .hero_lap {
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .slot_img {
         order: 2;
         margin-bottom: 150px;
         padding-left: 0%;
@@ -1064,24 +1080,5 @@
         position: relative;
         right: 200px;
         top: 125px;
-    }
-}
-
-
-
-
-@media only screen and (max-width: 375px) {
-     .hero_lap {
-        width: 350px !important;
-    }
-    .land_lap {
-        width: 500px;
-        height: 220px;
-        margin-top: 70px;
-     }
-}
-@media only screen and (max-width: 320px) {
-     .hero_lap {
-        width: 300px !important;
     }
 }
