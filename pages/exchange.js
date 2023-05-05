@@ -29,7 +29,7 @@ export default function Exchange() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: 0.25 }} className='exhange_hero_img' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__7__2-s1DxrVgD.webp?updatedAt=1682345789735' />
             </div>
-            <div className='flex justify-center exchange_steps'>
+            <div className='flex justify-around exchange_steps'>
                 {/* TEXT */}
                 <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -141,7 +141,7 @@ export default function Exchange() {
                     <img className='code' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__11__SIxx6qgSzP.webp?updatedAt=1682347997120' />
                 </motion.div>
             </div>
-            <div className='flex justify-center exchange_steps2 '>
+            <div className='flex justify-around exchange_steps2 '>
                 <motion.div initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{
