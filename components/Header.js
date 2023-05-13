@@ -48,7 +48,7 @@ export default function Header() {
               <p className='mr-16 mt-6'>Career</p>
             </Link>
             <button className='nav_btn'>
-              download  aapp
+              download  app
             </button>
 
           </div>
